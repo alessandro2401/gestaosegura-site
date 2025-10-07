@@ -63,23 +63,42 @@ function updateStatusChart(statusData) {
   const ctx = document.getElementById('statusChart');
   if (!ctx) return;
   
-  // Cores para diferentes status
-  const colors = {
-    'Concluído': 'rgba(46, 204, 113, 0.7)',
-    'Em análise': 'rgba(231, 76, 60, 0.7)',
-    'Cancelado': 'rgba(241, 196, 15, 0.7)',
-    'default': 'rgba(149, 165, 166, 0.7)'
+  // Função auxiliar para normalizar texto (remover acentos e converter para minúsculas)
+  const normalize = (str) => {
+    return str.toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .trim();
   };
   
-  const borderColors = {
-    'Concluído': 'rgba(46, 204, 113, 1)',
-    'Em análise': 'rgba(231, 76, 60, 1)',
-    'Cancelado': 'rgba(241, 196, 15, 1)',
-    'default': 'rgba(149, 165, 166, 1)'
+  // Cores para diferentes status (usando cores vibrantes e distintas)
+  const colorMap = {
+    'concluido': { bg: 'rgba(46, 204, 113, 0.8)', border: 'rgba(39, 174, 96, 1)' },      // Verde
+    'em analise': { bg: 'rgba(52, 152, 219, 0.8)', border: 'rgba(41, 128, 185, 1)' },    // Azul
+    'cancelado': { bg: 'rgba(241, 196, 15, 0.8)', border: 'rgba(243, 156, 18, 1)' },     // Amarelo
+    'desconhecido': { bg: 'rgba(149, 165, 166, 0.8)', border: 'rgba(127, 140, 141, 1)' }, // Cinza
+    'default': { bg: 'rgba(189, 195, 199, 0.8)', border: 'rgba(149, 165, 166, 1)' }      // Cinza claro
   };
   
-  const backgroundColors = statusData.labels.map(label => colors[label] || colors.default);
-  const borderColorsList = statusData.labels.map(label => borderColors[label] || borderColors.default);
+  // Mapear cores baseado em normalização
+  const backgroundColors = statusData.labels.map(label => {
+    const normalized = normalize(label);
+    // Verificar se contém palavras-chave
+    if (normalized.includes('conclu')) return colorMap['concluido'].bg;
+    if (normalized.includes('analise') || normalized.includes('andamento')) return colorMap['em analise'].bg;
+    if (normalized.includes('cancel')) return colorMap['cancelado'].bg;
+    if (normalized.includes('desconhec')) return colorMap['desconhecido'].bg;
+    return colorMap['default'].bg;
+  });
+  
+  const borderColorsList = statusData.labels.map(label => {
+    const normalized = normalize(label);
+    if (normalized.includes('conclu')) return colorMap['concluido'].border;
+    if (normalized.includes('analise') || normalized.includes('andamento')) return colorMap['em analise'].border;
+    if (normalized.includes('cancel')) return colorMap['cancelado'].border;
+    if (normalized.includes('desconhec')) return colorMap['desconhecido'].border;
+    return colorMap['default'].border;
+  });
   
   if (chartsInstances.statusChart) {
     chartsInstances.statusChart.destroy();
@@ -93,7 +112,7 @@ function updateStatusChart(statusData) {
         data: statusData.data,
         backgroundColor: backgroundColors,
         borderColor: borderColorsList,
-        borderWidth: 1
+        borderWidth: 2
       }]
     },
     options: {
@@ -101,15 +120,46 @@ function updateStatusChart(statusData) {
       maintainAspectRatio: false,
       plugins: {
         legend: {
-          position: 'bottom'
+          position: 'bottom',
+          labels: {
+            padding: 20,
+            font: {
+              size: 14,
+              weight: '500'
+            },
+            usePointStyle: true,
+            pointStyle: 'circle',
+            generateLabels: function(chart) {
+              const data = chart.data;
+              if (data.labels.length && data.datasets.length) {
+                return data.labels.map((label, i) => {
+                  const value = data.datasets[0].data[i];
+                  const percentage = statusData.percentages[i];
+                  return {
+                    text: `${label}: ${value} (${percentage}%)`,
+                    fillStyle: data.datasets[0].backgroundColor[i],
+                    strokeStyle: data.datasets[0].borderColor[i],
+                    lineWidth: 2,
+                    hidden: false,
+                    index: i
+                  };
+                });
+              }
+              return [];
+            }
+          }
         },
         tooltip: {
+          backgroundColor: 'rgba(0, 0, 0, 0.8)',
+          padding: 12,
+          titleFont: { size: 15, weight: 'bold' },
+          bodyFont: { size: 14 },
           callbacks: {
             label: function(context) {
               const label = context.label || '';
               const value = context.parsed || 0;
               const percentage = statusData.percentages[context.dataIndex];
-              return `${label}: ${value} (${percentage}%)`;
+              return `${label}: ${value} processos (${percentage}%)`;
             }
           }
         }
