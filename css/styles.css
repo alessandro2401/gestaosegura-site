@@ -726,3 +726,74 @@ footer {
     margin-top: 15px;
   }
 }
+
+
+/* ========================================
+   REGRAS GLOBAIS PARA REMOVER BADGES E NORMALIZAR LINKS
+   ======================================== */
+
+/* Remover todas as badges injetadas por extensões ou scripts externos */
+nav ul li a > span[style*="position: absolute"],
+nav ul li a > span[style*="background"],
+nav ul li a > div[style*="position: absolute"],
+nav ul li a > div[style*="background"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Remover badges com classes comuns */
+nav ul li a .badge,
+nav ul li a .label,
+nav ul li a .tag,
+nav ul li a .counter,
+nav ul li a [class*="badge"],
+nav ul li a [class*="label"],
+nav ul li a [class*="count"] {
+  display: none !important;
+}
+
+/* Forçar estilo limpo nos links */
+nav ul li a * {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Garantir que apenas o texto do link seja visível */
+nav ul li a {
+  overflow: hidden !important;
+}
+
+/* Remover qualquer elemento filho que não seja texto */
+nav ul li a > *:not(:first-child) {
+  display: none !important;
+}
+
+/* Normalizar cores - remover qualquer cor inline */
+nav ul li a[style*="background-color"],
+nav ul li a[style*="background:"],
+nav ul li a[style*="color:"] {
+  background: transparent !important;
+  color: #2c3e50 !important;
+}
+
+nav ul li a.active[style*="background-color"],
+nav ul li a.active[style*="background:"] {
+  background-color: #e8f4f8 !important;
+  color: #1a5276 !important;
+}
+
+nav ul li a.highlight-nav[style*="background-color"],
+nav ul li a.highlight-nav[style*="background:"] {
+  background-color: #1a5276 !important;
+  color: white !important;
+}
+
+nav ul li a.btn-voltar[style*="background-color"],
+nav ul li a.btn-voltar[style*="background:"] {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
+  color: white !important;
+}
