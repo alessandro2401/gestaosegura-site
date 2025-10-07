@@ -19,6 +19,9 @@
   
   <!-- Script para remover badges injetadas por extensões -->
   <script src="js/remove-badges.js"></script>
+  
+  <!-- Script para melhorar visualização de gráficos -->
+  <script src="js/improve-charts.js"></script>
 </head>
 <body>
   <!-- Header -->
@@ -148,12 +151,12 @@
 
       <div class="chart-container fade-in" style="margin-top: 40px;">
         <div class="chart-title">Distribuição de Status dos Processos</div>
-        <canvas id="statusChart" height="300"></canvas>
+        <canvas id="statusChart" height="400"></canvas>
       </div>
 
       <div class="chart-container fade-in">
         <div class="chart-title">Evolução da Distribuição de Status por Mês</div>
-        <canvas id="statusEvolutionChart" height="300"></canvas>
+        <canvas id="statusEvolutionChart" height="400"></canvas>
         <p class="chart-description">Observa-se uma inversão significativa na distribuição de status em setembro, com 71% dos processos "Em análise", contrastando com os meses anteriores onde a maioria estava "Concluído".</p>
       </div>
     </div>
@@ -537,13 +540,13 @@
         
         <div class="chart-container fade-in" style="margin-top: 40px;">
           <div class="chart-title">Distribuição de Responsabilidades</div>
-          <canvas id="responsibilityChart" height="300"></canvas>
+          <canvas id="responsibilityChart" height="400"></canvas>
         </div>
       </div>
 
       <div class="chart-container fade-in">
         <div class="chart-title">Comparativo de Complexidade do Processo</div>
-        <canvas id="complexityChart" height="300"></canvas>
+        <canvas id="complexityChart" height="400"></canvas>
         <p class="chart-description">A complexidade do processo aumentou significativamente em várias dimensões, impactando diretamente a eficiência operacional inicial.</p>
       </div>
     </div>
@@ -597,7 +600,7 @@
 
       <div class="chart-container fade-in">
         <div class="chart-title">Projeção de Eficiência ao Longo do Tempo</div>
-        <canvas id="efficiencyChart" height="300"></canvas>
+        <canvas id="efficiencyChart" height="400"></canvas>
         <p class="chart-description">Com base nos dados atuais e na análise do novo POP, projeta-se uma recuperação gradual da eficiência, com retorno ao nível original em 6 meses e potencial ganho de 10% em 12 meses.</p>
       </div>
     </div>

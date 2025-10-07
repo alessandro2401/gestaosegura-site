@@ -220,32 +220,63 @@ section {
 /* Chart Container */
 .chart-container {
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  padding: 30px;
-  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 40px;
+  margin-bottom: 40px;
+  transition: all 0.3s ease;
+}
+
+.chart-container:hover {
+  box-shadow: 0 6px 30px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
 }
 
 .chart-title {
-  font-size: 20px;
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a5276;
+  margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 3px solid #e8f4f8;
+  text-align: center;
+}
+
+/* Melhorar visualização dos canvas Chart.js */
+.chart-container canvas {
+  max-height: 450px !important;
+  min-height: 350px;
+  margin: 0 auto;
+  display: block;
 }
 
 .chart-image {
   width: 100%;
-  max-height: 500px;
+  max-width: 1000px;
+  height: auto;
   object-fit: contain;
-  margin: 20px 0;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.chart-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
 .chart-description {
-  color: #7f8c8d;
-  font-size: 14px;
-  margin-top: 15px;
+  color: #5a6c7d;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #1a5276;
+  border-radius: 4px;
 }
 
 /* Tabs */
