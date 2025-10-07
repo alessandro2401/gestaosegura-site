@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Análise Completa dos POPs da Gestão Segura</title>
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="images/logo_gs.png" alt="Gestão Segura">
+        GESTÃO <span>SEGURA</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio" class="active">Início</a></li>
+          <li><a href="#planilha">Análise da Planilha</a></li>
+          <li><a href="#fluxo-processos">Fluxo de Processos</a></li>
+          <li><a href="#pop-original">POP Original</a></li>
+          <li><a href="#pop-novo">POP Novo</a></li>
+          <li><a href="#comparativo">Comparativo</a></li>
+          <li><a href="#evidencias">Evidências</a></li>
+          <li><a href="#recomendacoes">Recomendações</a></li>
+          <li><a href="#conclusao">Conclusão</a></li>
+          <li><a href="pop_integrado.html" class="highlight-nav">POP Integrado</a></li>
+          <li><a href="https://administradoramutual.com.br" class="btn-voltar" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; margin-left: 10px;">← Voltar ao Site</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="update-badge fade-in">Atualizado em 07/10/2025</div>
+      <h1 class="fade-in">Análise Completa dos POPs da Gestão Segura</h1>
+      <p class="fade-in delay-1">Uma avaliação técnica integrada da planilha de controle e dos Procedimentos Operacionais Padrão da Gestão Segura</p>
+      <div class="hero-buttons fade-in delay-2">
+        <a href="#planilha" class="btn">Explorar Análise</a>
+        <a href="pop_integrado.html" class="btn btn-secondary">Ver Novo POP Integrado</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Análise da Planilha -->
+  <section id="planilha">
+    <div class="container">
+      <div class="section-title">
+        <h2>Análise da Planilha de Controle</h2>
+        <p>Avaliação detalhada dos dados operacionais da planilha de controle de processos da Gestão Segura.</p>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Visão Geral da Planilha</div>
+        <div class="card-body">
+          <p>A planilha apresenta um sistema abrangente de controle de processos administrativos, organizando informações de forma estruturada para acompanhamento de status, prazos e retornos. O documento demonstra ser uma ferramenta de gestão operacional com dados consistentes e bem organizados.</p>
+        </div>
+      </div>
+
+      <div class="tabs fade-in" style="margin-top: 40px;">
+        <div class="tab active" data-target="tab-estrutura">Estrutura</div>
+        <div class="tab" data-target="tab-quantitativa">Análise Quantitativa</div>
+        <div class="tab" data-target="tab-padroes">Padrões Identificados</div>
+        <div class="tab" data-target="tab-aspectos">Aspectos Técnicos</div>
+      </div>
+
+      <div id="tab-estrutura" class="tab-content active">
+        <div class="card-body">
+          <p>A planilha está organizada em oito colunas principais que formam um sistema completo de rastreamento de processos:</p>
+          <ul style="margin-bottom: 20px;">
+            <li><strong>Data Sincronismo:</strong> Registra quando cada processo foi inserido ou atualizado no sistema</li>
+            <li><strong>Protocolo GS:</strong> Funciona como identificador único, seguindo um padrão alfanumérico específico</li>
+            <li><strong>Nome:</strong> Contém os nomes completos das pessoas envolvidas nos processos</li>
+            <li><strong>Placa:</strong> Apresenta códigos de identificação específicos</li>
+            <li><strong>Status:</strong> Indica a situação atual de cada processo, sendo predominantemente "Concluído" ou "Em análise"</li>
+            <li><strong>Data de retorno - GS:</strong> Data prevista para conclusão do processo</li>
+            <li><strong>Retornado:</strong> Data efetiva de conclusão do processo</li>
+            <li><strong>Dias:</strong> Calcula diferenças temporais relevantes para o controle de prazos</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="tab-quantitativa" class="tab-content">
+        <div class="card-body">
+          <h3 style="margin-bottom: 15px;">Período de Abrangência</h3>
+          <p>O conjunto de dados abrange um período de <strong>quatro meses</strong>, iniciando em 10 de junho de 2025 e estendendo-se até 24 de setembro de 2025. Esta amplitude temporal sugere um sistema de controle contínuo e ativo.</p>
+          
+          <h3 style="margin: 20px 0 15px;">Volume de Processos</h3>
+          <p>Foram identificados <strong>91 processos</strong> registrados na planilha, demonstrando um volume significativo de atividade administrativa. A distribuição temporal mostra concentração maior nos meses de julho e agosto de 2025.</p>
+          
+          <h3 style="margin: 20px 0 15px;">Distribuição de Status</h3>
+          <p>A análise dos status revela que a <strong>maioria dos processos</strong> encontra-se com status "Concluído" (73%), indicando eficiência operacional. Aproximadamente <strong>27% dos processos</strong> permanecem "Em análise", representando o fluxo normal de trabalho em andamento.</p>
+          
+          <div class="highlight-box" style="margin-top: 20px;">
+            <div class="highlight-title">Tendência Recente (Setembro 2025)</div>
+            <p>Os dados de setembro mostram uma <strong>inversão significativa</strong> na distribuição de status, com 71% dos processos "Em análise" e apenas 29% "Concluídos", contrastando fortemente com o padrão dos meses anteriores.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab-padroes" class="tab-content">
+        <div class="card-body">
+          <h3 style="margin-bottom: 15px;">Sistema de Protocolos</h3>
+          <p>Os protocolos seguem um padrão consistente iniciando com "A2025", seguido de códigos numéricos e terminações específicas (como "I", "MM"). Esta padronização sugere um sistema automatizado de geração de protocolos baseado no ano corrente.</p>
+          
+          <h3 style="margin: 20px 0 15px;">Códigos de Identificação</h3>
+          <p>As placas apresentam variabilidade significativa em formato e tamanho, sugerindo diferentes tipos de processos ou origens. Alguns exemplos incluem códigos alfanuméricos como "NPH0C62", "SCN6J84" e "ONG0009".</p>
+          
+          <h3 style="margin: 20px 0 15px;">Gestão de Prazos</h3>
+          <p>A comparação entre datas previstas e efetivas de retorno demonstra um controle rigoroso de prazos. A maioria dos processos apresenta cumprimento adequado dos cronogramas estabelecidos.</p>
+          
+          <div class="highlight-box" style="margin-top: 20px;">
+            <div class="highlight-title">Mudança Recente nos Prazos</div>
+            <p>Os processos de setembro apresentam <strong>prazos de retorno mais estendidos</strong>, com tempo médio de processamento aumentado de 9 para 14 dias (aumento de 56%), indicando uma mudança significativa na dinâmica operacional.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab-aspectos" class="tab-content">
+        <div class="card-body">
+          <h3 style="margin-bottom: 15px;">Funcionalidades da Planilha</h3>
+          <p>O documento utiliza recursos avançados do Google Sheets, incluindo formatação condicional para destacar diferentes status e tipos de processo. A presença de múltiplas abas ("Todos processos" e "Cópia de Todos processos") sugere backup ou versionamento dos dados.</p>
+          
+          <h3 style="margin: 20px 0 15px;">Colaboração e Controle</h3>
+          <p>A última edição foi registrada por "Fabiana" em 30 de setembro de 2025, indicando gestão ativa e atualizada. O sistema de comentários está habilitado, permitindo comunicação entre colaboradores.</p>
+          
+          <h3 style="margin: 20px 0 15px;">Sistema de Cores</h3>
+          <p>A planilha emprega um sistema de cores para diferenciação visual, com destaque em vermelho para datas de retorno, facilitando a identificação rápida de prazos e prioridades.</p>
+        </div>
+      </div>
+
+      <div class="chart-container fade-in" style="margin-top: 40px;">
+        <div class="chart-title">Distribuição de Status dos Processos</div>
+        <canvas id="statusChart" height="300"></canvas>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Evolução da Distribuição de Status por Mês</div>
+        <canvas id="statusEvolutionChart" height="300"></canvas>
+        <p class="chart-description">Observa-se uma inversão significativa na distribuição de status em setembro, com 71% dos processos "Em análise", contrastando com os meses anteriores onde a maioria estava "Concluído".</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Fluxo de Processos -->
+  <section id="fluxo-processos" style="background-color: #f0f2f5;">
+    <div class="container">
+      <div class="section-title">
+        <h2>Fluxo de Processos</h2>
+        <p>Análise detalhada do fluxo operacional baseada nos dados da planilha de controle.</p>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Fluxo Detalhado de Processos</div>
+        <img src="images/graficos/fluxo_detalhado_processos.png" alt="Fluxo Detalhado de Processos" class="chart-image">
+        <p class="chart-description">O diagrama acima ilustra o fluxo completo de processos da Gestão Segura, desde a abertura até a conclusão, destacando os principais gargalos identificados na análise da planilha.</p>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Impacto do Novo POP no Fluxo de Processos</div>
+        <img src="images/graficos/impacto_pop_fluxo_processos.png" alt="Impacto do Novo POP no Fluxo de Processos" class="chart-image">
+        <p class="chart-description">A análise temporal mostra uma correlação direta entre a implementação do novo POP em 25/09/2025 e as mudanças significativas nos indicadores operacionais, incluindo aumento de 56% no tempo médio de processamento e inversão na distribuição de status.</p>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Identificação de Gargalos no Fluxo</div>
+        <img src="images/graficos/gargalos_fluxo_processos.png" alt="Gargalos no Fluxo de Processos" class="chart-image">
+        <p class="chart-description">Os principais gargalos identificados estão nas etapas de Validação Documental, Análise Técnica e Cotação, onde o tempo de processamento aumentou significativamente após a implementação do novo POP.</p>
+      </div>
+
+      <div class="highlight-box fade-in">
+        <div class="highlight-title">Principais Descobertas na Análise do Fluxo</div>
+        <ul style="list-style-type: none; padding-left: 0;">
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #3498db; margin-right: 10px;"></i> <strong>Pontos de Transição:</strong> Identificados três pontos críticos no fluxo onde ocorrem os principais atrasos.</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #3498db; margin-right: 10px;"></i> <strong>Correlação Temporal:</strong> Evidência clara de impacto do novo POP nos tempos de processamento e distribuição de status.</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #3498db; margin-right: 10px;"></i> <strong>Padrões de Processamento:</strong> Processos com placas iniciadas em "P" e "S" tendem a ter processamento mais rápido.</li>
+          <li><i class="fas fa-check-circle" style="color: #3498db; margin-right: 10px;"></i> <strong>Ciclo Semanal:</strong> Maior concentração de entradas nas segundas e terças-feiras, e de conclusões às quintas e sextas-feiras.</li>
+        </ul>
+      </div>
+
+      <div class="recommendation fade-in">
+        <div class="recommendation-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">Otimização do Fluxo de Processos</h3>
+          <p><strong class="priority-high">PRIORIDADE ALTA</strong> - Implementar melhorias específicas nos pontos de gargalo identificados para reduzir o tempo de processamento e normalizar a distribuição de status.</p>
+          <p><strong>Ações Recomendadas:</strong></p>
+          <ol>
+            <li>Revisar e simplificar os requisitos documentais na etapa de Validação</li>
+            <li>Implementar sistema de aprovação técnica em paralelo para reduzir tempo de espera</li>
+            <li>Criar banco de dados de fornecedores pré-aprovados para agilizar a etapa de Cotação</li>
+            <li>Desenvolver dashboard específico para monitoramento em tempo real dos gargalos identificados</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de POP Original -->
+  <section id="pop-original">
+    <div class="container">
+      <div class="section-title">
+        <h2>POP Original × Planilha Google</h2>
+        <p>Análise da conformidade dos dados da planilha com o Procedimento Operacional Padrão original.</p>
+      </div>
+
+      <div class="comparison-grid fade-in">
+        <div class="comparison-card">
+          <div class="comparison-card-header old">Características do POP Original</div>
+          <div class="comparison-card-body">
+            <ul>
+              <li>Sistema único (SGA) para gestão de processos</li>
+              <li>Requisitos fotográficos básicos (5-7 fotos)</li>
+              <li>Comunicação via email e telefone</li>
+              <li>Processo simplificado de abertura</li>
+              <li>Cotação integrada à regulação</li>
+            </ul>
+          </div>
+        </div>
+        <div class="comparison-card">
+          <div class="comparison-card-header old">Conformidade da Planilha</div>
+          <div class="comparison-card-body">
+            <ul>
+              <li>Alto grau de aderência aos procedimentos estabelecidos</li>
+              <li>Maioria dos processos segue o fluxo definido no POP</li>
+              <li>Transições adequadas entre as etapas de Abertura, Cotação/Regulação e Conclusão</li>
+              <li>Cumprimento dos SLAs estabelecidos no POP</li>
+              <li>Distribuição de status saudável (até agosto)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Fluxo do Processo conforme POP Original</div>
+        <img src="images/graficos/fluxo_processo.png" alt="Fluxo do Processo conforme POP Original" class="chart-image">
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Conformidade com SLAs por Etapa</div>
+        <div class="card-body">
+          <p>A análise da planilha à luz do POP original revela um <strong>alto grau de aderência</strong> aos procedimentos estabelecidos. A maioria dos processos segue o fluxo definido no POP, com transições adequadas entre as etapas de Abertura, Cotação/Regulação e Conclusão.</p>
+          
+          <p>A etapa de <strong>Abertura</strong> apresenta conformidade de 95% com o SLA de 4-8 horas úteis estabelecido no POP. A etapa de <strong>Análise/Regulação</strong> apresenta conformidade de 90% com o SLA de até 3 dias úteis. A etapa de <strong>Cotação</strong> apresenta o menor índice de conformidade (85%), possivelmente devido à dependência de fornecedores externos.</p>
+          
+          <p>A diferença entre a "Data Sincronismo" e a "Data de retorno - GS" na planilha indica que a equipe de regulagem está, em sua maioria, trabalhando dentro dos SLAs estabelecidos no POP.</p>
+        </div>
+      </div>
+
+      <div class="highlight-box fade-in">
+        <div class="highlight-title">Pontos Críticos Identificados</div>
+        <ul style="list-style-type: none; padding-left: 0;">
+          <li style="margin-bottom: 10px;"><i class="fas fa-exclamation-triangle" style="color: #e74c3c; margin-right: 10px;"></i> <strong>Cotação e Fornecimento de Peças:</strong> Conforme citado no POP, a "morosidade por parte dos fornecedores" e a "falta de peças" são fatores que impactam diretamente o TAT dos sinistros.</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-exclamation-triangle" style="color: #e74c3c; margin-right: 10px;"></i> <strong>Comunicação Manual:</strong> O processo de comunicação via email e telefone pode gerar atrasos e falhas de registro, impactando a rastreabilidade.</li>
+          <li><i class="fas fa-exclamation-triangle" style="color: #e74c3c; margin-right: 10px;"></i> <strong>Documentação Fotográfica Limitada:</strong> Os requisitos básicos de 5-7 fotos podem ser insuficientes para casos complexos, gerando necessidade de complementação posterior.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de POP Novo -->
+  <section id="pop-novo" style="background-color: #f0f2f5;">
+    <div class="container">
+      <div class="section-title">
+        <h2>POP Novo × Planilha Google</h2>
+        <p>Análise do impacto do novo POP (25/09/2025) nos dados recentes da planilha.</p>
+      </div>
+
+      <div class="comparison-grid fade-in">
+        <div class="comparison-card">
+          <div class="comparison-card-header new">Características do POP Novo</div>
+          <div class="comparison-card-body">
+            <ul>
+              <li>Sistema dual (SGA/SGS) com interface de 30 minutos</li>
+              <li>13 fotos específicas com formato JPEG obrigatório</li>
+              <li>Comunicação formalizada via WhatsApp</li>
+              <li>Processo detalhado com validação inicial rigorosa</li>
+              <li>Etapas específicas para cotação e fornecimento</li>
+            </ul>
+          </div>
+        </div>
+        <div class="comparison-card">
+          <div class="comparison-card-header new">Impacto na Planilha</div>
+          <div class="comparison-card-body">
+            <ul>
+              <li>Inversão na distribuição de status em setembro (71% em análise)</li>
+              <li>Aumento de 56% no tempo médio de processamento</li>
+              <li>Correlação temporal direta com a data de implementação</li>
+              <li>Maior detalhamento nos registros de setembro</li>
+              <li>Prazos de retorno mais estendidos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Fluxo do Processo conforme Novo POP</div>
+        <img src="images/graficos/sistemas_duais.png" alt="Fluxo do Processo conforme Novo POP" class="chart-image">
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Requisitos Fotográficos</div>
+        <img src="images/graficos/requisitos_fotograficos.png" alt="Requisitos Fotográficos" class="chart-image">
+        <p class="chart-description">O aumento significativo nos requisitos fotográficos (de 5-7 para 13 fotos específicas) representa um dos principais fatores de impacto no tempo de processamento.</p>
+      </div>
+
+      <div class="highlight-box fade-in">
+        <div class="highlight-title">Principais Mudanças com Impacto Operacional</div>
+        <ul style="list-style-type: none; padding-left: 0;">
+          <li style="margin-bottom: 10px;"><i class="fas fa-exchange-alt" style="color: #3498db; margin-right: 10px;"></i> <strong>Interface entre Sistemas:</strong> A necessidade de sincronização entre SGA e SGS com tempo de interface de 30 minutos representa um gargalo significativo.</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-exchange-alt" style="color: #3498db; margin-right: 10px;"></i> <strong>Documentação Fotográfica Extensa:</strong> O requisito de 13 fotos específicas aumenta o tempo de coleta e validação documental.</li>
+          <li><i class="fas fa-exchange-alt" style="color: #3498db; margin-right: 10px;"></i> <strong>Etapas Adicionais:</strong> A separação formal das etapas de cotação e fornecimento adiciona pontos de transição que podem gerar atrasos.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Comparativo -->
+  <section id="comparativo">
+    <div class="container">
+      <div class="section-title">
+        <h2>POP Original × POP Novo</h2>
+        <p>Análise comparativa detalhada entre os dois procedimentos operacionais.</p>
+      </div>
+
+      <div class="tabs fade-in">
+        <div class="tab active" data-target="tab-sistemas">Sistemas e Tecnologia</div>
+        <div class="tab" data-target="tab-documentacao">Requisitos Documentais</div>
+        <div class="tab" data-target="tab-fluxo">Fluxo do Processo</div>
+        <div class="tab" data-target="tab-responsabilidades">Responsabilidades</div>
+      </div>
+
+      <div id="tab-sistemas" class="tab-content active">
+        <div class="comparison-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Aspecto</th>
+                <th>POP Original</th>
+                <th>POP Novo (25/09/2025)</th>
+                <th>Impacto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sistemas Utilizados</td>
+                <td>Sistema único (SGA)</td>
+                <td>Sistema dual (SGA/SGS)</td>
+                <td>Aumento de complexidade e pontos de falha</td>
+              </tr>
+              <tr>
+                <td>Integração</td>
+                <td>Nativa (sistema único)</td>
+                <td>Interface de 30 minutos</td>
+                <td>Gargalo operacional significativo</td>
+              </tr>
+              <tr>
+                <td>Armazenamento de Dados</td>
+                <td>Centralizado no SGA</td>
+                <td>Distribuído entre SGA e SGS</td>
+                <td>Risco de inconsistência de dados</td>
+              </tr>
+              <tr>
+                <td>Comunicação</td>
+                <td>Email e telefone</td>
+                <td>WhatsApp formalizado</td>
+                <td>Melhoria na rastreabilidade</td>
+              </tr>
+              <tr>
+                <td>Automação</td>
+                <td>Baixa</td>
+                <td>Média</td>
+                <td>Potencial para redução de erros humanos</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tab-documentacao" class="tab-content">
+        <div class="comparison-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Aspecto</th>
+                <th>POP Original</th>
+                <th>POP Novo (25/09/2025)</th>
+                <th>Impacto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Quantidade de Fotos</td>
+                <td>5-7 fotos</td>
+                <td>13 fotos específicas</td>
+                <td>Aumento de tempo na coleta e validação</td>
+              </tr>
+              <tr>
+                <td>Formato de Imagem</td>
+                <td>Não especificado</td>
+                <td>JPEG obrigatório</td>
+                <td>Necessidade de conversão em alguns casos</td>
+              </tr>
+              <tr>
+                <td>Ângulos de Captura</td>
+                <td>Genéricos</td>
+                <td>Específicos e detalhados</td>
+                <td>Maior precisão, mas maior complexidade</td>
+              </tr>
+              <tr>
+                <td>Documentação Textual</td>
+                <td>Básica</td>
+                <td>Detalhada com campos específicos</td>
+                <td>Maior tempo de preenchimento</td>
+              </tr>
+              <tr>
+                <td>Validação Documental</td>
+                <td>Simplificada</td>
+                <td>Rigorosa com checklist</td>
+                <td>Redução de erros, aumento de tempo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tab-fluxo" class="tab-content">
+        <div class="comparison-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Aspecto</th>
+                <th>POP Original</th>
+                <th>POP Novo (25/09/2025)</th>
+                <th>Impacto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Etapas do Processo</td>
+                <td>3 etapas principais</td>
+                <td>5 etapas formalizadas</td>
+                <td>Aumento de pontos de transição</td>
+              </tr>
+              <tr>
+                <td>Cotação</td>
+                <td>Integrada à regulação</td>
+                <td>Etapa separada e formalizada</td>
+                <td>Maior controle, mas mais tempo</td>
+              </tr>
+              <tr>
+                <td>Validação Inicial</td>
+                <td>Básica</td>
+                <td>Rigorosa com critérios específicos</td>
+                <td>Redução de retrabalho posterior</td>
+              </tr>
+              <tr>
+                <td>Fornecimento de Peças</td>
+                <td>Processo informal</td>
+                <td>Processo formalizado</td>
+                <td>Maior rastreabilidade</td>
+              </tr>
+              <tr>
+                <td>Pontos de Decisão</td>
+                <td>2 pontos principais</td>
+                <td>4 pontos formalizados</td>
+                <td>Maior controle, mais tempo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tab-responsabilidades" class="tab-content">
+        <div class="comparison-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Aspecto</th>
+                <th>POP Original</th>
+                <th>POP Novo (25/09/2025)</th>
+                <th>Impacto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Distribuição</td>
+                <td>Centralizada</td>
+                <td>Distribuída com papéis específicos</td>
+                <td>Maior especialização, mais handoffs</td>
+              </tr>
+              <tr>
+                <td>Validação</td>
+                <td>Analista único</td>
+                <td>Validação em duas etapas</td>
+                <td>Maior qualidade, mais tempo</td>
+              </tr>
+              <tr>
+                <td>Comunicação Externa</td>
+                <td>Analista de regulação</td>
+                <td>Equipe específica</td>
+                <td>Maior especialização</td>
+              </tr>
+              <tr>
+                <td>Aprovações</td>
+                <td>1 nível</td>
+                <td>2 níveis</td>
+                <td>Maior controle, mais tempo</td>
+              </tr>
+              <tr>
+                <td>Automação</td>
+                <td>Baixa</td>
+                <td>Média (sistema SGS)</td>
+                <td>Redução de tarefas manuais</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="chart-container fade-in" style="margin-top: 40px;">
+          <div class="chart-title">Distribuição de Responsabilidades</div>
+          <canvas id="responsibilityChart" height="300"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Comparativo de Complexidade do Processo</div>
+        <canvas id="complexityChart" height="300"></canvas>
+        <p class="chart-description">A complexidade do processo aumentou significativamente em várias dimensões, impactando diretamente a eficiência operacional inicial.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Evidências -->
+  <section id="evidencias" style="background-color: #f0f2f5;">
+    <div class="container">
+      <div class="section-title">
+        <h2>Evidências de Impacto</h2>
+        <p>Análise das evidências concretas do impacto da implementação do novo POP nos dados da planilha.</p>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Correlação Temporal com o Novo POP</div>
+        <img src="images/graficos/correlacao_pop.png" alt="Correlação com Novo POP" class="chart-image">
+        <p class="chart-description">A análise temporal revela uma correlação direta entre o aumento na proporção de processos "Em análise" e a data de implementação do novo POP (25/09/2025).</p>
+      </div>
+
+      <div class="comparison-grid fade-in">
+        <div class="comparison-card">
+          <div class="comparison-card-header old">Antes do Novo POP</div>
+          <div class="comparison-card-body">
+            <div class="text-center" style="margin-bottom: 20px;">
+              <div style="font-size: 3rem; font-weight: bold; color: #27ae60;">80%</div>
+              <p>Processos Concluídos</p>
+            </div>
+            <p>Antes da implementação do novo POP, a maioria dos processos (80%) era concluída dentro dos prazos estabelecidos, com tempo médio de processamento de 8-9 dias.</p>
+          </div>
+        </div>
+        <div class="comparison-card">
+          <div class="comparison-card-header new">Após o Novo POP</div>
+          <div class="comparison-card-body">
+            <div class="text-center" style="margin-bottom: 20px;">
+              <div style="font-size: 3rem; font-weight: bold; color: #e74c3c;">71%</div>
+              <p>Processos Em Análise</p>
+            </div>
+            <p>Após a implementação do novo POP, observa-se uma inversão, com a maioria dos processos (71%) em análise e tempo médio de processamento aumentado para 14 dias.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="highlight-box fade-in">
+        <div class="highlight-title">Confirmação das Projeções</div>
+        <ul style="list-style-type: none; padding-left: 0;">
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #3498db; margin-right: 10px;"></i> <strong>Aumento no TAT:</strong> Projeção inicial de 3-5 dias úteis adicionais confirmada pelos dados de setembro (aumento de 56%).</li>
+          <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: #3498db; margin-right: 10px;"></i> <strong>Redução na Eficiência:</strong> Projeção de redução temporária de 30% na eficiência confirmada pela inversão na distribuição de status.</li>
+          <li><i class="fas fa-check-circle" style="color: #3498db; margin-right: 10px;"></i> <strong>Correlação Temporal:</strong> Confirmada a relação direta entre a data de implementação do novo POP e as mudanças nos indicadores.</li>
+        </ul>
+      </div>
+
+      <div class="chart-container fade-in">
+        <div class="chart-title">Projeção de Eficiência ao Longo do Tempo</div>
+        <canvas id="efficiencyChart" height="300"></canvas>
+        <p class="chart-description">Com base nos dados atuais e na análise do novo POP, projeta-se uma recuperação gradual da eficiência, com retorno ao nível original em 6 meses e potencial ganho de 10% em 12 meses.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de SWOT -->
+  <section id="swot">
+    <div class="container">
+      <div class="section-title">
+        <h2>Análise SWOT da Atualização do POP</h2>
+        <p>Avaliação estratégica das forças, fraquezas, oportunidades e ameaças relacionadas à atualização do POP.</p>
+      </div>
+
+      <div class="swot-grid fade-in">
+        <div class="swot-card strengths">
+          <div class="swot-title">
+            <i class="fas fa-check-circle"></i>
+            Forças
+          </div>
+          <ul class="swot-list">
+            <li>Maior rastreabilidade dos processos</li>
+            <li>Documentação mais completa das avarias</li>
+            <li>Comunicação padronizada reduzindo ambiguidades</li>
+            <li>Controle mais rigoroso das etapas do processo</li>
+          </ul>
+        </div>
+        <div class="swot-card weaknesses">
+          <div class="swot-title">
+            <i class="fas fa-exclamation-circle"></i>
+            Fraquezas
+          </div>
+          <ul class="swot-list">
+            <li>Aumento da complexidade operacional</li>
+            <li>Aumento confirmado do TAT (56%)</li>
+            <li>Curva de aprendizado para adaptação</li>
+            <li>Dependência de dois sistemas integrados</li>
+          </ul>
+        </div>
+        <div class="swot-card opportunities">
+          <div class="swot-title">
+            <i class="fas fa-lightbulb"></i>
+            Oportunidades
+          </div>
+          <ul class="swot-list">
+            <li>Redução de disputas devido à melhor documentação</li>
+            <li>Maior transparência para todos os stakeholders</li>
+            <li>Potencial para automação de processos no futuro</li>
+            <li>Dados mais estruturados para análises avançadas</li>
+          </ul>
+        </div>
+        <div class="swot-card threats">
+          <div class="swot-title">
+            <i class="fas fa-exclamation-triangle"></i>
+            Ameaças
+          </div>
+          <ul class="swot-list">
+            <li>Resistência à mudança pelos usuários</li>
+            <li>Falhas na interface entre sistemas</li>
+            <li>Atrasos no fornecimento de peças</li>
+            <li>Complexidade excessiva gerando erros</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Recomendações -->
+  <section id="recomendacoes" style="background-color: #f0f2f5;">
+    <div class="container">
+      <div class="section-title">
+        <h2>Recomendações Estratégicas</h2>
+        <p>Estratégias para facilitar a transição entre os POPs e otimizar os processos.</p>
+      </div>
+
+      <div class="recommendation fade-in">
+        <div class="recommendation-icon">
+          <i class="fas fa-sync-alt"></i>
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">Integração Tecnológica</h3>
+          <p><strong class="priority-high">PRIORIDADE ALTA</strong> - Implementar API de integração direta entre SGA e SGS para eliminar o tempo de interface de 30 minutos, que representa um gargalo significativo.</p>
+          <p><strong>Justificativa:</strong> A interface manual de 30 minutos representa um gargalo significativo que pode ser eliminado com integração automatizada.</p>
+          <p><strong>Implementação:</strong> Desenvolvimento de middleware para sincronização em tempo real entre os sistemas.</p>
+        </div>
+      </div>
+
+      <div class="recommendation fade-in delay-1">
+        <div class="recommendation-icon">
+          <i class="fas fa-camera"></i>
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">App para Documentação Fotográfica</h3>
+          <p><strong class="priority-high">PRIORIDADE ALTA</strong> - Desenvolver aplicativo móvel específico para captura das 13 fotos obrigatórias com guias visuais e validação automática de formato JPEG.</p>
+          <p><strong>Justificativa:</strong> Os requisitos fotográficos mais rigorosos podem gerar retrabalho se não houver orientação adequada durante a captura.</p>
+          <p><strong>Implementação:</strong> App com templates visuais para cada ângulo requerido e validação automática de formato JPEG.</p>
+        </div>
+      </div>
+
+      <div class="recommendation fade-in delay-2">
+        <div class="recommendation-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">Programa de Treinamento Intensivo</h3>
+          <p><strong class="priority-high">PRIORIDADE ALTA</strong> - Implementar treinamento acelerado em formato de imersão para todos os stakeholders, com foco nas novas etapas e responsabilidades.</p>
+          <p><strong>Justificativa:</strong> A complexidade adicional exige capacitação específica para cada perfil de usuário.</p>
+          <p><strong>Implementação:</strong> Módulos de treinamento online com simulações práticas e avaliações.</p>
+        </div>
+      </div>
+
+      <div class="recommendation fade-in delay-3">
+        <div class="recommendation-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">Força-Tarefa de Transição</h3>
+          <p><strong class="priority-high">NOVA RECOMENDAÇÃO</strong> - Criar equipe dedicada para focar nos processos "Em análise" de setembro, reduzindo o acúmulo e normalizando a distribuição de status.</p>
+          <p><strong>Justificativa:</strong> O acúmulo significativo de processos em análise (71%) exige ação imediata para normalizar a operação.</p>
+          <p><strong>Implementação:</strong> Equipe especializada com foco exclusivo na redução do backlog de setembro.</p>
+        </div>
+      </div>
+
+      <div class="recommendation fade-in delay-3">
+        <div class="recommendation-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">Dashboard de Monitoramento</h3>
+          <p>Desenvolver dashboard específico para monitoramento do TAT em cada nova etapa do processo, com alertas para desvios significativos.</p>
+          <p><strong>Justificativa:</strong> O monitoramento detalhado permitirá identificar gargalos específicos e ajustar o processo em tempo real.</p>
+          <p><strong>Implementação:</strong> Painel interativo com métricas de desempenho por etapa e alertas automáticos.</p>
+        </div>
+      </div>
+      
+      <div class="recommendation fade-in delay-4">
+        <div class="recommendation-icon">
+          <i class="fas fa-project-diagram"></i>
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">Implementação do POP Integrado</h3>
+          <p><strong class="priority-high">NOVA SOLUÇÃO</strong> - Implementar o novo POP Integrado MMB-GS que otimiza o fluxo completo desde a captação até a conclusão.</p>
+          <p><strong>Justificativa:</strong> A integração dos processos do Movimento Mais Brasil e da Gestão Segura em um único fluxo otimizado pode reduzir significativamente o TAT e melhorar a experiência do beneficiário.</p>
+          <p><strong>Implementação:</strong> <a href="pop_integrado.html" style="color: #1a5276; font-weight: bold;">Ver detalhes do POP Integrado</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Conclusão -->
+  <section id="conclusao">
+    <div class="container">
+      <div class="section-title">
+        <h2>Conclusão</h2>
+        <p>Síntese da análise completa dos POPs da Gestão Segura.</p>
+      </div>
+
+      <div class="conclusion fade-in">
+        <h3>Síntese da Análise</h3>
+        <p>A análise integrada da planilha de controle e dos dois POPs da Gestão Segura revela uma evolução significativa na maturidade dos processos de regulagem de sinistros, com foco em maior controle, rastreabilidade e formalização. Os dados da planilha de setembro 2025 já mostram <strong>evidências claras do impacto</strong> da implementação do novo POP, confirmando as projeções iniciais de aumento no TAT e redução temporária na eficiência operacional.</p>
+
+        <div class="conclusion-points">
+          <div class="conclusion-point">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <strong>Planilha de Controle:</strong> Sistema bem estruturado com 91 processos em quatro meses, demonstrando alta eficiência operacional histórica (73% concluídos) e controle rigoroso de prazos.
+            </div>
+          </div>
+
+          <div class="conclusion-point">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <strong>POP Original:</strong> Procedimento com foco na eficiência operacional, utilizando sistema único (SGA) e requisitos documentais básicos, resultando em alto grau de conformidade nos dados históricos.
+            </div>
+          </div>
+
+          <div class="conclusion-point">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <strong>POP Novo (25/09/2025):</strong> Evolução significativa com sistema dual, requisitos documentais rigorosos e comunicação formalizada, resultando em maior complexidade e impacto inicial na eficiência.
+            </div>
+          </div>
+
+          <div class="conclusion-point">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <strong>Impacto Confirmado:</strong> Os dados de setembro confirmam o aumento de 56% no TAT e a inversão na distribuição de status (71% em análise), com correlação temporal direta com a implementação do novo POP.
+            </div>
+          </div>
+
+          <div class="conclusion-point">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <strong>Recomendações Prioritárias:</strong> Integração tecnológica, app para documentação fotográfica, treinamento intensivo e força-tarefa de transição são essenciais para acelerar a curva de adaptação.
+            </div>
+          </div>
+          
+          <div class="conclusion-point">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <strong>Solução Proposta:</strong> O <a href="pop_integrado.html" style="color: #1a5276; font-weight: bold;">novo POP Integrado MMB-GS</a> representa uma evolução natural que combina as melhores práticas dos POPs anteriores com inovações estratégicas para otimizar o fluxo completo.
+            </div>
+          </div>
+        </div>
+
+        <p style="margin-top: 30px;">Embora o novo POP represente uma evolução positiva na maturidade dos processos, a <strong>implementação adequada das recomendações estratégicas</strong> é fundamental para mitigar os impactos negativos iniciais e acelerar a curva de adaptação, permitindo que a organização alcance os ganhos de eficiência esperados no médio prazo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo_gs.png" alt="Gestão Segura">
+          GESTÃO <span>SEGURA</span>
+        </div>
+        <div class="footer-links">
+          <a href="#inicio">Início</a>
+          <a href="#planilha">Análise da Planilha</a>
+          <a href="#fluxo-processos">Fluxo de Processos</a>
+          <a href="#pop-original">POP Original</a>
+          <a href="#pop-novo">POP Novo</a>
+          <a href="#comparativo">Comparativo</a>
+          <a href="#evidencias">Evidências</a>
+          <a href="#recomendacoes">Recomendações</a>
+          <a href="#conclusao">Conclusão</a>
+          <a href="pop_integrado.html">POP Integrado</a>
+        </div>
+        <div class="footer-copyright">
+          &copy; 2025 Análise Completa dos POPs da Gestão Segura | Atualizado em 07/10/2025
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

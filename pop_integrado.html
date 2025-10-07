@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP Integrado - Análise de Sinistros</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .pop-section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .pop-title {
+            color: #1a5276;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 15px;
+        }
+        
+        .pop-subtitle {
+            color: #2c3e50;
+            margin: 25px 0 15px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+        .pop-text {
+            color: #34495e;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .pop-list {
+            margin-bottom: 20px;
+        }
+        
+        .pop-list li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        
+        .pop-image-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .pop-image {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        
+        .pop-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .pop-table th, .pop-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .pop-table th {
+            background-color: #f5f7fa;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .pop-table tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .pop-card {
+            background-color: #f5f7fa;
+            border-left: 4px solid #1a5276;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        
+        .pop-card-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #1a5276;
+        }
+        
+        .pop-card-text {
+            color: #34495e;
+        }
+        
+        .pop-tabs {
+            margin-bottom: 30px;
+        }
+        
+        .pop-tab-header {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        
+        .pop-tab-item {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .pop-tab-item.active {
+            border-bottom-color: #1a5276;
+            color: #1a5276;
+        }
+        
+        .pop-tab-content {
+            display: none;
+            padding: 20px 0;
+        }
+        
+        .pop-tab-content.active {
+            display: block;
+        }
+        
+        .btn-download {
+            display: inline-block;
+            background-color: #1a5276;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn-download:hover {
+            background-color: #154360;
+        }
+        
+        .btn-download i {
+            margin-right: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .pop-tab-header {
+                flex-direction: column;
+            }
+            
+            .pop-tab-item {
+                width: 100%;
+                text-align: center;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Gestão Segura</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#analise-planilha">Análise da Planilha</a></li>
+                    <li><a href="index.html#pop-original">POP Original</a></li>
+                    <li><a href="index.html#pop-novo">POP Novo</a></li>
+                    <li><a href="index.html#comparativo">Comparativo</a></li>
+                    <li><a href="pop_integrado.html" class="active">POP Integrado</a></li>
+                    <li><a href="https://administradoramutual.com.br" class="btn-voltar" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; margin-left: 10px;">← Voltar ao Site</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Procedimento Operacional Padrão Integrado</h1>
+            <p>Movimento Mais Brasil & Gestão Segura</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="pop-section">
+            <h2 class="pop-title">Visão Geral do POP Integrado</h2>
+            <p class="pop-text">
+                O novo Procedimento Operacional Padrão (POP) Integrado foi desenvolvido com base na análise detalhada dos dois POPs anteriores da Gestão Segura e nas necessidades operacionais do Movimento Mais Brasil. Este documento estabelece um fluxo otimizado que se inicia com a captação de dados pelo Movimento Mais Brasil e integra todas as etapas até a conclusão do atendimento, seja por acordo financeiro ou reparo do veículo.
+            </p>
+            
+            <div class="pop-image-container">
+                <img src="images/diagramas/fluxograma_pop_integrado.png" alt="Fluxograma do POP Integrado" class="pop-image">
+                <p><em>Fluxograma do Processo Integrado MMB-GS</em></p>
+            </div>
+            
+            <h3 class="pop-subtitle">Principais Inovações</h3>
+            <ul class="pop-list">
+                <li><strong>Sistema Integrado Tripartite (SIT):</strong> Arquitetura que integra as três plataformas existentes (SMMB, SGA e SGS) através de uma API de sincronização em tempo real.</li>
+                <li><strong>Protocolo Unificado:</strong> Sistema de protocolo único que mantém a rastreabilidade em todos os sistemas.</li>
+                <li><strong>Bifurcação de Fluxo:</strong> Incorporação formal da etapa de proposta de acordo financeiro, com fluxos claramente definidos para cada cenário.</li>
+                <li><strong>Dashboard Integrado de KPIs:</strong> Sistema de monitoramento em tempo real com indicadores específicos para cada etapa do processo.</li>
+                <li><strong>Gestão de Exceções Estruturada:</strong> Procedimentos claros para tratamento de casos especiais e falhas de comunicação.</li>
+            </ul>
+        </section>
+        
+        <section class="pop-section">
+            <h2 class="pop-title">Implementação no Site</h2>
+            <p class="pop-text">
+                O novo POP Integrado será implementado diretamente no site existente que já acessa a planilha Google, permitindo uma transição suave e aproveitando a infraestrutura atual enquanto implementamos as novas funcionalidades necessárias.
+            </p>
+            
+            <div class="pop-image-container">
+                <img src="images/diagramas/diagrama_fluxo_pop_site.png" alt="Diagrama de Fluxo do POP no Site" class="pop-image">
+                <p><em>Diagrama de Fluxo Detalhado do POP Integrado no Site</em></p>
+            </div>
+            
+            <h3 class="pop-subtitle">Componentes da Solução</h3>
+            
+            <div class="pop-tabs">
+                <div class="pop-tab-header">
+                    <div class="pop-tab-item active" data-tab="dados">Camada de Dados</div>
+                    <div class="pop-tab-item" data-tab="aplicacao">Camada de Aplicação</div>
+                    <div class="pop-tab-item" data-tab="apresentacao">Camada de Apresentação</div>
+                </div>
+                
+                <div class="pop-tab-content active" id="dados">
+                    <p class="pop-text">A camada de dados mantém a compatibilidade com os sistemas existentes enquanto implementa as novas funcionalidades:</p>
+                    <ul class="pop-list">
+                        <li>Manutenção da planilha Google como fonte primária de dados para compatibilidade retroativa</li>
+                        <li>Adição de tabelas/planilhas complementares para dados específicos do novo fluxo</li>
+                        <li>Implementação de sistema de sincronização entre SMMB, SGA e SGS via API</li>
+                        <li>Armazenamento centralizado de documentos e histórico de comunicações</li>
+                    </ul>
+                </div>
+                
+                <div class="pop-tab-content" id="aplicacao">
+                    <p class="pop-text">A camada de aplicação implementa a lógica de negócios do novo POP:</p>
+                    <ul class="pop-list">
+                        <li>Expansão da lógica de negócios para incluir o novo fluxo integrado</li>
+                        <li>Implementação de regras de transição entre etapas conforme o POP</li>
+                        <li>Desenvolvimento de sistema de alertas e notificações para SLAs</li>
+                        <li>Criação de APIs para comunicação com sistemas externos</li>
+                        <li>Implementação de mecanismos de validação e verificação de dados</li>
+                    </ul>
+                </div>
+                
+                <div class="pop-tab-content" id="apresentacao">
+                    <p class="pop-text">A camada de apresentação oferece interfaces intuitivas para todos os usuários:</p>
+                    <ul class="pop-list">
+                        <li>Manutenção da interface atual para processos existentes</li>
+                        <li>Adição de novas visualizações para o fluxo integrado</li>
+                        <li>Implementação de dashboards específicos por perfil de usuário</li>
+                        <li>Desenvolvimento de visualização interativa do fluxo de processo</li>
+                        <li>Criação de formulários específicos para cada etapa do processo</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3 class="pop-subtitle">Distribuição de Responsabilidades</h3>
+            
+            <table class="pop-table">
+                <thead>
+                    <tr>
+                        <th>Etapa</th>
+                        <th>Responsável Principal</th>
+                        <th>Sistema</th>
+                        <th>SLA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Captação e Abertura</td>
+                        <td>Movimento Mais Brasil</td>
+                        <td>SMMB</td>
+                        <td>4 horas úteis</td>
+                    </tr>
+                    <tr>
+                        <td>Sincronização e Validação</td>
+                        <td>Sistemas + GS</td>
+                        <td>API + SGA</td>
+                        <td>30 minutos</td>
+                    </tr>
+                    <tr>
+                        <td>Análise e Regulação</td>
+                        <td>Gestão Segura</td>
+                        <td>SGS</td>
+                        <td>2 dias úteis</td>
+                    </tr>
+                    <tr>
+                        <td>Proposta de Acordo</td>
+                        <td>GS (elaboração) + MMB (comunicação)</td>
+                        <td>SGS + SMMB</td>
+                        <td>1 dia útil</td>
+                    </tr>
+                    <tr>
+                        <td>Cotação e Fornecimento</td>
+                        <td>Gestão Segura</td>
+                        <td>SGS</td>
+                        <td>3 dias úteis</td>
+                    </tr>
+                    <tr>
+                        <td>Acompanhamento de Reparo</td>
+                        <td>Gestão Segura</td>
+                        <td>SGS</td>
+                        <td>Variável</td>
+                    </tr>
+                    <tr>
+                        <td>Conclusão e Feedback</td>
+                        <td>GS + MMB</td>
+                        <td>SGS + SMMB</td>
+                        <td>1 dia útil</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="pop-section">
+            <h2 class="pop-title">Benefícios Esperados</h2>
+            
+            <div class="pop-card">
+                <div class="pop-card-title">Redução do TAT Total</div>
+                <div class="pop-card-text">
+                    <ul>
+                        <li>Diminuição de 30% no tempo médio de processamento</li>
+                        <li>Eliminação de etapas redundantes</li>
+                        <li>Processamento paralelo de atividades quando possível</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pop-card">
+                <div class="pop-card-title">Melhoria na Experiência do Beneficiário</div>
+                <div class="pop-card-text">
+                    <ul>
+                        <li>Comunicação unificada e consistente</li>
+                        <li>Visibilidade completa do status do processo</li>
+                        <li>Opção de acordo financeiro claramente estruturada</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pop-card">
+                <div class="pop-card-title">Aumento da Eficiência Operacional</div>
+                <div class="pop-card-text">
+                    <ul>
+                        <li>Redução de 40% no retrabalho</li>
+                        <li>Diminuição de 50% nos erros de transcrição</li>
+                        <li>Otimização do uso de recursos humanos</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pop-card">
+                <div class="pop-card-title">Maior Controle e Visibilidade</div>
+                <div class="pop-card-text">
+                    <ul>
+                        <li>Monitoramento em tempo real de todas as etapas</li>
+                        <li>Alertas proativos para desvios de SLA</li>
+                        <li>Rastreabilidade completa do processo</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3 class="pop-subtitle">Plano de Implementação</h3>
+            <p class="pop-text">
+                A implementação do novo POP no site existente seguirá um cronograma estruturado para garantir transição suave e minimizar impactos operacionais:
+            </p>
+            
+            <ol class="pop-list">
+                <li><strong>Fase Preparatória (2 semanas):</strong> Análise detalhada, definição de requisitos e preparação do ambiente</li>
+                <li><strong>Fase Piloto (2 semanas):</strong> Implementação com volume reduzido (20% dos casos) e ajustes</li>
+                <li><strong>Implementação Gradual (4 semanas):</strong> Aumento progressivo do volume (20% por semana)</li>
+                <li><strong>Operação Plena:</strong> Monitoramento contínuo dos KPIs e ciclo de melhoria contínua</li>
+            </ol>
+            
+            <a href="#" class="btn-download"><i class="fas fa-download"></i> Baixar POP Completo (PDF)</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Gestão Segura & Movimento Mais Brasil. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tab functionality
+            const tabItems = document.querySelectorAll('.pop-tab-item');
+            
+            tabItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    tabItems.forEach(tab => tab.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    // Hide all tab contents
+                    const tabContents = document.querySelectorAll('.pop-tab-content');
+                    tabContents.forEach(content => content.classList.remove('active'));
+                    
+                    // Show the selected tab content
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
