@@ -46,14 +46,13 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: #1a5276;
 }
 
 .logo img {
-  height: 40px;
-  margin-right: 10px;
+  display: none; /* Ocultar logo para economizar espaço */
 }
 
 .logo span {
@@ -65,13 +64,15 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 nav ul li a {
   padding: 8px 12px;
   border-radius: 4px;
   transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 nav ul li a:hover, nav ul li a.active {
@@ -86,6 +87,17 @@ nav ul li a.highlight-nav {
 
 nav ul li a.highlight-nav:hover {
   background-color: #154360;
+}
+
+nav ul li a.btn-voltar {
+  background-color: #2ecc71;
+  color: white;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+nav ul li a.btn-voltar:hover {
+  background-color: #27ae60;
 }
 
 /* Hero Section */
