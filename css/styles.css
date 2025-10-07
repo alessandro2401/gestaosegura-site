@@ -40,7 +40,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 12px 30px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -61,28 +63,59 @@ header {
 
 nav ul {
   display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 nav ul li {
-  margin-left: 15px;
+  margin: 0;
+  list-style: none;
 }
 
 nav ul li a {
-  padding: 8px 12px;
-  border-radius: 4px;
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
   transition: all 0.3s ease;
   font-size: 14px;
   font-weight: 500;
+  color: #2c3e50;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  white-space: nowrap;
+  position: relative;
 }
 
-nav ul li a:hover, nav ul li a.active {
-  background-color: #f5f7fa;
+/* Remover qualquer pseudo-elemento que possa estar adicionando badges */
+nav ul li a::before,
+nav ul li a::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Remover badges e contadores */
+nav ul li a[data-badge]::after,
+nav ul li a[data-count]::after {
+  display: none !important;
+}
+
+nav ul li a:hover {
+  background-color: #ecf0f1;
   color: #1a5276;
+  transform: translateY(-1px);
+}
+
+nav ul li a.active {
+  background-color: #e8f4f8;
+  color: #1a5276;
+  font-weight: 600;
 }
 
 nav ul li a.highlight-nav {
   background-color: #1a5276;
-  color: white;
+  color: white !important;
+  font-weight: 600;
 }
 
 nav ul li a.highlight-nav:hover {
@@ -90,14 +123,17 @@ nav ul li a.highlight-nav:hover {
 }
 
 nav ul li a.btn-voltar {
-  background-color: #2ecc71;
-  color: white;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
+  color: white !important;
   font-weight: 600;
-  padding: 8px 16px;
+  padding: 10px 18px;
+  box-shadow: 0 2px 8px rgba(30, 60, 114, 0.3);
 }
 
 nav ul li a.btn-voltar:hover {
-  background-color: #27ae60;
+  background: linear-gradient(135deg, #152d5a 0%, #1e3c72 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 60, 114, 0.4);
 }
 
 /* Hero Section */
