@@ -55,9 +55,27 @@
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 20px;
             margin-bottom: 30px;
+        }
+        
+        @media (min-width: 1400px) {
+            .stats-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .stat-card {
@@ -439,8 +457,20 @@
                 <div class="value" id="total-cancelados">-</div>
             </div>
             <div class="stat-card">
-                <div class="label">Valor Total Aprovado</div>
-                <div class="value" id="valor-total">-</div>
+                <div class="label">Valor Total Aprovado Inicial</div>
+                <div class="value" id="valor-total-aprovado">-</div>
+            </div>
+            <div class="stat-card" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);">
+                <div class="label">Valor Total Final Pago</div>
+                <div class="value" id="valor-total-pago" style="color: #059669;">-</div>
+            </div>
+            <div class="stat-card" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);">
+                <div class="label">Média Valor Aprovado/Processo</div>
+                <div class="value" id="media-aprovado" style="color: #2563eb; font-size: 22px;">-</div>
+            </div>
+            <div class="stat-card" style="background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%);">
+                <div class="label">Média Valor Pago/Processo</div>
+                <div class="value" id="media-pago" style="color: #ca8a04; font-size: 22px;">-</div>
             </div>
         </div>
 
@@ -540,17 +570,40 @@
             const finalizados = allProcessos.filter(p => p.Status === 'Finalizado').length;
             const cancelados = allProcessos.filter(p => p.Status === 'Cancelado').length;
             
-            // Calcular valor total
-            let valorTotal = 0;
+            // Calcular valor total aprovado inicial
+            let valorTotalAprovado = 0;
+            let countAprovado = 0;
             allProcessos.forEach(p => {
                 const valor = parseValor(p['Vl Aprovado inicial']);
-                if (!isNaN(valor)) valorTotal += valor;
+                if (!isNaN(valor) && valor > 0) {
+                    valorTotalAprovado += valor;
+                    countAprovado++;
+                }
             });
             
+            // Calcular valor total final pago
+            let valorTotalPago = 0;
+            let countPago = 0;
+            allProcessos.forEach(p => {
+                const valor = parseValor(p['Valor Final Pago']);
+                if (!isNaN(valor) && valor > 0) {
+                    valorTotalPago += valor;
+                    countPago++;
+                }
+            });
+            
+            // Calcular médias
+            const mediaAprovado = countAprovado > 0 ? valorTotalAprovado / countAprovado : 0;
+            const mediaPago = countPago > 0 ? valorTotalPago / countPago : 0;
+            
+            // Atualizar DOM
             document.getElementById('total-processos').textContent = total;
             document.getElementById('total-finalizados').textContent = finalizados;
             document.getElementById('total-cancelados').textContent = cancelados;
-            document.getElementById('valor-total').textContent = formatCurrency(valorTotal);
+            document.getElementById('valor-total-aprovado').textContent = formatCurrency(valorTotalAprovado);
+            document.getElementById('valor-total-pago').textContent = formatCurrency(valorTotalPago);
+            document.getElementById('media-aprovado').textContent = formatCurrency(mediaAprovado);
+            document.getElementById('media-pago').textContent = formatCurrency(mediaPago);
         }
 
         // Popular filtro de status
