@@ -191,8 +191,33 @@ nav ul li a.btn-voltar:hover {
   background-color: rgba(255,255,255,0.3);
 }
 
+.btn-data {
+  background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+  margin-left: 15px;
+  box-shadow: 0 4px 15px rgba(230, 126, 34, 0.3);
+}
+
+.btn-data:hover {
+  background: linear-gradient(135deg, #d35400 0%, #c0392b 100%);
+  box-shadow: 0 6px 20px rgba(230, 126, 34, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-data i {
+  margin-right: 8px;
+}
+
 .hero-buttons {
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.hero-buttons a {
+  margin: 0 !important;
 }
 
 /* Sections */
