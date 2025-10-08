@@ -75,3 +75,36 @@ Para qualquer dúvida ou problema durante a implantação, entre em contato com 
 ---
 
 © 2025 Gestão Segura | Todos os direitos reservados
+
+
+
+---
+
+## 6. Visualização de Dados da Planilha (dados-planilha.html)
+
+Esta seção detalha a nova página `dados-planilha.html`, que foi criada para exibir dados específicos da planilha do Google Sheets de forma interativa.
+
+### 6.1. Visão Geral
+
+A página oferece uma interface moderna para visualizar 8 colunas selecionadas da planilha de controle, com funcionalidades avançadas para facilitar a análise dos dados.
+
+### 6.2. Funcionalidades Implementadas
+
+| Funcionalidade | Descrição |
+| :--- | :--- |
+| **Visualização Específica** | Exibe apenas as 8 colunas solicitadas: `Data Sincronismo`, `Protocolo GS`, `Placa`, `Status`, `Data de retorno - GS`, `Dias de retorno`, `Vl Aprovado inicial` e `Valor Final Pago`. |
+| **Busca Dinâmica** | Campo de busca que filtra os resultados em tempo real. |
+| **Filtro por Status** | Dropdown para filtrar processos por status. |
+| **Ordenação de Colunas** | Permite ordenar os dados clicando no cabeçalho de qualquer coluna. |
+| **Paginação Completa** | Navegação entre páginas de resultados (50 itens por página). |
+| **Painel de Estatísticas** | Cards com dados agregados (total de processos, finalizados, cancelados, etc.). |
+| **Atualização em Tempo Real** | Exibe a data e hora da última sincronização. |
+
+### 6.3. Estrutura e Sincronização
+
+- **Página**: `/dados-planilha.html`
+- **Script de Sincronização**: `/scripts/sync_sheets_data.py`
+- **Arquivo de Dados**: `/data/processos.json`
+
+O script Python busca os dados da planilha, filtra as colunas e gera o arquivo JSON que alimenta a página web.
+

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2025-10-08T13:35:02.003615",
+    "ultima_atualizacao": "2025-10-08T13:47:32.503296",
     "total_processos": 117,
     "fonte": "Google Sheets - Todos processos",
     "colunas_exibidas": [
@@ -22,8 +22,8 @@
       "Status": "Cancelado",
       "Data de retorno - GS": "13/06/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "11/06/2025",
@@ -32,8 +32,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "16/06/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  1.842,00 ",
+      "Valor Final Pago": " R$  3.321,05 "
     },
     {
       "Data Sincronismo": "11/06/2025",
@@ -42,8 +42,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "16/06/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "11/06/2025",
@@ -52,8 +52,8 @@
       "Status": "Cancelado",
       "Data de retorno - GS": "16/06/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "11/06/2025",
@@ -62,8 +62,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "16/06/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  5.777,94 "
     },
     {
       "Data Sincronismo": "12/06/2025",
@@ -72,8 +72,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "17/06/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  14.500,00 ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "13/06/2025",
@@ -82,8 +82,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "18/06/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  4.350,00 ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "03/07/2025",
@@ -92,8 +92,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "08/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  4.872,80 "
     },
     {
       "Data Sincronismo": "03/07/2025",
@@ -102,8 +102,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "08/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  1.161,55 "
     },
     {
       "Data Sincronismo": "04/07/2025",
@@ -112,8 +112,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "09/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  7.300,00 ",
+      "Valor Final Pago": " R$  7.300,00 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -122,8 +122,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "5",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  4.205,58 ",
+      "Valor Final Pago": " R$  6.933,78 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -132,8 +132,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  8.123,00 ",
+      "Valor Final Pago": " R$  8.123,00 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -142,8 +142,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  1.534,26 ",
+      "Valor Final Pago": " R$  1.534,26 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -152,8 +152,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "9",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.325,85 ",
+      "Valor Final Pago": " R$  8.793,00 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -162,8 +162,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.000,00 ",
+      "Valor Final Pago": " R$  3.000,00 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -172,8 +172,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  4.500,00 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -182,8 +182,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  4.000,00 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -192,8 +192,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "15",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  11.523,00 ",
+      "Valor Final Pago": " R$  14.453,00 "
     },
     {
       "Data Sincronismo": "07/07/2025",
@@ -202,8 +202,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/07/2025",
       "Dias de retorno": "2",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  26.300,00 ",
+      "Valor Final Pago": " R$  39.548,85 "
     },
     {
       "Data Sincronismo": "21/07/2025",
@@ -212,8 +212,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "24/07/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.074,00 ",
+      "Valor Final Pago": " R$  3.074,00 "
     },
     {
       "Data Sincronismo": "22/07/2025",
@@ -222,8 +222,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "25/07/2025",
       "Dias de retorno": "15",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  8.711,86 ",
+      "Valor Final Pago": " R$  26.926,86 "
     },
     {
       "Data Sincronismo": "30/07/2025",
@@ -232,8 +232,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "04/08/2025",
       "Dias de retorno": "13",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  5.000,00 ",
+      "Valor Final Pago": " R$  9.000,00 "
     },
     {
       "Data Sincronismo": "30/07/2025",
@@ -242,8 +242,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "04/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  6.550,00 ",
+      "Valor Final Pago": " R$  6.550,00 "
     },
     {
       "Data Sincronismo": "30/07/2025",
@@ -252,8 +252,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "04/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  6.400,00 "
     },
     {
       "Data Sincronismo": "30/07/2025",
@@ -262,8 +262,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "04/08/2025",
       "Dias de retorno": "7",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  4.054,00 ",
+      "Valor Final Pago": " R$  10.402,00 "
     },
     {
       "Data Sincronismo": "31/07/2025",
@@ -272,8 +272,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "05/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  21.354,89 "
     },
     {
       "Data Sincronismo": "04/08/2025",
@@ -282,8 +282,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "07/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.372,22 ",
+      "Valor Final Pago": " R$  3.372,22 "
     },
     {
       "Data Sincronismo": "04/08/2025",
@@ -292,8 +292,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "07/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  30.990,52 ",
+      "Valor Final Pago": " R$  30.990,52 "
     },
     {
       "Data Sincronismo": "05/08/2025",
@@ -302,8 +302,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "08/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  5.481,00 ",
+      "Valor Final Pago": " R$  5.481,00 "
     },
     {
       "Data Sincronismo": "05/08/2025",
@@ -312,8 +312,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "08/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  30.000,00 "
     },
     {
       "Data Sincronismo": "05/08/2025",
@@ -322,8 +322,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "08/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  5.528,33 "
     },
     {
       "Data Sincronismo": "05/08/2025",
@@ -332,8 +332,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "08/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  3.772,00 "
     },
     {
       "Data Sincronismo": "06/08/2025",
@@ -342,8 +342,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "11/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  13.000,00 "
     },
     {
       "Data Sincronismo": "06/08/2025",
@@ -352,8 +352,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "11/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  5.580,00 ",
+      "Valor Final Pago": " R$  5.580,00 "
     },
     {
       "Data Sincronismo": "06/08/2025",
@@ -362,8 +362,8 @@
       "Status": "Em analise",
       "Data de retorno - GS": "11/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "06/08/2025",
@@ -372,8 +372,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "11/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.930,00 ",
+      "Valor Final Pago": " R$  3.930,00 "
     },
     {
       "Data Sincronismo": "06/08/2025",
@@ -382,8 +382,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "11/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  2.086,00 ",
+      "Valor Final Pago": " R$  2.086,00 "
     },
     {
       "Data Sincronismo": "07/08/2025",
@@ -392,8 +392,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "12/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  2.500,00 ",
+      "Valor Final Pago": " R$  2.500,00 "
     },
     {
       "Data Sincronismo": "08/08/2025",
@@ -402,8 +402,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "13/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "08/08/2025",
@@ -412,8 +412,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "13/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.250,10 ",
+      "Valor Final Pago": " R$  3.250,10 "
     },
     {
       "Data Sincronismo": "08/08/2025",
@@ -422,8 +422,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "13/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  2.786,40 "
     },
     {
       "Data Sincronismo": "11/08/2025",
@@ -432,8 +432,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "14/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  10.793,30 ",
+      "Valor Final Pago": " R$  10.793,30 "
     },
     {
       "Data Sincronismo": "11/08/2025",
@@ -442,8 +442,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "14/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  11.025,90 ",
+      "Valor Final Pago": " R$  11.025,90 "
     },
     {
       "Data Sincronismo": "11/08/2025",
@@ -452,8 +452,8 @@
       "Status": "Autorizado",
       "Data de retorno - GS": "14/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  7.500,00 ",
+      "Valor Final Pago": " R$  7.500,00 "
     },
     {
       "Data Sincronismo": "14/08/2025",
@@ -462,8 +462,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "19/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  1.300,00 ",
+      "Valor Final Pago": " R$  2.400,00 "
     },
     {
       "Data Sincronismo": "14/08/2025",
@@ -472,8 +472,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "19/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  3.500,00 "
     },
     {
       "Data Sincronismo": "14/08/2025",
@@ -482,8 +482,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "19/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  2.083,17 "
     },
     {
       "Data Sincronismo": "15/08/2025",
@@ -492,8 +492,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "20/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  40.646,00 ",
+      "Valor Final Pago": " R$  40.646,00 "
     },
     {
       "Data Sincronismo": "15/08/2025",
@@ -502,8 +502,8 @@
       "Status": "Autorizado",
       "Data de retorno - GS": "20/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  30.000,00 ",
+      "Valor Final Pago": " R$  30.000,00 "
     },
     {
       "Data Sincronismo": "15/08/2025",
@@ -512,8 +512,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "20/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  22.767,00 ",
+      "Valor Final Pago": " R$  22.767,00 "
     },
     {
       "Data Sincronismo": "15/08/2025",
@@ -522,8 +522,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "20/08/2025",
       "Dias de retorno": "17",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  7.412,00 ",
+      "Valor Final Pago": " R$  10.365,47 "
     },
     {
       "Data Sincronismo": "18/08/2025",
@@ -532,8 +532,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "21/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  3.000,00 "
     },
     {
       "Data Sincronismo": "18/08/2025",
@@ -542,8 +542,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "21/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  4.578,50 ",
+      "Valor Final Pago": " R$  4.578,50 "
     },
     {
       "Data Sincronismo": "18/08/2025",
@@ -552,8 +552,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "21/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  42.122,00 ",
+      "Valor Final Pago": " R$  42.122,00 "
     },
     {
       "Data Sincronismo": "19/08/2025",
@@ -562,8 +562,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "22/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  6.000,00 "
     },
     {
       "Data Sincronismo": "20/08/2025",
@@ -572,8 +572,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "25/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  1.580,71 "
     },
     {
       "Data Sincronismo": "20/08/2025",
@@ -582,8 +582,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "25/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  800,00 "
     },
     {
       "Data Sincronismo": "21/08/2025",
@@ -592,8 +592,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "26/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  5.880,00 ",
+      "Valor Final Pago": " R$  5.919,45 "
     },
     {
       "Data Sincronismo": "22/08/2025",
@@ -602,8 +602,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "27/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  5.919,45 ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "25/08/2025",
@@ -612,8 +612,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "28/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  7.670,00 ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "25/08/2025",
@@ -622,8 +622,8 @@
       "Status": "Em analise",
       "Data de retorno - GS": "28/08/2025",
       "Dias de retorno": "17",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  4.891,35 ",
+      "Valor Final Pago": " R$  7.964,62 "
     },
     {
       "Data Sincronismo": "26/08/2025",
@@ -632,8 +632,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "29/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "26/08/2025",
@@ -642,8 +642,8 @@
       "Status": "Em analise",
       "Data de retorno - GS": "29/08/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  650,00 ",
+      "Valor Final Pago": " R$  650,00 "
     },
     {
       "Data Sincronismo": "27/08/2025",
@@ -652,8 +652,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "01/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  12.000,00 "
     },
     {
       "Data Sincronismo": "27/08/2025",
@@ -662,8 +662,8 @@
       "Status": "Em analise",
       "Data de retorno - GS": "01/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "27/08/2025",
@@ -672,8 +672,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "01/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "27/08/2025",
@@ -682,8 +682,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "01/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "27/08/2025",
@@ -692,8 +692,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "01/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  28.056,00 ",
+      "Valor Final Pago": " R$  28.056,00 "
     },
     {
       "Data Sincronismo": "29/08/2025",
@@ -702,8 +702,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "03/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  5.470,00 "
     },
     {
       "Data Sincronismo": "29/08/2025",
@@ -712,8 +712,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "03/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "29/08/2025",
@@ -722,8 +722,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "03/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  4.796,76 "
     },
     {
       "Data Sincronismo": "29/08/2025",
@@ -732,8 +732,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "03/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "29/08/2025",
@@ -742,8 +742,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "03/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  1.500,00 "
     },
     {
       "Data Sincronismo": "01/09/2025",
@@ -752,8 +752,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "04/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.460,00 ",
+      "Valor Final Pago": " R$  3.460,00 "
     },
     {
       "Data Sincronismo": "01/09/2025",
@@ -762,8 +762,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "04/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "01/09/2025",
@@ -772,8 +772,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "04/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "02/09/2025",
@@ -782,8 +782,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "05/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.450,00 ",
+      "Valor Final Pago": " R$  3.450,00 "
     },
     {
       "Data Sincronismo": "05/09/2025",
@@ -792,8 +792,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "10/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  10.260,00 "
     },
     {
       "Data Sincronismo": "08/09/2025",
@@ -802,8 +802,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "11/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  6.180,00 ",
+      "Valor Final Pago": " R$  6.180,00 "
     },
     {
       "Data Sincronismo": "10/09/2025",
@@ -812,8 +812,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "15/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  4.744,93 ",
+      "Valor Final Pago": " R$  4.744,93 "
     },
     {
       "Data Sincronismo": "11/09/2025",
@@ -822,8 +822,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "16/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  2.000,00 "
     },
     {
       "Data Sincronismo": "12/09/2025",
@@ -832,8 +832,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "23/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  657,31 ",
+      "Valor Final Pago": " R$  657,31 "
     },
     {
       "Data Sincronismo": "15/09/2025",
@@ -842,8 +842,8 @@
       "Status": "Autorizado",
       "Data de retorno - GS": "18/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.439,39 ",
+      "Valor Final Pago": " R$  3.439,39 "
     },
     {
       "Data Sincronismo": "15/09/2025",
@@ -852,8 +852,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "18/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "15/09/2025",
@@ -862,8 +862,8 @@
       "Status": "Autorizado",
       "Data de retorno - GS": "18/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  10.970,00 ",
+      "Valor Final Pago": " R$  10.970,00 "
     },
     {
       "Data Sincronismo": "15/09/2025",
@@ -872,8 +872,8 @@
       "Status": "Em analise",
       "Data de retorno - GS": "18/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "15/09/2025",
@@ -882,8 +882,8 @@
       "Status": "Finalizado",
       "Data de retorno - GS": "18/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "16/09/2025",
@@ -892,8 +892,8 @@
       "Status": "Autorizado",
       "Data de retorno - GS": "19/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  6.074,46 ",
+      "Valor Final Pago": " R$  6.074,46 "
     },
     {
       "Data Sincronismo": "17/09/2025",
@@ -902,8 +902,8 @@
       "Status": "Em analise",
       "Data de retorno - GS": "22/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "19/09/2025",
@@ -912,8 +912,8 @@
       "Status": "Em analise",
       "Data de retorno - GS": "24/09/2025",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "25/08/2025",
@@ -922,8 +922,8 @@
       "Status": "Autorizado",
       "Data de retorno - GS": "28/08/2025",
       "Dias de retorno": "3",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  3.781,00 ",
+      "Valor Final Pago": " R$  5.781,00 "
     },
     {
       "Data Sincronismo": "",
@@ -932,8 +932,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -942,8 +942,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -952,8 +952,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -962,8 +962,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -972,8 +972,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -982,8 +982,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -992,8 +992,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1002,8 +1002,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1012,8 +1012,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1022,8 +1022,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1032,8 +1032,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1042,8 +1042,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1052,8 +1052,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1062,8 +1062,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1072,8 +1072,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1082,8 +1082,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1092,8 +1092,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1102,8 +1102,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1112,8 +1112,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1122,8 +1122,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1132,8 +1132,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1142,8 +1142,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1152,8 +1152,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1162,8 +1162,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1172,8 +1172,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  -   ",
+      "Valor Final Pago": " R$  -   "
     },
     {
       "Data Sincronismo": "",
@@ -1182,8 +1182,8 @@
       "Status": "",
       "Data de retorno - GS": "",
       "Dias de retorno": "",
-      "Vl Aprovado inicial": "",
-      "Valor Final Pago": ""
+      "Vl Aprovado inicial": " R$  384.848,29 ",
+      "Valor Final Pago": " R$  558.069,14 "
     }
   ],
   "processos_completos": [
@@ -3881,7 +3881,7 @@
   ],
   "analysis": {
     "total_processos": 117,
-    "ultima_atualizacao": "2025-10-08T13:35:02.003060",
+    "ultima_atualizacao": "2025-10-08T13:47:32.502926",
     "status_distribution": {
       "Cancelado": 2,
       "Finalizado": 76,

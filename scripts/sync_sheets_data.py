@@ -18,6 +18,7 @@ SHEET_NAME = "Todos processos"
 OUTPUT_FILE = "data/processos.json"
 
 # Colunas específicas que devem ser exibidas (nome exato na planilha)
+# IMPORTANTE: Alguns nomes têm espaços extras no início/fim!
 COLUNAS_EXIBIR = [
     "Data Sincronismo",
     "Protocolo GS",
@@ -25,9 +26,21 @@ COLUNAS_EXIBIR = [
     "Status",
     "Data de retorno - GS",
     "Dias de retorno",
-    "Vl Aprovado inicial",
-    "Valor Final Pago"
+    " Vl Aprovado inicial ",  # Tem espaços extras!
+    " Valor Final Pago "       # Tem espaços extras!
 ]
+
+# Mapeamento para nomes limpos (sem espaços) para exibição
+COLUNAS_DISPLAY = {
+    "Data Sincronismo": "Data Sincronismo",
+    "Protocolo GS": "Protocolo GS",
+    "Placa": "Placa",
+    "Status": "Status",
+    "Data de retorno - GS": "Data de retorno - GS",
+    "Dias de retorno": "Dias de retorno",
+    " Vl Aprovado inicial ": "Vl Aprovado inicial",
+    " Valor Final Pago ": "Valor Final Pago"
+}
 
 def fetch_sheet_data():
     """
@@ -72,17 +85,19 @@ def parse_csv_data(csv_data):
         cleaned_row = {k: v.strip('"') for k, v in row.items()}
         processos_completos.append(cleaned_row)
         
-        # Filtrar apenas as colunas específicas
+        # Filtrar apenas as colunas específicas e renomear para nomes limpos
         processo_filtrado = {}
-        for coluna in COLUNAS_EXIBIR:
-            processo_filtrado[coluna] = cleaned_row.get(coluna, '')
+        for coluna_original in COLUNAS_EXIBIR:
+            coluna_limpa = COLUNAS_DISPLAY[coluna_original]
+            processo_filtrado[coluna_limpa] = cleaned_row.get(coluna_original, '')
         
         processos_filtrados.append(processo_filtrado)
     
     print(f"✅ {len(processos_filtrados)} processos encontrados")
     print(f"📋 Colunas exibidas: {len(COLUNAS_EXIBIR)}")
     for i, coluna in enumerate(COLUNAS_EXIBIR, 1):
-        print(f"   {i}. {coluna}")
+        coluna_display = COLUNAS_DISPLAY[coluna]
+        print(f"   {i}. {coluna_display}")
     
     return processos_completos, processos_filtrados
 
@@ -190,12 +205,15 @@ def save_data(processos_filtrados, processos_completos, analysis):
     """
     print(f"💾 Salvando dados em {OUTPUT_FILE}...")
     
+    # Usar nomes limpos para metadata
+    colunas_display = [COLUNAS_DISPLAY[col] for col in COLUNAS_EXIBIR]
+    
     output = {
         "metadata": {
             "ultima_atualizacao": datetime.now().isoformat(),
             "total_processos": len(processos_filtrados),
             "fonte": f"Google Sheets - {SHEET_NAME}",
-            "colunas_exibidas": COLUNAS_EXIBIR
+            "colunas_exibidas": colunas_display
         },
         "processos": processos_filtrados,
         "processos_completos": processos_completos,
