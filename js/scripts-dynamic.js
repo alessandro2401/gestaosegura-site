@@ -1,20 +1,17 @@
 // Variável global para armazenar a instância da integração
-let sheetsIntegration;
+let dataLoader;
 let chartsInstances = {};
 
-// ID da planilha do Google Sheets
-const SPREADSHEET_ID = '1X0zBNRqsqUSh1roe2svI5JrkY-AeKCM941JRDKWsizw';
-
 document.addEventListener('DOMContentLoaded', async function() {
-  // Inicializar integração com Google Sheets
-  sheetsIntegration = new SheetsIntegration(SPREADSHEET_ID);
+  // Inicializar carregador de dados
+  dataLoader = new DataLoader();
   
   // Mostrar indicador de carregamento
   showLoadingIndicator();
   
   try {
     // Carregar dados da planilha
-    await sheetsIntegration.loadData();
+    await dataLoader.loadData();
     
     // Atualizar gráficos com dados reais
     updateChartsWithRealData();
@@ -40,8 +37,8 @@ document.addEventListener('DOMContentLoaded', async function() {
  * Atualiza os gráficos com dados reais da planilha
  */
 function updateChartsWithRealData() {
-  const statusData = sheetsIntegration.getStatusChartData();
-  const temporalData = sheetsIntegration.getTemporalChartData();
+  const statusData = dataLoader.getStatusChartData();
+  const temporalData = dataLoader.getTemporalChartData();
   
   if (statusData) {
     updateStatusChart(statusData);
@@ -796,7 +793,7 @@ function initializePageFeatures() {
  * Atualiza informação de última atualização
  */
 function updateLastUpdateInfo() {
-  const lastUpdate = sheetsIntegration.getLastUpdate();
+  const lastUpdate = dataLoader.getLastUpdate();
   if (!lastUpdate) return;
   
   const updateBadge = document.querySelector('.update-badge');
@@ -850,12 +847,12 @@ function showErrorMessage(message) {
 
 // Função para recarregar dados (pode ser chamada manualmente)
 async function reloadSheetData() {
-  if (!sheetsIntegration) return;
+  if (!dataLoader) return;
   
   showLoadingIndicator();
   
   try {
-    await sheetsIntegration.loadData();
+    await dataLoader.loadData();
     updateChartsWithRealData();
     updateLastUpdateInfo();
     hideLoadingIndicator();
