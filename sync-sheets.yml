@@ -1,0 +1,53 @@
+name: Sincronizar Dados do Google Sheets
+
+on:
+  schedule:
+    # Executar todos os dias às 09:00 UTC (06:00 Brasília)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Permitir execução manual
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Sincronizar dados da planilha
+        run: |
+          cd $GITHUB_WORKSPACE
+          python scripts/sync_sheets_data.py
+      
+      - name: Verificar se houve alterações
+        id: verify_diff
+        run: |
+          git diff --quiet data/processos.json || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit e push das alterações
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/processos.json
+          git commit -m "🔄 Atualização automática dos dados - $(date +'%d/%m/%Y %H:%M')"
+          git push
+      
+      - name: Notificar sucesso
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          echo "✅ Dados sincronizados com sucesso!"
+          echo "📅 Data: $(date +'%d/%m/%Y %H:%M:%S')"
+      
+      - name: Notificar sem alterações
+        if: steps.verify_diff.outputs.changed != 'true'
+        run: |
+          echo "ℹ️  Nenhuma alteração nos dados"
+          echo "📅 Data: $(date +'%d/%m/%Y %H:%M:%S')"
