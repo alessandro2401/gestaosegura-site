@@ -14,14 +14,14 @@
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=20251007-002">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
   
   <!-- Script para remover badges injetadas por extensões -->
-  <script src="js/remove-badges.js"></script>
+  <script src="js/remove-badges.js?v=20251007-002"></script>
   
   <!-- Script para melhorar visualização de gráficos -->
-  <script src="js/improve-charts.js"></script>
+  <script src="js/improve-charts.js?v=20251007-002"></script>
 </head>
 <body>
   <!-- Header -->
@@ -843,7 +843,39 @@
   </a>
 
   <!-- Scripts de integração com Google Sheets -->
-  <script src="js/sheets-integration.js?v=1759884296"></script>
-  <script src="js/scripts-dynamic.js?v=1759884296"></script>
+  <script src="js/sheets-integration.js?v=20251007-002"></script>
+  <script src="js/scripts-dynamic.js?v=20251007-002"></script>
+  
+  <!-- Script para forçar limpeza de cache -->
+  <script>
+    // Força reload dos scripts se a versão mudou
+    (function() {
+      const currentVersion = '20251007-002';
+      const storedVersion = localStorage.getItem('gs-script-version');
+      
+      if (storedVersion !== currentVersion) {
+        console.log('Nova versão detectada, limpando cache...');
+        localStorage.setItem('gs-script-version', currentVersion);
+        
+        // Limpar cache do service worker se existir
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+              registration.unregister();
+            }
+          });
+        }
+        
+        // Limpar cache do navegador
+        if ('caches' in window) {
+          caches.keys().then(function(names) {
+            for (let name of names) {
+              caches.delete(name);
+            }
+          });
+        }
+      }
+    })();
+  </script>
 </body>
 </html>

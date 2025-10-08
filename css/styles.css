@@ -222,9 +222,10 @@ section {
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  padding: 40px;
-  margin-bottom: 40px;
+  padding: 45px;
+  margin-bottom: 45px;
   transition: all 0.3s ease;
+  position: relative;
 }
 
 .chart-container:hover {
@@ -233,21 +234,28 @@ section {
 }
 
 .chart-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: #1a5276;
-  margin-bottom: 25px;
-  padding-bottom: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 18px;
   border-bottom: 3px solid #e8f4f8;
   text-align: center;
+  letter-spacing: -0.3px;
 }
 
 /* Melhorar visualização dos canvas Chart.js */
 .chart-container canvas {
-  max-height: 450px !important;
-  min-height: 350px;
+  max-height: 500px !important;
+  min-height: 400px;
   margin: 0 auto;
   display: block;
+  cursor: pointer;
+}
+
+/* Adicionar indicador de interatividade */
+.chart-container canvas:hover {
+  opacity: 0.95;
 }
 
 .chart-image {

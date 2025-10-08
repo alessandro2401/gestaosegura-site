@@ -112,23 +112,35 @@ function updateStatusChart(statusData) {
         data: statusData.data,
         backgroundColor: backgroundColors,
         borderColor: borderColorsList,
-        borderWidth: 2
+        borderWidth: 3
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      layout: {
+        padding: {
+          top: 20,
+          bottom: 20,
+          left: 20,
+          right: 20
+        }
+      },
       plugins: {
         legend: {
           position: 'bottom',
           labels: {
-            padding: 20,
+            padding: 25,
             font: {
-              size: 14,
-              weight: '500'
+              size: 16,
+              weight: '600',
+              family: "'Roboto', sans-serif"
             },
+            color: '#2c3e50',
             usePointStyle: true,
             pointStyle: 'circle',
+            boxWidth: 20,
+            boxHeight: 20,
             generateLabels: function(chart) {
               const data = chart.data;
               if (data.labels.length && data.datasets.length) {
@@ -150,16 +162,39 @@ function updateStatusChart(statusData) {
           }
         },
         tooltip: {
-          backgroundColor: 'rgba(0, 0, 0, 0.8)',
-          padding: 12,
-          titleFont: { size: 15, weight: 'bold' },
-          bodyFont: { size: 14 },
+          backgroundColor: 'rgba(44, 62, 80, 0.95)',
+          padding: 16,
+          titleFont: { 
+            size: 16, 
+            weight: 'bold',
+            family: "'Roboto', sans-serif"
+          },
+          bodyFont: { 
+            size: 15,
+            family: "'Roboto', sans-serif"
+          },
+          borderColor: 'rgba(255, 255, 255, 0.3)',
+          borderWidth: 1,
+          cornerRadius: 8,
+          displayColors: true,
+          boxWidth: 15,
+          boxHeight: 15,
+          boxPadding: 8,
           callbacks: {
+            title: function(context) {
+              return context[0].label || '';
+            },
             label: function(context) {
-              const label = context.label || '';
               const value = context.parsed || 0;
               const percentage = statusData.percentages[context.dataIndex];
-              return `${label}: ${value} processos (${percentage}%)`;
+              return [
+                `Total: ${value} processos`,
+                `Percentual: ${percentage}% do total`
+              ];
+            },
+            afterLabel: function(context) {
+              const total = statusData.total;
+              return `\nBase: ${total} processos`;
             }
           }
         }
@@ -223,17 +258,110 @@ function updateStatusEvolutionChart(temporalData) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      layout: {
+        padding: {
+          top: 10,
+          bottom: 10,
+          left: 10,
+          right: 10
+        }
+      },
       scales: {
         x: {
-          stacked: true
+          stacked: true,
+          grid: {
+            display: false
+          },
+          ticks: {
+            font: {
+              size: 14,
+              weight: '500',
+              family: "'Roboto', sans-serif"
+            },
+            color: '#2c3e50'
+          }
         },
         y: {
           stacked: true,
           beginAtZero: true,
           max: 100,
+          grid: {
+            color: 'rgba(0, 0, 0, 0.05)',
+            lineWidth: 1
+          },
+          ticks: {
+            font: {
+              size: 14,
+              weight: '500',
+              family: "'Roboto', sans-serif"
+            },
+            color: '#2c3e50',
+            callback: function(value) {
+              return value + '%';
+            }
+          },
           title: {
             display: true,
-            text: 'Percentual (%)'
+            text: 'Percentual de Processos (%)',
+            font: {
+              size: 15,
+              weight: '600',
+              family: "'Roboto', sans-serif"
+            },
+            color: '#2c3e50',
+            padding: { top: 10, bottom: 10 }
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: {
+            padding: 20,
+            font: {
+              size: 15,
+              weight: '600',
+              family: "'Roboto', sans-serif"
+            },
+            color: '#2c3e50',
+            usePointStyle: true,
+            pointStyle: 'circle',
+            boxWidth: 15,
+            boxHeight: 15
+          }
+        },
+        tooltip: {
+          backgroundColor: 'rgba(44, 62, 80, 0.95)',
+          padding: 16,
+          titleFont: { 
+            size: 16, 
+            weight: 'bold',
+            family: "'Roboto', sans-serif"
+          },
+          bodyFont: { 
+            size: 15,
+            family: "'Roboto', sans-serif"
+          },
+          borderColor: 'rgba(255, 255, 255, 0.3)',
+          borderWidth: 1,
+          cornerRadius: 8,
+          displayColors: true,
+          boxWidth: 15,
+          boxHeight: 15,
+          boxPadding: 8,
+          callbacks: {
+            title: function(context) {
+              return `Mês: ${context[0].label}`;
+            },
+            label: function(context) {
+              const label = context.dataset.label || '';
+              const value = context.parsed.y || 0;
+              return `${label}: ${value}%`;
+            },
+            footer: function(context) {
+              const total = context.reduce((sum, item) => sum + item.parsed.y, 0);
+              return `\nTotal: ${total}%`;
+            }
           }
         }
       }
@@ -270,22 +398,130 @@ function updateImpactChart(temporalData) {
     data: {
       labels: temporalData.meses,
       datasets: [{
-        label: 'Tempo Médio de Processamento (dias)',
+        label: 'Tempo Médio de Processamento',
         data: temporalData.tempoMedio,
         backgroundColor: colors,
         borderColor: borderColors,
-        borderWidth: 1
+        borderWidth: 2,
+        borderRadius: 6
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      layout: {
+        padding: {
+          top: 10,
+          bottom: 10,
+          left: 10,
+          right: 10
+        }
+      },
       scales: {
+        x: {
+          grid: {
+            display: false
+          },
+          ticks: {
+            font: {
+              size: 14,
+              weight: '500',
+              family: "'Roboto', sans-serif"
+            },
+            color: '#2c3e50'
+          }
+        },
         y: {
           beginAtZero: true,
+          grid: {
+            color: 'rgba(0, 0, 0, 0.05)',
+            lineWidth: 1
+          },
+          ticks: {
+            font: {
+              size: 14,
+              weight: '500',
+              family: "'Roboto', sans-serif"
+            },
+            color: '#2c3e50',
+            callback: function(value) {
+              return value + ' dias';
+            }
+          },
           title: {
             display: true,
-            text: 'Dias'
+            text: 'Tempo Médio (dias)',
+            font: {
+              size: 15,
+              weight: '600',
+              family: "'Roboto', sans-serif"
+            },
+            color: '#2c3e50',
+            padding: { top: 10, bottom: 10 }
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          display: true,
+          position: 'top',
+          labels: {
+            padding: 20,
+            font: {
+              size: 15,
+              weight: '600',
+              family: "'Roboto', sans-serif"
+            },
+            color: '#2c3e50',
+            usePointStyle: true,
+            pointStyle: 'circle',
+            boxWidth: 15,
+            boxHeight: 15
+          }
+        },
+        tooltip: {
+          backgroundColor: 'rgba(44, 62, 80, 0.95)',
+          padding: 16,
+          titleFont: { 
+            size: 16, 
+            weight: 'bold',
+            family: "'Roboto', sans-serif"
+          },
+          bodyFont: { 
+            size: 15,
+            family: "'Roboto', sans-serif"
+          },
+          borderColor: 'rgba(255, 255, 255, 0.3)',
+          borderWidth: 1,
+          cornerRadius: 8,
+          displayColors: true,
+          boxWidth: 15,
+          boxHeight: 15,
+          boxPadding: 8,
+          callbacks: {
+            title: function(context) {
+              return `Mês: ${context[0].label}`;
+            },
+            label: function(context) {
+              const value = context.parsed.y || 0;
+              return `Tempo médio: ${value} dias`;
+            },
+            afterLabel: function(context) {
+              const idx = context.dataIndex;
+              if (idx === temporalData.tempoMedio.length - 1) {
+                const prevValue = temporalData.tempoMedio[idx - 1] || 0;
+                const currentValue = context.parsed.y || 0;
+                const diff = currentValue - prevValue;
+                const percentChange = prevValue > 0 ? Math.round((diff / prevValue) * 100) : 0;
+                
+                if (diff > 0) {
+                  return `\n⚠️ Aumento de ${diff} dias (${percentChange}%)`;
+                } else if (diff < 0) {
+                  return `\n✓ Redução de ${Math.abs(diff)} dias (${Math.abs(percentChange)}%)`;
+                }
+              }
+              return '';
+            }
           }
         }
       }
