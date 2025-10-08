@@ -1,10 +1,1192 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2025-10-08T12:27:51.174666",
+    "ultima_atualizacao": "2025-10-08T13:35:02.003615",
     "total_processos": 117,
-    "fonte": "Google Sheets - Todos processos"
+    "fonte": "Google Sheets - Todos processos",
+    "colunas_exibidas": [
+      "Data Sincronismo",
+      "Protocolo GS",
+      "Placa",
+      "Status",
+      "Data de retorno - GS",
+      "Dias de retorno",
+      "Vl Aprovado inicial",
+      "Valor Final Pago"
+    ]
   },
   "processos": [
+    {
+      "Data Sincronismo": "10/06/2025",
+      "Protocolo GS": "A202506S02I 48605-0MM",
+      "Placa": "NPH0C62",
+      "Status": "Cancelado",
+      "Data de retorno - GS": "13/06/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "11/06/2025",
+      "Protocolo GS": "A202506S04I 3471-3MM",
+      "Placa": "SCN6J84",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "16/06/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "11/06/2025",
+      "Protocolo GS": "A202506S02I 48605-0MM",
+      "Placa": "SCR5J47",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "16/06/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "11/06/2025",
+      "Protocolo GS": "A202506S08I 31950-3MM",
+      "Placa": "RCD2A19",
+      "Status": "Cancelado",
+      "Data de retorno - GS": "16/06/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "11/06/2025",
+      "Protocolo GS": "A202506S06I 31950-3MM",
+      "Placa": "SCD1H14",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "16/06/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "12/06/2025",
+      "Protocolo GS": "A202506S05I 31950-0MM",
+      "Placa": "QWT3A37",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "17/06/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "13/06/2025",
+      "Protocolo GS": "A202506S07I 38106-0MM",
+      "Placa": "OVC0E88",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "18/06/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "03/07/2025",
+      "Protocolo GS": "A202507S02I 28191-3MM",
+      "Placa": "EPZ4I62",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "08/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "03/07/2025",
+      "Protocolo GS": "A202507S04I 13206-3MM ",
+      "Placa": "TFB6E11",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "08/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "04/07/2025",
+      "Protocolo GS": "A202507S06I 43811-3MM",
+      "Placa": "PRD1A20",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "09/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S07I 5745-0MM",
+      "Placa": "QBN4J70",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "5",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S08I 5745-3MM",
+      "Placa": "FQJ6B75",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S17I 5745-3MM",
+      "Placa": "TDJ1D60",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S19I 16974-3MM",
+      "Placa": "PZR7858 ",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "9",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S09I 7699-0MM",
+      "Placa": "OGU7796",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S10I 7699-3MM",
+      "Placa": "RBT6F85",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S14I 36627-3MM",
+      "Placa": "PTY3B33",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S11I 12345-0MM",
+      "Placa": "OMX5F20",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "15",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/07/2025",
+      "Protocolo GS": "A202507S12I 12345-3MM",
+      "Placa": "SSN9J37",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/07/2025",
+      "Dias de retorno": "2",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "21/07/2025",
+      "Protocolo GS": "A202507S27I 13257-0MM",
+      "Placa": "OGY9H30",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "24/07/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "22/07/2025",
+      "Protocolo GS": "A202507S43I 19654-0MM",
+      "Placa": "SIX9F09",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "25/07/2025",
+      "Dias de retorno": "15",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "30/07/2025",
+      "Protocolo GS": "A202507S53I 29234-0MM",
+      "Placa": "SBZ7H51",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "04/08/2025",
+      "Dias de retorno": "13",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "30/07/2025",
+      "Protocolo GS": "A202507S56I 25339-0MM",
+      "Placa": "ONV6579",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "04/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "30/07/2025",
+      "Protocolo GS": "A202507S57I 25339-3MM",
+      "Placa": "JUV7683",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "04/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "30/07/2025",
+      "Protocolo GS": "A202507S54I 27642-0MM",
+      "Placa": "PRS2100",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "04/08/2025",
+      "Dias de retorno": "7",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "31/07/2025",
+      "Protocolo GS": "A202507S59I 31945-0MM",
+      "Placa": "OJN9B18 ",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "05/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "04/08/2025",
+      "Protocolo GS": "A202508S01I 37418-0MM",
+      "Placa": "RCN4E67",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "07/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "04/08/2025",
+      "Protocolo GS": "A202508S02I 37427-0MM",
+      "Placa": "PQJ9I63",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "07/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "05/08/2025",
+      "Protocolo GS": "A202508S06I 34104-0MM",
+      "Placa": "RRO6C79",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "08/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "05/08/2025",
+      "Protocolo GS": "A202508S03I 31550-0MM",
+      "Placa": "REC3B68 ",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "08/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "05/08/2025",
+      "Protocolo GS": "A202508S04I 35747-0MM",
+      "Placa": "OAP7I66",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "08/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "05/08/2025",
+      "Protocolo GS": "A202508S07I 34104-3MM",
+      "Placa": "OBA9G69",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "08/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "06/08/2025",
+      "Protocolo GS": "A202508S11I 19004-3MM",
+      "Placa": "GKE2D49 ",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "11/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "06/08/2025",
+      "Protocolo GS": "A202508S16I 29253-0MM",
+      "Placa": "PRV2D90",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "11/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "06/08/2025",
+      "Protocolo GS": "A202508S18I 29464-0MM",
+      "Placa": "PBI8482",
+      "Status": "Em analise",
+      "Data de retorno - GS": "11/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "06/08/2025",
+      "Protocolo GS": "A202508S17I 9459-0MM",
+      "Placa": "NYY5032",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "11/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "06/08/2025",
+      "Protocolo GS": "A202508S09I 23648-3MM",
+      "Placa": "PHN0B19",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "11/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "07/08/2025",
+      "Protocolo GS": "A202508S19I 18004-0MM",
+      "Placa": "NKW8149",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "12/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "08/08/2025",
+      "Protocolo GS": "A202508S20I 37245-0MM",
+      "Placa": "QSC5C27 ",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "13/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "08/08/2025",
+      "Protocolo GS": "A202508S22I 18683-0MM",
+      "Placa": "PQQ4F81",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "13/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "08/08/2025",
+      "Protocolo GS": "A202508S21I 37245-3MM",
+      "Placa": "QFW8194 ",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "13/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "11/08/2025",
+      "Protocolo GS": "A202508S27I 7928-3MM",
+      "Placa": "SGZ4J52",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "14/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "11/08/2025",
+      "Protocolo GS": "A202508S23I 14727-0MM",
+      "Placa": "OMN3B62",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "14/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "11/08/2025",
+      "Protocolo GS": "A202508S25I 25602-3MM",
+      "Placa": "JIA5D23",
+      "Status": "Autorizado",
+      "Data de retorno - GS": "14/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "14/08/2025",
+      "Protocolo GS": "A202508S31I 14318-3MM",
+      "Placa": "POU5F83",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "19/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "14/08/2025",
+      "Protocolo GS": "A202508S29I 37377-0MM",
+      "Placa": "OEG5512 ",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "19/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "14/08/2025",
+      "Protocolo GS": "A202508S28I 29706-0MM",
+      "Placa": "QNA9G96",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "19/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/08/2025",
+      "Protocolo GS": "A202508S33I 33685-0MM",
+      "Placa": "PRP1732",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "20/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/08/2025",
+      "Protocolo GS": "A202508S34I 32582-0MM",
+      "Placa": "PQI8G30",
+      "Status": "Autorizado",
+      "Data de retorno - GS": "20/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/08/2025",
+      "Protocolo GS": "A202508S35I 18355-0MM",
+      "Placa": "NQO9D34",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "20/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/08/2025",
+      "Protocolo GS": "A202508S32I 8117-0MM",
+      "Placa": "ONH9046",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "20/08/2025",
+      "Dias de retorno": "17",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "18/08/2025",
+      "Protocolo GS": "A202508S37I 3618-MM",
+      "Placa": "OMI9D38",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "21/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "18/08/2025",
+      "Protocolo GS": "A202508S36I 12560-MM",
+      "Placa": "NLE8880",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "21/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "18/08/2025",
+      "Protocolo GS": "A202508S38I 36654-0MM",
+      "Placa": "PQD6I03",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "21/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "19/08/2025",
+      "Protocolo GS": "A202508S39I 36776-0MM",
+      "Placa": "NLZ5809",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "22/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "20/08/2025",
+      "Protocolo GS": "A202508S40I 30619-MM",
+      "Placa": "NKQ7707",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "25/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "20/08/2025",
+      "Protocolo GS": "A202508S41I 3628-MM",
+      "Placa": "RCI9E98",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "25/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "21/08/2025",
+      "Protocolo GS": " A202508S44I 34601-0MM",
+      "Placa": "JHX5C32",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "26/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "22/08/2025",
+      "Protocolo GS": "A202508S45I 35674-0MM",
+      "Placa": "SBY7I84",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "27/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "25/08/2025",
+      "Protocolo GS": "A202508S48I 31466-3MM",
+      "Placa": "QCZ6975",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "28/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "25/08/2025",
+      "Protocolo GS": "A202508S46I 32722-0MM ",
+      "Placa": "PQD3E91",
+      "Status": "Em analise",
+      "Data de retorno - GS": "28/08/2025",
+      "Dias de retorno": "17",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "26/08/2025",
+      "Protocolo GS": "A202508S52I 36019-0MM",
+      "Placa": "GAB7723",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "29/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "26/08/2025",
+      "Protocolo GS": "A202508S54I 18493-3MM",
+      "Placa": "PXM1C38",
+      "Status": "Em analise",
+      "Data de retorno - GS": "29/08/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "27/08/2025",
+      "Protocolo GS": "A202508S57I 3620-MM",
+      "Placa": "SPP1F79",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "01/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "27/08/2025",
+      "Protocolo GS": "A202508S58I 11914-0MM",
+      "Placa": "ONN7642",
+      "Status": "Em analise",
+      "Data de retorno - GS": "01/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "27/08/2025",
+      "Protocolo GS": "A202508S58I 3625-MM",
+      "Placa": "KAD8J79",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "01/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "27/08/2025",
+      "Protocolo GS": "A202508S60I 31226-3MM",
+      "Placa": "RMF1H16",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "01/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "27/08/2025",
+      "Protocolo GS": "A202508S55I 35950-0MM",
+      "Placa": "SDL4C00 ",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "01/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "29/08/2025",
+      "Protocolo GS": "A202508S66I 37378-0MM",
+      "Placa": "PRF2F61",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "03/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "29/08/2025",
+      "Protocolo GS": "A202508S63I 12103-0MM",
+      "Placa": "PRA2F39",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "03/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "29/08/2025",
+      "Protocolo GS": "A202508S65I 12103-3MM",
+      "Placa": "QUJ9J78",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "03/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "29/08/2025",
+      "Protocolo GS": "A202508S64I 12103-3MM",
+      "Placa": "RCG1E20",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "03/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "29/08/2025",
+      "Protocolo GS": " A202508S62I 36891-3MM ",
+      "Placa": "SCE5E48",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "03/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "01/09/2025",
+      "Protocolo GS": "A202509S01I 11377-0MM",
+      "Placa": "ONG0009",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "04/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "01/09/2025",
+      "Protocolo GS": "A202509S02I 11377-3MM  ",
+      "Placa": "NVS1188",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "04/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "01/09/2025",
+      "Protocolo GS": "A202509S03I 35439-0MM",
+      "Placa": "OEO0F86",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "04/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "02/09/2025",
+      "Protocolo GS": " A202509S05I 35286-3MM",
+      "Placa": "PFR3I66",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "05/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "05/09/2025",
+      "Protocolo GS": "A202509S06I 36813-0MM",
+      "Placa": "QPL2E33",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "10/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "08/09/2025",
+      "Protocolo GS": "A202509S07I 11518-0MM",
+      "Placa": "NVO8199",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "11/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "10/09/2025",
+      "Protocolo GS": "A202509S09I 3653-MM",
+      "Placa": "QLZ2F49",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "15/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "11/09/2025",
+      "Protocolo GS": "A202509S11I 37094-3MM",
+      "Placa": "EWH2C75",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "16/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "12/09/2025",
+      "Protocolo GS": "A202509S13I 35059-3MM",
+      "Placa": "RBP1C14",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "23/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/09/2025",
+      "Protocolo GS": "A202509S15I 37365-3MM",
+      "Placa": "PQN3131",
+      "Status": "Autorizado",
+      "Data de retorno - GS": "18/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/09/2025",
+      "Protocolo GS": "A202509S17I 36627-3MM",
+      "Placa": "OVR3584",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "18/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/09/2025",
+      "Protocolo GS": "A202509S18I 33584-0MM ",
+      "Placa": "JEA0A56",
+      "Status": "Autorizado",
+      "Data de retorno - GS": "18/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/09/2025",
+      "Protocolo GS": "A202509S19I 33584-3MM ",
+      "Placa": "REV7C30",
+      "Status": "Em analise",
+      "Data de retorno - GS": "18/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "15/09/2025",
+      "Protocolo GS": "A202509S20I 21006-0MM",
+      "Placa": "NWD7A83",
+      "Status": "Finalizado",
+      "Data de retorno - GS": "18/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "16/09/2025",
+      "Protocolo GS": "A202509S22I 34669-0MM",
+      "Placa": "SDR4D82",
+      "Status": "Autorizado",
+      "Data de retorno - GS": "19/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "17/09/2025",
+      "Protocolo GS": "A202509S23I 31765-0MM",
+      "Placa": "RFG1F75",
+      "Status": "Em analise",
+      "Data de retorno - GS": "22/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "19/09/2025",
+      "Protocolo GS": "A202509S24I 30288-0MM",
+      "Placa": "PRZ2C09",
+      "Status": "Em analise",
+      "Data de retorno - GS": "24/09/2025",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "25/08/2025",
+      "Protocolo GS": "A202508S51I 14741-0MM",
+      "Placa": "OND7357",
+      "Status": "Autorizado",
+      "Data de retorno - GS": "28/08/2025",
+      "Dias de retorno": "3",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    },
+    {
+      "Data Sincronismo": "",
+      "Protocolo GS": "",
+      "Placa": "",
+      "Status": "",
+      "Data de retorno - GS": "",
+      "Dias de retorno": "",
+      "Vl Aprovado inicial": "",
+      "Valor Final Pago": ""
+    }
+  ],
+  "processos_completos": [
     {
       "Data Sincronismo": "10/06/2025",
       "Protocolo GS": "A202506S02I 48605-0MM",
@@ -2699,7 +3881,7 @@
   ],
   "analysis": {
     "total_processos": 117,
-    "ultima_atualizacao": "2025-10-08T12:27:51.174441",
+    "ultima_atualizacao": "2025-10-08T13:35:02.003060",
     "status_distribution": {
       "Cancelado": 2,
       "Finalizado": 76,
@@ -2737,6 +3919,11 @@
         "Autorizado": 3,
         "Em analise": 3
       }
+    },
+    "valores": {
+      "total_aprovado": 0.0,
+      "total_pago": 0.0,
+      "processos_com_valor": 117
     }
   }
 }

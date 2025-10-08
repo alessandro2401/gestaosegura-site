@@ -2,6 +2,7 @@
 """
 Script de sincronização de dados do Google Sheets
 Atualiza automaticamente os dados do site Gestão Segura com informações da planilha.
+Exibe apenas as colunas específicas solicitadas.
 """
 
 import csv
@@ -15,6 +16,18 @@ from collections import defaultdict
 SPREADSHEET_ID = "1X0zBNRqsqUSh1roe2svI5JrkY-AeKCM941JRDKWsizw"
 SHEET_NAME = "Todos processos"
 OUTPUT_FILE = "data/processos.json"
+
+# Colunas específicas que devem ser exibidas (nome exato na planilha)
+COLUNAS_EXIBIR = [
+    "Data Sincronismo",
+    "Protocolo GS",
+    "Placa",
+    "Status",
+    "Data de retorno - GS",
+    "Dias de retorno",
+    "Vl Aprovado inicial",
+    "Valor Final Pago"
+]
 
 def fetch_sheet_data():
     """
@@ -44,21 +57,34 @@ def fetch_sheet_data():
 
 def parse_csv_data(csv_data):
     """
-    Converte CSV em lista de dicionários
+    Converte CSV em lista de dicionários, filtrando apenas as colunas específicas
     """
     print("📊 Processando dados...")
     
     lines = csv_data.strip().split('\n')
     reader = csv.DictReader(lines)
     
-    processos = []
+    processos_completos = []
+    processos_filtrados = []
+    
     for row in reader:
         # Limpar aspas extras
         cleaned_row = {k: v.strip('"') for k, v in row.items()}
-        processos.append(cleaned_row)
+        processos_completos.append(cleaned_row)
+        
+        # Filtrar apenas as colunas específicas
+        processo_filtrado = {}
+        for coluna in COLUNAS_EXIBIR:
+            processo_filtrado[coluna] = cleaned_row.get(coluna, '')
+        
+        processos_filtrados.append(processo_filtrado)
     
-    print(f"✅ {len(processos)} processos encontrados")
-    return processos
+    print(f"✅ {len(processos_filtrados)} processos encontrados")
+    print(f"📋 Colunas exibidas: {len(COLUNAS_EXIBIR)}")
+    for i, coluna in enumerate(COLUNAS_EXIBIR, 1):
+        print(f"   {i}. {coluna}")
+    
+    return processos_completos, processos_filtrados
 
 def analyze_data(processos):
     """
@@ -72,13 +98,41 @@ def analyze_data(processos):
         "status_distribution": defaultdict(int),
         "processos_por_mes": defaultdict(int),
         "tempo_medio_por_mes": defaultdict(lambda: {"total": 0, "count": 0}),
-        "status_por_mes": defaultdict(lambda: defaultdict(int))
+        "status_por_mes": defaultdict(lambda: defaultdict(int)),
+        "valores": {
+            "total_aprovado": 0,
+            "total_pago": 0,
+            "processos_com_valor": 0
+        }
     }
     
     for processo in processos:
         # Análise de status
         status = processo.get('Status', 'Desconhecido')
         analysis["status_distribution"][status] += 1
+        
+        # Análise de valores
+        try:
+            valor_aprovado = processo.get('Vl Aprovado inicial', '0')
+            if valor_aprovado and valor_aprovado != '-':
+                # Remover R$, pontos e converter vírgula para ponto
+                valor_aprovado_limpo = valor_aprovado.replace('R$', '').replace('.', '').replace(',', '.').strip()
+                if valor_aprovado_limpo:
+                    valor_num = float(valor_aprovado_limpo)
+                    analysis["valores"]["total_aprovado"] += valor_num
+                    analysis["valores"]["processos_com_valor"] += 1
+        except (ValueError, TypeError):
+            pass
+        
+        try:
+            valor_pago = processo.get('Valor Final Pago', '0')
+            if valor_pago and valor_pago != '-':
+                valor_pago_limpo = valor_pago.replace('R$', '').replace('.', '').replace(',', '.').strip()
+                if valor_pago_limpo:
+                    valor_num = float(valor_pago_limpo)
+                    analysis["valores"]["total_pago"] += valor_num
+        except (ValueError, TypeError):
+            pass
         
         # Análise temporal
         data_sincronismo = processo.get('Data Sincronismo', '')
@@ -125,10 +179,12 @@ def analyze_data(processos):
     print(f"   - Total de processos: {analysis['total_processos']}")
     print(f"   - Status únicos: {len(analysis['status_distribution'])}")
     print(f"   - Meses com dados: {len(analysis['processos_por_mes'])}")
+    print(f"   - Valor total aprovado: R$ {analysis['valores']['total_aprovado']:,.2f}")
+    print(f"   - Valor total pago: R$ {analysis['valores']['total_pago']:,.2f}")
     
     return analysis
 
-def save_data(processos, analysis):
+def save_data(processos_filtrados, processos_completos, analysis):
     """
     Salva os dados em arquivo JSON
     """
@@ -137,10 +193,12 @@ def save_data(processos, analysis):
     output = {
         "metadata": {
             "ultima_atualizacao": datetime.now().isoformat(),
-            "total_processos": len(processos),
-            "fonte": f"Google Sheets - {SHEET_NAME}"
+            "total_processos": len(processos_filtrados),
+            "fonte": f"Google Sheets - {SHEET_NAME}",
+            "colunas_exibidas": COLUNAS_EXIBIR
         },
-        "processos": processos,
+        "processos": processos_filtrados,
+        "processos_completos": processos_completos,
         "analysis": analysis
     }
     
@@ -158,13 +216,13 @@ def main():
         csv_data = fetch_sheet_data()
         
         # Processar CSV
-        processos = parse_csv_data(csv_data)
+        processos_completos, processos_filtrados = parse_csv_data(csv_data)
         
-        # Analisar dados
-        analysis = analyze_data(processos)
+        # Analisar dados (usa dados completos para estatísticas)
+        analysis = analyze_data(processos_completos)
         
-        # Salvar
-        save_data(processos, analysis)
+        # Salvar (salva ambos: filtrados para exibição e completos para análise)
+        save_data(processos_filtrados, processos_completos, analysis)
         
         print()
         print("=" * 60)
