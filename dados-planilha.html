@@ -528,6 +528,7 @@
     </div>
 
     <script src="js/data-loader.js"></script>
+    <script src="js/sync-manager.js"></script>
     <script>
         // Estado da aplicação
         let allProcessos = [];
@@ -764,10 +765,90 @@
             }).format(value);
         }
 
+        // Obter timestamp atual dos dados
+        function getCurrentDataTimestamp() {
+            const lastUpdate = document.getElementById('last-update');
+            if (lastUpdate) {
+                const text = lastUpdate.textContent;
+                // Extrair timestamp do texto
+                return text;
+            }
+            return null;
+        }
+
+        // Função de atualização com sincronização
+        async function handleRefresh() {
+            const refreshBtn = document.getElementById('refresh-btn');
+            const originalText = refreshBtn.innerHTML;
+            
+            try {
+                // Desabilitar botão e mostrar loading
+                refreshBtn.disabled = true;
+                refreshBtn.innerHTML = '<span style="display: inline-block; animation: spin 1s linear infinite;">⏳</span> Atualizando...';
+                refreshBtn.style.opacity = '0.7';
+                refreshBtn.style.cursor = 'not-allowed';
+                
+                // Obter timestamp atual
+                const currentTimestamp = getCurrentDataTimestamp();
+                
+                // Criar instância do SyncManager
+                const syncManager = new SyncManager();
+                
+                // Executar sincronização
+                const result = await syncManager.sync(currentTimestamp);
+                
+                if (result.success) {
+                    if (result.noUpdate) {
+                        // Dados já estão atualizados
+                        refreshBtn.innerHTML = '✅ Dados atualizados!';
+                        
+                        setTimeout(() => {
+                            refreshBtn.innerHTML = originalText;
+                            refreshBtn.disabled = false;
+                            refreshBtn.style.opacity = '1';
+                            refreshBtn.style.cursor = 'pointer';
+                        }, 2000);
+                    } else {
+                        // Novos dados encontrados
+                        refreshBtn.innerHTML = '✅ Recarregando...';
+                        
+                        // Recarregar página para mostrar novos dados
+                        setTimeout(() => {
+                            location.reload();
+                        }, 1000);
+                    }
+                } else {
+                    // Mostrar erro
+                    refreshBtn.innerHTML = '⚠️ ' + (result.message || 'Erro ao atualizar');
+                    
+                    // Restaurar botão após 3 segundos
+                    setTimeout(() => {
+                        refreshBtn.innerHTML = originalText;
+                        refreshBtn.disabled = false;
+                        refreshBtn.style.opacity = '1';
+                        refreshBtn.style.cursor = 'pointer';
+                    }, 3000);
+                }
+            } catch (error) {
+                console.error('Erro ao sincronizar:', error);
+                
+                // Mostrar erro
+                refreshBtn.innerHTML = '❌ Erro ao atualizar';
+                
+                // Restaurar botão após 3 segundos
+                setTimeout(() => {
+                    refreshBtn.innerHTML = originalText;
+                    refreshBtn.disabled = false;
+                    refreshBtn.style.opacity = '1';
+                    refreshBtn.style.cursor = 'pointer';
+                }, 3000);
+            }
+        }
+
         // Event listeners
         document.getElementById('search-input').addEventListener('input', filterData);
         document.getElementById('status-filter').addEventListener('change', filterData);
-        document.getElementById('refresh-btn').addEventListener('click', () => location.reload());
+        document.getElementById('refresh-btn').addEventListener('click', handleRefresh);
         
         // Paginação
         document.getElementById('first-page').addEventListener('click', () => {
