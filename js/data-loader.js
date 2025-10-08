@@ -212,6 +212,24 @@ class DataLoader {
       rawData: this.analysis
     };
   }
+
+  /**
+   * Retorna data da última atualização formatada
+   */
+  getLastUpdate() {
+    if (!this.metadata || !this.metadata.ultima_atualizacao) {
+      return 'Data não disponível';
+    }
+    
+    const date = new Date(this.metadata.ultima_atualizacao);
+    return date.toLocaleString('pt-BR', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+  }
 }
 
 // Exportar para uso global
