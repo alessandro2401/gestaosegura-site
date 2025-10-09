@@ -22,6 +22,7 @@ OUTPUT_FILE = "data/processos.json"
 COLUNAS_EXIBIR = [
     "Data Sincronismo",
     "Protocolo GS",
+    "Nome",
     "Placa",
     "Status",
     "Data de retorno - GS",
@@ -34,6 +35,7 @@ COLUNAS_EXIBIR = [
 COLUNAS_DISPLAY = {
     "Data Sincronismo": "Data Sincronismo",
     "Protocolo GS": "Protocolo GS",
+    "Nome": "Nome",
     "Placa": "Placa",
     "Status": "Status",
     "Data de retorno - GS": "Data de retorno - GS",
@@ -205,18 +207,39 @@ def save_data(processos_filtrados, processos_completos, analysis):
     """
     print(f"💾 Salvando dados em {OUTPUT_FILE}...")
     
+    # Filtrar linhas vazias (sem protocolo)
+    processos_validos = [p for p in processos_filtrados if p.get('Protocolo GS', '').strip()]
+    processos_completos_validos = [p for p in processos_completos if p.get('Protocolo GS', '').strip()]
+    
+    # Contar processos únicos por combinação Protocolo + Nome
+    combinacoes_unicas = set()
+    for p in processos_validos:
+        protocolo = p.get('Protocolo GS', '').strip()
+        nome = p.get('Nome', '').strip()
+        if protocolo and nome:
+            combinacoes_unicas.add((protocolo, nome))
+    
+    total_processos_unicos = len(combinacoes_unicas)
+    
+    print(f"📊 Filtro aplicado:")
+    print(f"   - Registros totais: {len(processos_filtrados)}")
+    print(f"   - Registros válidos (com protocolo): {len(processos_validos)}")
+    print(f"   - Processos únicos (Protocolo + Nome): {total_processos_unicos}")
+    
     # Usar nomes limpos para metadata
     colunas_display = [COLUNAS_DISPLAY[col] for col in COLUNAS_EXIBIR]
     
     output = {
         "metadata": {
             "ultima_atualizacao": datetime.now().isoformat(),
-            "total_processos": len(processos_filtrados),
+            "total_processos": total_processos_unicos,
+            "total_registros": len(processos_validos),
             "fonte": f"Google Sheets - {SHEET_NAME}",
-            "colunas_exibidas": colunas_display
+            "colunas_exibidas": colunas_display,
+            "observacao": "Total de processos únicos considerando combinação Protocolo GS + Nome"
         },
-        "processos": processos_filtrados,
-        "processos_completos": processos_completos,
+        "processos": processos_validos,
+        "processos_completos": processos_completos_validos,
         "analysis": analysis
     }
     
