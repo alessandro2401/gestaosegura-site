@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2025-10-10T08:29:03.504833",
-    "total_processos": 93,
+    "ultima_atualizacao": "2025-10-10T08:33:01.317139",
+    "total_processos": 91,
     "fonte": "Google Sheets - Sincronização Manual",
-    "versao": "2.0"
+    "versao": "2.1"
   },
   "processos": [
     {
@@ -2007,63 +2007,18 @@
       " Valor Final Pago ": "R$  -",
       "Dias TT": "0",
       "Obs sobre os processos": "Solicitado para a oficina dia 24/09 mais fotos de algumas peças listadas, porém, ate o momento sem retorno desta, ainda não recebemos a regulação."
-    },
-    {
-      "Data Sincronismo": "TOTAIS",
-      "Protocolo GS": "",
-      "Nome": "",
-      "Placa": "",
-      "Status": "",
-      "Data de retorno - GS": "",
-      "Retornado": "",
-      "Dias de retorno": "#VALUE!",
-      " Vl Orçamento Oficina ": "R$  1.367.089,78",
-      " Vl Regulação- GS ": "R$  575.628,44",
-      " Vl Aprovado inicial ": "R$  932.468,08",
-      "Data envio comp.": "",
-      "Dia de retorno": "",
-      "Retornado - GS": "",
-      " Vl Ap. Complementar ": "R$  62.442,99",
-      " Vl Acordo Aceito ": "R$  63.208,72",
-      " Vl Contraproposta ": "R$  129.809,45",
-      " Valor Final Pago ": "R$  730.919,07",
-      "Dias TT": "",
-      "Obs sobre os processos": ""
-    },
-    {
-      "Data Sincronismo": "",
-      "Protocolo GS": "",
-      "Nome": "",
-      "Placa": "",
-      "Status": "",
-      "Data de retorno - GS": "",
-      "Retornado": "",
-      "Dias de retorno": "",
-      " Vl Orçamento Oficina ": "",
-      " Vl Regulação- GS ": "",
-      " Vl Aprovado inicial ": "",
-      "Data envio comp.": "",
-      "Dia de retorno": "",
-      "Retornado - GS": "",
-      " Vl Ap. Complementar ": "",
-      " Vl Acordo Aceito ": "",
-      " Vl Contraproposta ": "",
-      " Valor Final Pago ": "R$  4.796,76",
-      "Dias TT": "",
-      "Obs sobre os processos": ""
     }
   ],
   "analysis": {
-    "total_processos": 93,
+    "total_processos": 91,
     "finalizados": 75,
     "cancelados": 3,
-    "em_andamento": 15,
+    "em_andamento": 13,
     "status_distribution": {
       "Cancelado": 3,
       "Finalizado": 75,
       "Em analise": 5,
-      "Autorizado": 8,
-      "": 2
+      "Autorizado": 8
     },
     "processos_por_mes": {
       "2025-06": 7,
