@@ -575,7 +575,7 @@
             let valorTotalAprovado = 0;
             let countAprovado = 0;
             allProcessos.forEach(p => {
-                const valor = parseValor(p['Vl Aprovado inicial']);
+                const valor = parseValor(p[' Vl Aprovado inicial ']);
                 if (!isNaN(valor) && valor > 0) {
                     valorTotalAprovado += valor;
                     countAprovado++;
@@ -586,7 +586,7 @@
             let valorTotalPago = 0;
             let countPago = 0;
             allProcessos.forEach(p => {
-                const valor = parseValor(p['Valor Final Pago']);
+                const valor = parseValor(p[' Valor Final Pago ']);
                 if (!isNaN(valor) && valor > 0) {
                     valorTotalPago += valor;
                     countPago++;
@@ -647,8 +647,8 @@
                     </td>
                     <td>${processo['Data de retorno - GS'] || '-'}</td>
                     <td style="text-align: center;">${processo['Dias de retorno'] || '-'}</td>
-                    <td class="valor">${formatValue(processo['Vl Aprovado inicial'])}</td>
-                    <td class="valor">${formatValue(processo['Valor Final Pago'])}</td>
+                    <td class="valor">${formatValue(processo[' Vl Aprovado inicial '])}</td>
+                    <td class="valor">${formatValue(processo[' Valor Final Pago '])}</td>
                 </tr>
             `).join('');
             
