@@ -527,17 +527,29 @@
                         <tr>
                             <th class="sortable" data-column="Data Sincronismo">Data Sincronismo</th>
                             <th class="sortable" data-column="Protocolo GS">Protocolo GS</th>
+                            <th class="sortable" data-column="Nome">Nome</th>
                             <th class="sortable" data-column="Placa">Placa</th>
                             <th class="sortable" data-column="Status">Status</th>
                             <th class="sortable" data-column="Data de retorno - GS">Data de Retorno</th>
+                            <th class="sortable" data-column="Retornado">Retornado</th>
                             <th class="sortable" data-column="Dias de retorno">Dias de Retorno</th>
+                            <th class="sortable" data-column="Vl Orçamento Oficina">Vl Orçamento Oficina</th>
+                            <th class="sortable" data-column="Vl Regulação GS">Vl Regulação GS</th>
                             <th class="sortable" data-column="Vl Aprovado inicial">Vl Aprovado Inicial</th>
+                            <th class="sortable" data-column="Data envio comp.">Data envio comp.</th>
+                            <th class="sortable" data-column="Dia de retorno">Dia de retorno</th>
+                            <th class="sortable" data-column="Retornado GS">Retornado GS</th>
+                            <th class="sortable" data-column="Vl Ap. Complementar">Vl Ap. Complementar</th>
+                            <th class="sortable" data-column="Vl Acordo Aceito">Vl Acordo Aceito</th>
+                            <th class="sortable" data-column="Vl Contraproposta">Vl Contraproposta</th>
                             <th class="sortable" data-column="Valor Final Pago">Valor Final Pago</th>
+                            <th class="sortable" data-column="Dias TT">Dias TT</th>
+                            <th class="sortable" data-column="Obs sobre os processos">Observações</th>
                         </tr>
                     </thead>
                     <tbody id="table-body">
                         <tr>
-                            <td colspan="8" class="loading">
+                            <td colspan="20" class="loading">
                                 <div class="loading-spinner"></div>
                                 <p style="margin-top: 15px;">Carregando dados...</p>
                             </td>
@@ -740,7 +752,7 @@
             const tbody = document.getElementById('table-body');
             
             if (filteredProcessos.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="8" class="no-data">📭 Nenhum processo encontrado</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="20" class="no-data">📭 Nenhum processo encontrado</td></tr>';
                 updatePagination();
                 return;
             }
@@ -754,6 +766,7 @@
                 <tr>
                     <td>${processo['Data Sincronismo'] || '-'}</td>
                     <td class="protocolo">${processo['Protocolo GS'] || '-'}</td>
+                    <td>${processo['Nome'] || '-'}</td>
                     <td class="placa">${processo['Placa'] || '-'}</td>
                     <td>
                         <span class="status-badge status-${getStatusClass(processo['Status'])}">
@@ -761,9 +774,20 @@
                         </span>
                     </td>
                     <td>${processo['Data de retorno - GS'] || '-'}</td>
+                    <td>${processo['Retornado'] || '-'}</td>
                     <td style="text-align: center;">${processo['Dias de retorno'] || '-'}</td>
-                    <td class="valor">${formatValue(processo[' Vl Aprovado inicial '])}</td>
-                    <td class="valor">${formatValue(processo[' Valor Final Pago '])}</td>
+                    <td class="valor">${formatValue(processo['Vl Orçamento Oficina'])}</td>
+                    <td class="valor">${formatValue(processo['Vl Regulação GS'])}</td>
+                    <td class="valor">${formatValue(processo['Vl Aprovado inicial'])}</td>
+                    <td>${processo['Data envio comp.'] || '-'}</td>
+                    <td style="text-align: center;">${processo['Dia de retorno'] || '-'}</td>
+                    <td>${processo['Retornado GS'] || '-'}</td>
+                    <td class="valor">${formatValue(processo['Vl Ap. Complementar'])}</td>
+                    <td class="valor">${formatValue(processo['Vl Acordo Aceito'])}</td>
+                    <td class="valor">${formatValue(processo['Vl Contraproposta'])}</td>
+                    <td class="valor">${formatValue(processo['Valor Final Pago'])}</td>
+                    <td style="text-align: center;">${processo['Dias TT'] || '-'}</td>
+                    <td style="max-width: 300px; white-space: normal;">${processo['Obs sobre os processos'] || '-'}</td>
                 </tr>
             `).join('');
             
