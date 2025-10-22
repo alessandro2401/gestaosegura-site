@@ -26,9 +26,20 @@ COLUNAS_EXIBIR = [
     "Placa",
     "Status",
     "Data de retorno - GS",
+    "Retornado",
     "Dias de retorno",
-    " Vl Aprovado inicial ",  # Tem espaços extras!
-    " Valor Final Pago "       # Tem espaços extras!
+    " Vl Orçamento Oficina ",
+    " Vl Regulação- GS ",
+    " Vl Aprovado inicial ",
+    "Data envio comp.",
+    "Dia de retorno",
+    "Retornado - GS",
+    " Vl Ap. Complementar ",
+    " Vl Acordo Aceito ",
+    " Vl Contraproposta ",
+    " Valor Final Pago ",
+    "Dias TT",
+    "Obs sobre os processos"
 ]
 
 # Mapeamento para nomes limpos (sem espaços) para exibição
@@ -39,9 +50,20 @@ COLUNAS_DISPLAY = {
     "Placa": "Placa",
     "Status": "Status",
     "Data de retorno - GS": "Data de retorno - GS",
+    "Retornado": "Retornado",
     "Dias de retorno": "Dias de retorno",
+    " Vl Orçamento Oficina ": "Vl Orçamento Oficina",
+    " Vl Regulação- GS ": "Vl Regulação GS",
     " Vl Aprovado inicial ": "Vl Aprovado inicial",
-    " Valor Final Pago ": "Valor Final Pago"
+    "Data envio comp.": "Data envio comp.",
+    "Dia de retorno": "Dia de retorno",
+    "Retornado - GS": "Retornado GS",
+    " Vl Ap. Complementar ": "Vl Ap. Complementar",
+    " Vl Acordo Aceito ": "Vl Acordo Aceito",
+    " Vl Contraproposta ": "Vl Contraproposta",
+    " Valor Final Pago ": "Valor Final Pago",
+    "Dias TT": "Dias TT",
+    "Obs sobre os processos": "Obs sobre os processos"
 }
 
 def fetch_sheet_data():
