@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POP Novo - Movimento Mais Brasil e Gestão Segura</title>
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css?v=20251021">
+  
+  <style>
+    .pop-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    
+    .pop-header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    
+    .pop-header .subtitle {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+    
+    .pop-header .date-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+    
+    .nav-tabs {
+      display: flex;
+      justify-content: center;
+      background: #f8f9fa;
+      padding: 20px;
+      border-bottom: 2px solid #dee2e6;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .nav-tabs a {
+      padding: 12px 24px;
+      margin: 0 5px;
+      text-decoration: none;
+      color: #495057;
+      border-radius: 8px;
+      transition: all 0.3s;
+      font-weight: 500;
+    }
+    
+    .nav-tabs a:hover {
+      background: #e9ecef;
+      color: #667eea;
+    }
+    
+    .nav-tabs a.active {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    
+    .content-section {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    
+    .etapa-card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-left: 5px solid #667eea;
+    }
+    
+    .etapa-card h3 {
+      color: #667eea;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    
+    .etapa-number {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    
+    .prazo-badge {
+      display: inline-block;
+      background: #ffc107;
+      color: #000;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      font-weight: 600;
+      margin-left: auto;
+    }
+    
+    .info-box {
+      background: #e3f2fd;
+      border-left: 4px solid #2196f3;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    
+    .warning-box {
+      background: #fff3e0;
+      border-left: 4px solid #ff9800;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    
+    .success-box {
+      background: #e8f5e9;
+      border-left: 4px solid #4caf50;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    
+    .diagram-container {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin: 30px 0;
+      text-align: center;
+    }
+    
+    .diagram-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 30px 0;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .comparison-table th {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 15px;
+      text-align: left;
+      font-weight: 600;
+    }
+    
+    .comparison-table td {
+      padding: 15px;
+      border-bottom: 1px solid #dee2e6;
+    }
+    
+    .comparison-table tr:hover {
+      background: #f8f9fa;
+    }
+    
+    .doc-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .doc-list li {
+      padding: 10px;
+      margin: 5px 0;
+      background: #f8f9fa;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .doc-list li:before {
+      content: "✓";
+      background: #4caf50;
+      color: white;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    
+    .back-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin: 20px 0;
+      transition: transform 0.3s;
+    }
+    
+    .back-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="pop-header">
+    <h1><i class="fas fa-file-alt"></i> POP Novo - Movimento Mais Brasil</h1>
+    <p class="subtitle">Ata de Alinhamento de Processos - Gestão Segura e Movimento Mais Brasil</p>
+    <div class="date-badge">
+      <i class="fas fa-calendar-alt"></i> Atualizado em 10/10/2025
+    </div>
+  </div>
+  
+  <!-- Navigation Tabs -->
+  <div class="nav-tabs">
+    <a href="#visao-geral" class="active"><i class="fas fa-eye"></i> Visão Geral</a>
+    <a href="#texto-completo"><i class="fas fa-file-text"></i> Texto Completo</a>
+    <a href="#diagrama"><i class="fas fa-project-diagram"></i> Diagrama</a>
+    <a href="#analise"><i class="fas fa-chart-line"></i> Análise</a>
+    <a href="#comparacao"><i class="fas fa-balance-scale"></i> Comparação</a>
+  </div>
+  
+  <!-- Visão Geral -->
+  <div id="visao-geral" class="content-section">
+    <a href="index.html" class="back-button"><i class="fas fa-arrow-left"></i> Voltar para Análise Completa</a>
+    
+    <div class="etapa-card">
+      <h2><i class="fas fa-info-circle"></i> Sobre Este Documento</h2>
+      <p>Este documento estabelece o <strong>Procedimento Operacional Padrão (POP)</strong> para o relacionamento entre a <strong>Gestão Segura</strong> e a <strong>Associação Movimento Mais Brasil</strong> no tratamento de eventos danosos envolvendo veículos de associados.</p>
+      
+      <div class="info-box">
+        <h4><i class="fas fa-users"></i> Organizações Envolvidas</h4>
+        <p><strong>Gestão Segura LTDA</strong><br>
+        CNPJ: 46.902.077/0001-58<br>
+        Responsável Comercial: Gustavo Rocha</p>
+        
+        <p><strong>Movimento Mais Brasil</strong><br>
+        CNPJ: 22.674.041/0001-04<br>
+        Presidente: Alessandro Franchin Pizzolatto / Adriele Roque</p>
+      </div>
+      
+      <div class="success-box">
+        <h4><i class="fas fa-calendar-check"></i> Histórico de Reuniões</h4>
+        <p>O processo foi desenvolvido através de <strong>6 reuniões de alinhamento</strong> realizadas entre maio e outubro de 2025:</p>
+        <ul>
+          <li>30/05/2025 - Reunião inicial</li>
+          <li>09/07/2025 - Alinhamento de processos</li>
+          <li>04/09/2025 - Revisão com diretoria</li>
+          <li>22/09/2025 - Ajustes operacionais</li>
+          <li>10/10/2025 - Aprovação final</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="etapa-card">
+      <h2><i class="fas fa-list-ol"></i> Resumo das 10 Etapas do Processo</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
+        <div style="background: #e3f2fd; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #1976d2;">1. Comunicação da Abertura</h4>
+          <p style="font-size: 0.9em;">Prazo: 4h a 8h úteis</p>
+        </div>
+        <div style="background: #fff3e0; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #f57c00;">2. Cotação</h4>
+          <p style="font-size: 0.9em;">Estimativa de peças</p>
+        </div>
+        <div style="background: #f3e5f5; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #7b1fa2;">3. Análise</h4>
+          <p style="font-size: 0.9em;">Prazo: 03 dias úteis</p>
+        </div>
+        <div style="background: #e8f5e9; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #388e3c;">4. Regulação</h4>
+          <p style="font-size: 0.9em;">Prazo: 03 dias úteis</p>
+        </div>
+        <div style="background: #fff9c4; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #f9a825;">5. Direcionamento</h4>
+          <p style="font-size: 0.9em;">Recusa do FAST TRACK</p>
+        </div>
+        <div style="background: #fce4ec; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #c2185b;">6. Fornecimento de Peças</h4>
+          <p style="font-size: 0.9em;">Logística de peças</p>
+        </div>
+        <div style="background: #e0f2f1; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #00796b;">7. Acompanhamento</h4>
+          <p style="font-size: 0.9em;">Monitoramento contínuo</p>
+        </div>
+        <div style="background: #efebe9; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #5d4037;">8. Acordo Extrajudiciais</h4>
+          <p style="font-size: 0.9em;">Quando necessário</p>
+        </div>
+        <div style="background: #e8eaf6; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #3f51b5;">9. Conclusão dos Reparos</h4>
+          <p style="font-size: 0.9em;">Finalização</p>
+        </div>
+        <div style="background: #f1f8e9; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #689f38;">10. Pagamento</h4>
+          <p style="font-size: 0.9em;">Quitação final</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Texto Completo -->
+  <div id="texto-completo" class="content-section" style="display:none;">
+    <h2><i class="fas fa-file-text"></i> Texto Completo do POP</h2>
+    
+    <div class="warning-box">
+      <p><strong><i class="fas fa-exclamation-triangle"></i> Nota:</strong> Este é o documento oficial aprovado em 10/10/2025 após 6 reuniões de alinhamento entre Gestão Segura e Movimento Mais Brasil.</p>
+    </div>
+    
+    <!-- ETAPA 1 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">1</span>
+        ETAPA COMUNICAÇÃO DA ABERTURA
+        <span class="prazo-badge"><i class="fas fa-clock"></i> 4h a 8h úteis</span>
+      </h3>
+      
+      <p>Para abertura de um evento danoso, faz-se necessário que a Associação disponibilize toda documentação contemplada no REGULAMENTO e Termo de Acionamento à Gestão Segura.</p>
+      
+      <p>O responsável da Associação deve registrar todas as informações do evento no sistema <strong>SGA</strong> e após o processo de INTERFACE será criado o evento no <strong>SGS</strong> contendo todos os anexos/documentos necessários para concluir a abertura, gerando o protocolo de atendimento.</p>
+      
+      <div class="info-box">
+        <p><strong>Tempo de Interface:</strong> Estimasse um prazo de <strong>30 minutos</strong> para sincronização entre SGA e SGS.</p>
+      </div>
+      
+      <h4>Requisitos Técnicos:</h4>
+      <ul class="doc-list">
+        <li>Os documentos devem estar no formato de <strong>PDF</strong></li>
+        <li>As fotos dos veículos devem ser amplas, evidenciando as avarias decorrentes do evento</li>
+        <li>Fotos devem estar no formato <strong>JPEG</strong></li>
+      </ul>
+      
+      <div class="warning-box">
+        <h4><i class="fas fa-exclamation-triangle"></i> IMPORTANTE</h4>
+        <p>É responsabilidade do Focal da Associação formalizar no grupo de WhatsApp toda abertura de processo NOVO utilizando o texto padrão:</p>
+        
+        <div style="background: #f8f9fa; padding: 15px; border-radius: 6px; margin-top: 10px; font-family: monospace;">
+          <strong>ABERTURA DO EVENTO ASSOCIADO:</strong><br>
+          Nome do Associado:<br>
+          Placa do veículo:<br>
+          Matrícula de adesão SGA:<br>
+          Protocolo do SGS:<br>
+          <strong>DOCUMENTAÇÃO CONCLUÍDA</strong>
+        </div>
+      </div>
+      
+      <h4>Documentação Obrigatória - Associado:</h4>
+      <ul class="doc-list">
+        <li>CRLV do veículo Associado</li>
+        <li>Documento de identificação do proprietário do veículo</li>
+        <li>Contrato Social (se Pessoa Jurídica)</li>
+        <li>CNH do Associado</li>
+        <li>Boletim de Ocorrência do registro do acidente</li>
+        <li>Termo de Acionamento do registro do acidente</li>
+        <li>Fotos dos danos suportados pelo veículo</li>
+        <li>Fotos da vistoria de adesão</li>
+      </ul>
+      
+      <h4>Modelo de Fotos (13 fotos obrigatórias):</h4>
+      <ol style="padding-left: 20px;">
+        <li>Foto 45º grau evidenciando frente e lateral direita</li>
+        <li>Foto 45º grau evidenciando traseira e lateral esquerda</li>
+        <li>Foto lateral direita inteira</li>
+        <li>Foto lateral esquerda inteira</li>
+        <li>Foto da dianteira</li>
+        <li>Foto da traseira</li>
+        <li>Foto com capô aberto evidenciando o conjunto motopropulsor</li>
+        <li>Foto com porta mala aberto evidenciando o assoalho, estepe e painel traseiro</li>
+        <li>Foto do tabelie completo tirada do banco de trás do veículo</li>
+        <li>Foto do painel de instrumento identificando o hodômetro, conta giro acima de 1000 rpm e luzes do painel</li>
+        <li>Foto de cima evidenciando capô e teto do veículo</li>
+        <li>Foto de cima evidenciando tampa da mala e teto do veículo</li>
+        <li>Registro de 10 imagens, apenas das avarias, demostrando os danos e a gravidade (profundidade)</li>
+      </ol>
+    </div>
+    
+    <!-- ETAPA 2 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">2</span>
+        ETAPA DE COTAÇÃO
+      </h3>
+      
+      <p>Após a conclusão da abertura do processo de evento, incluindo os registros fotográficos do veículo danificado, daremos início à cotação inicial.</p>
+      
+      <p>Essa etapa consistirá na <strong>ESTIMATIVA</strong> das peças necessárias para substituição.</p>
+      
+      <div class="warning-box">
+        <p><strong><i class="fas fa-exclamation-triangle"></i> IMPORTANTE:</strong> Todas as compras de peças devem ser baseadas e apenas adquirida após o <strong>Orçamento Regulado pela Gestão Segura ter sido anuído pela oficina reparadora</strong>.</p>
+      </div>
+    </div>
+    
+    <!-- ETAPA 3 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">3</span>
+        ETAPA DE ANÁLISE
+        <span class="prazo-badge"><i class="fas fa-clock"></i> 03 dias úteis</span>
+      </h3>
+      
+      <p>O responsável do departamento de análise apreciará todos os documentos apresentados, efetuará a avaliação de nexo de causalidade, efetuará consultas a órgãos competentes para compor o entendimento ao evento.</p>
+      
+      <p>Após a conclusão de todas as apurações, emitirá formulário com a análise definindo a cobertura.</p>
+      
+      <div class="info-box">
+        <p><strong>Comunicação:</strong> Será formalizado para a Associação o comunicado via e-mail do endereço eletrônico <strong>atendimento2@gestaosegura.com.br</strong></p>
+      </div>
+      
+      <h4>Classificação das Coberturas:</h4>
+      
+      <div class="success-box">
+        <h5><i class="fas fa-check-circle"></i> PROCESSO DEFERIDO</h5>
+        <p>Cientificaremos a Associação via e-mail da regularidade ao atendimento.</p>
+        <p>O Focal da Associação MOVIMENTO de posse do formulário da análise deverá obrigatoriamente validar a sequência do atendimento formalizando ao departamento de comunicação da Gestão Segura respondendo o mesmo e-mail com o <strong>"DE ACORDO"</strong>.</p>
+      </div>
+      
+      <div style="background: #ffebee; border-left: 4px solid #f44336; padding: 20px; margin: 20px 0; border-radius: 8px;">
+        <h5><i class="fas fa-times-circle"></i> PROCESSO INDEFERIDO</h5>
+        <p>Cientificaremos a Associação via e-mail da irregularidade ao atendimento.</p>
+        <p>A Associação deverá proceder com suas considerações. Havendo entendimento da Associação por manter o indeferimento, ficará a mesma responsável em acionar seu departamento jurídico para elaboração e envio da Notificação Extrajudicial aos envolvidos.</p>
+      </div>
+      
+      <div class="warning-box">
+        <h5><i class="fas fa-question-circle"></i> PROCESSO A DEFINIR</h5>
+        <p>Cientificaremos a Associação via e-mail sobre o parecer analítico apontando as inconformidades, elucidando os fatos.</p>
+        <p>O Focal da Associação juntamente com a Diretoria e o Departamento jurídico deverão apreciar as evidências para definir a cobertura a ser concedida ou não.</p>
+      </div>
+      
+      <h4>Sindicância ou Perícia:</h4>
+      <p>O analista responsável ao apurar os fatos e documentos relacionados ao evento danoso, vindo a definir ser necessário <strong>SINDICÂNCIA</strong> ou <strong>PERÍCIA</strong>, registrará no formulário de análise que é imprescindível tal apuração externa para conclusão do parecer analítico/técnico.</p>
+    </div>
+    
+    <!-- ETAPA 4 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">4</span>
+        ETAPA DE REGULAÇÃO
+        <span class="prazo-badge"><i class="fas fa-clock"></i> 03 dias úteis</span>
+      </h3>
+      
+      <p>O Departamento de Comunicação, após receber o "DE ACORDO" emitido pelo Focal da Associação, encaminhará o processo ao Departamento Técnico, que procederá com a Avaliação Prévia de Danos, elaborará o respectivo orçamento e apresentará proposta de acordo, conforme diretrizes do procedimento (<strong>FAST TRACK</strong>).</p>
+      
+      <div class="info-box">
+        <h4><i class="fas fa-dollar-sign"></i> Valor da Hora de Trabalho</h4>
+        <p>O valor <strong>LINEAR</strong> de hora de trabalho definido pela Associação para a regulação do orçamento está definido no importe de <strong>R$ 60,00 (sessenta reais)</strong> linear.</p>
+      </div>
+      
+      <p>No orçamento regulado pela Gestão Segura serão mantidos apenas os itens com identificação dos danos e que estes possuem relação com o evento. Os danos serão classificados por danos reparáveis e irreparáveis indicando substituição/reparação das peças.</p>
+      
+      <h4>FAST TRACK:</h4>
+      <p>Associado (Terceiro quanto houver) que <strong>ANUIR</strong> o valor do acordo (FAST TRUCK) será instruído a enviar os dados bancários para o DEPARTAMENTO DE ATENDIMENTO DA ASSOCIAÇÃO que será responsável em validar os dados e enviá-los para o DEPARTAMENTO FINANCEIRO DA ASSOCIAÇÃO efetuar a programação e provisionamento do pagamento do valor proposto.</p>
+    </div>
+    
+    <!-- ETAPA 5 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">5</span>
+        ETAPA DO DIRECIONAMENTO – RECUSA DO FAST TRACK
+      </h3>
+      
+      <p>O direcionamento do veículo para oficina ocorrerá após a formalização do Focal da Associação com à anuência ao deferimento do evento.</p>
+      
+      <p>Departamento de comunicação da Gestão Segura fará contato com o Associado (Terceiro quando houver) para instruí-lo a agendar com a oficina indicada a data e horário para elaboração do orçamento e vistoria.</p>
+      
+      <div class="warning-box">
+        <p><strong>IMPORTANTE:</strong> Veículo associado que estiver impossibilitado de se locomover, iremos instruir ao Associado que acione o 0800 da assistência, após ser alinhado o agendamento da entrada do veículo na oficina indicada.</p>
+      </div>
+      
+      <p>A formalização do direcionamento para a Oficina ao Associado (Terceiro quando houver) será efetuada através do e-mail: <strong>orcamentos2@gestaosegura.com.br</strong></p>
+    </div>
+    
+    <!-- ETAPA 6 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">6</span>
+        ETAPA DE FORNECIMENTO DE PEÇAS
+      </h3>
+      
+      <p>Todo fornecimento de peças correlato a negociação, logística, substituição de peça avariada, e prazo de entrega será de responsabilidade da oficina, que ainda fica incumbida de atualizar a Gestão Segura a conclusão do fornecimento.</p>
+    </div>
+    
+    <!-- ETAPA 7 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">7</span>
+        ETAPA DE ACOMPANHAMENTO
+      </h3>
+      
+      <p>Concluída a entrega das peças na oficina e a devida formalização para a Gestão Segura, iniciará o acompanhamento sob os cuidados do <strong>Departamento de Comunicação da Gestão Segura</strong> que efetuará contatos com a oficina regularmente para <strong>acompanhar a evolução e execução dos reparos</strong> atualizando as informações no histórico do <strong>SGS</strong> para acompanhamento do <strong>MOVIMENTO</strong>.</p>
+      
+      <h4>Orçamento Complementar:</h4>
+      <p>Havendo ocorrência de Orçamento Complementar, identificado durante o acompanhamento da evolução dos reparos, será instruído ao responsável da oficina que faça a formalização, via e-mail, das <strong>Fotos dos danos complementares</strong> e do <strong>Orçamento contendo descrição das peças e serviços necessários</strong> para ocorrer a regulação complementar.</p>
+    </div>
+    
+    <!-- ETAPA 8 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">8</span>
+        ETAPA DE ACORDO EXTRAJUDICIAIS
+      </h3>
+      
+      <p>Para os eventos definidos como proposta de Acordo Extrajudicial com aceite da Associação e dos Associados (Terceiro quanto houver), fica sob a responsabilidade do departamento jurídico da Associação a elaboração do <strong>"Termo de Acordo Extrajudicial"</strong> e em enviá-lo aos envolvidos, contendo todas as instruções para a concretização e quitação.</p>
+      
+      <div class="info-box">
+        <p><strong>IMPORTANTE:</strong> O valor do acordo inicial partirá do departamento de Regulagem da Gestão Segura, ficando a Associação completamente apta a alterar caso entenda que deva fazê-lo.</p>
+      </div>
+      
+      <p><strong>É de responsabilidade da Associação cientificar a Gestão Segura o deslinde dos acordos.</strong></p>
+    </div>
+    
+    <!-- ETAPA 9 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">9</span>
+        ETAPA DE CONCLUSÃO DOS REPAROS
+      </h3>
+      
+      <p>Na fase final de conclusão dos reparos a oficina já munida das instruções enviada na autorização dada pela Associação, fará o comunicado via e-mail para a Associação, solicitando o envio do Termo de Quitação, esta solicitação deve ocorrer um dia antes da data de entrega do veículo ao proprietário/associado/terceiro.</p>
+      
+      <p>Fica a oficina cientificada na autorização inicial em colher dos Associados (Terceiro quanto houver) a assinatura do Termo de Quitação para ser enviado juntamente com as fotos do veículo devidamente reparado com as Notas Fiscais para conferência.</p>
+    </div>
+    
+    <!-- ETAPA 10 -->
+    <div class="etapa-card">
+      <h3>
+        <span class="etapa-number">10</span>
+        ETAPA DO PAGAMENTO
+      </h3>
+      
+      <p>O pagamento dos serviços de Mão de Obra e fornecimentos das peças são de total responsabilidade da Associação, que arcará com a quitação na data alinhada com a oficina e com o fornecedor.</p>
+      
+      <p>Prazo de pagamento para as autorizações de orçamento regulados pela Gestão Segura, é de responsabilidade da Associação alinhar com todos os fornecedores.</p>
+    </div>
+    
+    <div class="success-box" style="margin-top: 40px;">
+      <h3><i class="fas fa-signature"></i> Assinaturas</h3>
+      <p><strong>Belo Horizonte, 21 de outubro de 2025.</strong></p>
+      <br>
+      <p><strong>CNPJ:</strong> 46.902.077/0001-58<br>
+      <strong>NOME:</strong> GESTAO SEGURA LTDA</p>
+      <br>
+      <p><strong>CNPJ:</strong> 22.674.041/0001-04<br>
+      <strong>NOME:</strong> MOVIMENTO DE APOIO SOCORRO MUTUO E DE INCLUSAO SOCIAL DO BRASIL - MAIS BRASIL</p>
+      <br>
+      <p style="font-style: italic; color: #666;">O PROCESSO OPERACIONAL PADRÃO FOI DEVIDAMENTE ALINHADO COM A CONCORDÂNCIA DA ASSOCIAÇÃO MOVIMENTA MAIS BRASIL, REPRESENTADA COORDENAÇÃO ADMINISTRATIVA COMPOSTA PELO SR. ALESSANDRO FRANCHIN PIZZOLATTO E OS DIRETORES ALBERTO E GUSTAVO ROCHA DA GESTÃO SEGURA.</p>
+    </div>
+  </div>
+  
+  <!-- Diagrama -->
+  <div id="diagrama" class="content-section" style="display:none;">
+    <h2><i class="fas fa-project-diagram"></i> Diagrama do Fluxo do Processo</h2>
+    
+    <div class="diagram-container">
+      <h3 style="margin-bottom: 20px;">Fluxo Completo das 10 Etapas do POP</h3>
+      <img src="images/diagrama-pop-novo.png" alt="Diagrama do Fluxo do POP Novo">
+      <p style="margin-top: 20px; color: #666; font-size: 0.9em;">
+        <i class="fas fa-info-circle"></i> Este diagrama ilustra o fluxo completo desde a abertura do evento até o pagamento final, incluindo todos os pontos de decisão e caminhos alternativos.
+      </p>
+    </div>
+  </div>
+  
+  <!-- Análise -->
+  <div id="analise" class="content-section" style="display:none;">
+    <h2><i class="fas fa-chart-line"></i> Análise Completa do POP</h2>
+    
+    <div class="etapa-card">
+      <h3><i class="fas fa-check-circle"></i> Pontos Fortes</h3>
+      <ul class="doc-list">
+        <li>Processo bem documentado com etapas claras</li>
+        <li>Templates de comunicação padronizados</li>
+        <li>Requisitos técnicos específicos (formatos de arquivo, quantidade de fotos)</li>
+        <li>Prazos definidos para cada etapa crítica</li>
+        <li>Sistema de rastreabilidade robusto (SGA + SGS)</li>
+        <li>Flexibilidade para reanálise e casos especiais</li>
+        <li>Classificação clara das coberturas (Deferido, Indeferido, A Definir)</li>
+        <li>Comunicação obrigatória em cada mudança de status</li>
+        <li>Responsabilidades bem definidas</li>
+      </ul>
+    </div>
+    
+    <div class="etapa-card">
+      <h3><i class="fas fa-exclamation-triangle"></i> Pontos de Atenção</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li style="padding: 15px; margin: 10px 0; background: #fff3e0; border-left: 4px solid #ff9800; border-radius: 6px;">
+          <strong>1. Dependência de Múltiplos Canais</strong><br>
+          Comunicação dividida entre SGA, SGS, WhatsApp e e-mail. Risco de perda de informação ou falha na sincronização.<br>
+          <em>Recomendação: Centralizar comunicações críticas em um único canal.</em>
+        </li>
+        <li style="padding: 15px; margin: 10px 0; background: #fff3e0; border-left: 4px solid #ff9800; border-radius: 6px;">
+          <strong>2. Carga de Documentação</strong><br>
+          Mínimo de 13 fotos obrigatórias por evento + múltiplos documentos em PDF.<br>
+          <em>Recomendação: Criar checklist digital interativo para facilitar coleta.</em>
+        </li>
+        <li style="padding: 15px; margin: 10px 0; background: #fff3e0; border-left: 4px solid #ff9800; border-radius: 6px;">
+          <strong>3. Prazo de Abertura Variável</strong><br>
+          4h a 8h úteis é uma janela ampla que pode gerar expectativas diferentes.<br>
+          <em>Recomendação: Estabelecer SLA mais específico (ex: 6h úteis como padrão).</em>
+        </li>
+        <li style="padding: 15px; margin: 10px 0; background: #fff3e0; border-left: 4px solid #ff9800; border-radius: 6px;">
+          <strong>4. Responsabilidade de Comunicação Manual</strong><br>
+          Focal da Associação precisa enviar mensagens padronizadas manualmente.<br>
+          <em>Recomendação: Automatizar notificações via integração de sistemas.</em>
+        </li>
+        <li style="padding: 15px; margin: 10px 0; background: #fff3e0; border-left: 4px solid #ff9800; border-radius: 6px;">
+          <strong>5. Valor Fixo de Hora de Trabalho</strong><br>
+          R$ 60,00 linear pode não refletir variações regionais ou de complexidade.<br>
+          <em>Recomendação: Revisar periodicamente ou criar tabela por região/tipo de serviço.</em>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="etapa-card">
+      <h3><i class="fas fa-shield-alt"></i> Riscos Identificados</h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+        <div style="background: #ffebee; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #c62828;"><i class="fas fa-cogs"></i> Risco Operacional</h4>
+          <p>Falha na sincronização entre SGA e SGS pode travar processo.</p>
+          <p><strong>Mitigação:</strong> Implementar monitoramento automático de sincronização.</p>
+        </div>
+        <div style="background: #fff3e0; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #e65100;"><i class="fas fa-comments"></i> Risco de Comunicação</h4>
+          <p>Mensagens no WhatsApp podem ser perdidas ou não visualizadas.</p>
+          <p><strong>Mitigação:</strong> Implementar confirmação de leitura obrigatória.</p>
+        </div>
+        <div style="background: #e8eaf6; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #283593;"><i class="fas fa-image"></i> Risco de Qualidade</h4>
+          <p>Fotos inadequadas podem atrasar processo.</p>
+          <p><strong>Mitigação:</strong> Criar guia visual com exemplos de fotos corretas/incorretas.</p>
+        </div>
+        <div style="background: #e8f5e9; padding: 20px; border-radius: 8px;">
+          <h4 style="color: #2e7d32;"><i class="fas fa-dollar-sign"></i> Risco Financeiro</h4>
+          <p>Orçamentos complementares não previstos podem gerar divergências.</p>
+          <p><strong>Mitigação:</strong> Estabelecer margem de contingência no orçamento inicial.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="etapa-card">
+      <h3><i class="fas fa-lightbulb"></i> Recomendações de Melhoria</h3>
+      
+      <h4 style="color: #4caf50;">Curto Prazo (0-3 meses)</h4>
+      <ul class="doc-list">
+        <li>Criar Dashboard de Acompanhamento em tempo real</li>
+        <li>Implementar Checklist Digital para coleta de documentos</li>
+        <li>Automatizar Notificações de templates de comunicação</li>
+      </ul>
+      
+      <h4 style="color: #ff9800; margin-top: 20px;">Médio Prazo (3-6 meses)</h4>
+      <ul class="doc-list">
+        <li>Integração Completa SGA-SGS em tempo real</li>
+        <li>Portal do Associado para acompanhamento de status</li>
+        <li>Sistema de Qualidade de Fotos com validação automática</li>
+      </ul>
+      
+      <h4 style="color: #2196f3; margin-top: 20px;">Longo Prazo (6-12 meses)</h4>
+      <ul class="doc-list">
+        <li>Inteligência Artificial para Análise Prévia de documentos</li>
+        <li>Blockchain para Rastreabilidade imutável</li>
+        <li>Marketplace de Oficinas com cotação automática</li>
+      </ul>
+    </div>
+    
+    <div class="etapa-card">
+      <h3><i class="fas fa-chart-bar"></i> Indicadores de Performance Sugeridos (KPIs)</h3>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>KPI</th>
+            <th>Meta</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tempo Médio de Abertura</td>
+            <td>< 6h úteis</td>
+            <td>Tempo desde registro no SGA até disponibilização no SGS</td>
+          </tr>
+          <tr>
+            <td>Taxa de Documentação Completa</td>
+            <td>> 80%</td>
+            <td>Percentual de processos com documentação completa na 1ª tentativa</td>
+          </tr>
+          <tr>
+            <td>Tempo Médio de Análise</td>
+            <td>< 2 dias úteis</td>
+            <td>Tempo para conclusão da análise e emissão de parecer</td>
+          </tr>
+          <tr>
+            <td>Taxa de Deferimento</td>
+            <td>Acompanhar</td>
+            <td>Percentual de processos deferidos vs total analisado</td>
+          </tr>
+          <tr>
+            <td>Tempo Médio de Regulação</td>
+            <td>< 2 dias úteis</td>
+            <td>Tempo para elaboração do orçamento regulado</td>
+          </tr>
+          <tr>
+            <td>Taxa de Aceitação do FAST TRACK</td>
+            <td>> 60%</td>
+            <td>Percentual de associados que aceitam o acordo FAST TRACK</td>
+          </tr>
+          <tr>
+            <td>Tempo Médio Total</td>
+            <td>< 15 dias</td>
+            <td>Tempo desde abertura até conclusão do processo</td>
+          </tr>
+          <tr>
+            <td>Índice de Satisfação</td>
+            <td>> 85%</td>
+            <td>Pesquisa pós-atendimento com associados</td>
+          </tr>
+          <tr>
+            <td>Taxa de Reanálise</td>
+            <td>< 5%</td>
+            <td>Percentual de processos que requerem reanálise</td>
+          </tr>
+          <tr>
+            <td>Taxa de Orçamentos Complementares</td>
+            <td>< 15%</td>
+            <td>Percentual de processos que geram orçamento complementar</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <!-- Comparação -->
+  <div id="comparacao" class="content-section" style="display:none;">
+    <h2><i class="fas fa-balance-scale"></i> Comparação: POP Original vs POP Novo</h2>
+    
+    <div class="info-box">
+      <p><strong><i class="fas fa-info-circle"></i> Nota:</strong> Esta comparação analisa as principais diferenças entre o POP original (em uso até setembro/2025) e o novo POP (implementado em 10/10/2025).</p>
+    </div>
+    
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Aspecto</th>
+          <th>POP Original</th>
+          <th>POP Novo (10/10/2025)</th>
+          <th>Impacto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sistemas Utilizados</strong></td>
+          <td>Sistema único (SGA)</td>
+          <td>Sistema dual (SGA/SGS)</td>
+          <td style="color: #f44336;">⚠️ Aumento de complexidade</td>
+        </tr>
+        <tr>
+          <td><strong>Integração</strong></td>
+          <td>Nativa (sistema único)</td>
+          <td>Interface de 30 minutos</td>
+          <td style="color: #f44336;">⚠️ Gargalo operacional</td>
+        </tr>
+        <tr>
+          <td><strong>Requisitos Fotográficos</strong></td>
+          <td>5-7 fotos básicas</td>
+          <td>13 fotos específicas obrigatórias</td>
+          <td style="color: #ff9800;">⚠️ Maior tempo de coleta</td>
+        </tr>
+        <tr>
+          <td><strong>Formato de Fotos</strong></td>
+          <td>Qualquer formato</td>
+          <td>JPEG obrigatório</td>
+          <td style="color: #4caf50;">✓ Padronização</td>
+        </tr>
+        <tr>
+          <td><strong>Comunicação</strong></td>
+          <td>Email e telefone</td>
+          <td>WhatsApp formalizado</td>
+          <td style="color: #4caf50;">✓ Melhoria na rastreabilidade</td>
+        </tr>
+        <tr>
+          <td><strong>Templates de Comunicação</strong></td>
+          <td>Não padronizados</td>
+          <td>Templates obrigatórios</td>
+          <td style="color: #4caf50;">✓ Redução de ambiguidades</td>
+        </tr>
+        <tr>
+          <td><strong>Etapas do Processo</strong></td>
+          <td>5 etapas principais</td>
+          <td>10 etapas detalhadas</td>
+          <td style="color: #ff9800;">⚠️ Maior controle, mais complexidade</td>
+        </tr>
+        <tr>
+          <td><strong>Prazo de Abertura</strong></td>
+          <td>4-8 horas úteis</td>
+          <td>4-8 horas úteis + 30 min interface</td>
+          <td style="color: #f44336;">⚠️ Tempo adicional</td>
+        </tr>
+        <tr>
+          <td><strong>Prazo de Análise</strong></td>
+          <td>Não especificado</td>
+          <td>03 dias úteis</td>
+          <td style="color: #4caf50;">✓ SLA definido</td>
+        </tr>
+        <tr>
+          <td><strong>Prazo de Regulação</strong></td>
+          <td>Não especificado</td>
+          <td>03 dias úteis</td>
+          <td style="color: #4caf50;">✓ SLA definido</td>
+        </tr>
+        <tr>
+          <td><strong>Classificação de Cobertura</strong></td>
+          <td>Deferido/Indeferido</td>
+          <td>Deferido/Indeferido/A Definir</td>
+          <td style="color: #4caf50;">✓ Maior flexibilidade</td>
+        </tr>
+        <tr>
+          <td><strong>FAST TRACK</strong></td>
+          <td>Não formalizado</td>
+          <td>Processo detalhado</td>
+          <td style="color: #4caf50;">✓ Agilidade em acordos</td>
+        </tr>
+        <tr>
+          <td><strong>Valor Hora de Trabalho</strong></td>
+          <td>Variável</td>
+          <td>R$ 60,00 linear</td>
+          <td style="color: #4caf50;">✓ Padronização</td>
+        </tr>
+        <tr>
+          <td><strong>Sindicância/Perícia</strong></td>
+          <td>Não especificado</td>
+          <td>Processo formalizado</td>
+          <td style="color: #4caf50;">✓ Maior rigor técnico</td>
+        </tr>
+        <tr>
+          <td><strong>Reanálise</strong></td>
+          <td>Não prevista</td>
+          <td>Prazo de 03 dias úteis</td>
+          <td style="color: #4caf50;">✓ Flexibilidade</td>
+        </tr>
+        <tr>
+          <td><strong>Acompanhamento</strong></td>
+          <td>Informal</td>
+          <td>Etapa dedicada com SGS</td>
+          <td style="color: #4caf50;">✓ Maior controle</td>
+        </tr>
+        <tr>
+          <td><strong>Orçamento Complementar</strong></td>
+          <td>Não especificado</td>
+          <td>Processo formalizado</td>
+          <td style="color: #4caf50;">✓ Transparência</td>
+        </tr>
+        <tr>
+          <td><strong>Acordo Extrajudicial</strong></td>
+          <td>Não especificado</td>
+          <td>Etapa dedicada</td>
+          <td style="color: #4caf50;">✓ Formalização legal</td>
+        </tr>
+        <tr>
+          <td><strong>Documentação</strong></td>
+          <td>Básica</td>
+          <td>Extensa e detalhada</td>
+          <td style="color: #4caf50;">✓ Maior proteção jurídica</td>
+        </tr>
+        <tr>
+          <td><strong>Rastreabilidade</strong></td>
+          <td>Limitada</td>
+          <td>Completa (SGA + SGS + WhatsApp)</td>
+          <td style="color: #4caf50;">✓ Auditoria completa</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="etapa-card" style="margin-top: 40px;">
+      <h3><i class="fas fa-chart-line"></i> Impacto Observado nos Dados</h3>
+      
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+        <div>
+          <h4 style="color: #2196f3;">Antes do Novo POP (até 09/2025)</h4>
+          <ul class="doc-list">
+            <li>80% dos processos concluídos</li>
+            <li>Tempo médio: 8-9 dias</li>
+            <li>Documentação simplificada</li>
+            <li>Comunicação informal</li>
+            <li>Menor rastreabilidade</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color: #f44336;">Após o Novo POP (10/2025)</h4>
+          <ul style="list-style: none; padding: 0;">
+            <li style="padding: 10px; margin: 5px 0; background: #ffebee; border-radius: 6px;">71% dos processos em análise</li>
+            <li style="padding: 10px; margin: 5px 0; background: #ffebee; border-radius: 6px;">Tempo médio: 14 dias (+56%)</li>
+            <li style="padding: 10px; margin: 5px 0; background: #e8f5e9; border-radius: 6px;">Documentação completa</li>
+            <li style="padding: 10px; margin: 5px 0; background: #e8f5e9; border-radius: 6px;">Comunicação formalizada</li>
+            <li style="padding: 10px; margin: 5px 0; background: #e8f5e9; border-radius: 6px;">Rastreabilidade total</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="warning-box" style="margin-top: 30px;">
+        <h4><i class="fas fa-chart-line"></i> Projeção de Normalização</h4>
+        <p>Com base nos dados atuais e na análise do novo POP, projeta-se:</p>
+        <ul>
+          <li><strong>3 meses:</strong> Redução do backlog em 50%</li>
+          <li><strong>6 meses:</strong> Retorno ao nível original de eficiência</li>
+          <li><strong>12 meses:</strong> Potencial ganho de 10% em eficiência devido à melhor documentação e rastreabilidade</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="etapa-card">
+      <h3><i class="fas fa-trophy"></i> Conclusão da Comparação</h3>
+      <p>O novo POP representa uma <strong>evolução significativa</strong> em termos de:</p>
+      <ul class="doc-list">
+        <li>Documentação e rastreabilidade</li>
+        <li>Padronização de processos</li>
+        <li>Definição de SLAs</li>
+        <li>Proteção jurídica</li>
+        <li>Transparência para stakeholders</li>
+      </ul>
+      
+      <p style="margin-top: 20px;">No entanto, a <strong>complexidade adicional</strong> gerou um impacto temporário na eficiência operacional, com aumento de 56% no tempo médio de processamento. Este impacto é esperado durante o período de adaptação e deve se normalizar em 6 meses.</p>
+      
+      <div class="success-box" style="margin-top: 20px;">
+        <p><strong><i class="fas fa-check-circle"></i> Recomendação:</strong> Manter o novo POP, implementando as melhorias sugeridas (automação, integração, treinamento) para acelerar a curva de adaptação e maximizar os benefícios do processo mais robusto.</p>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Navegação entre tabs
+    document.querySelectorAll('.nav-tabs a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        // Remove active de todos
+        document.querySelectorAll('.nav-tabs a').forEach(l => l.classList.remove('active'));
+        document.querySelectorAll('.content-section').forEach(s => s.style.display = 'none');
+        
+        // Adiciona active no clicado
+        this.classList.add('active');
+        const target = this.getAttribute('href').substring(1);
+        document.getElementById(target).style.display = 'block';
+        
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,117 @@
+graph TD
+    Start([Início: Evento Danoso]) --> A1[ETAPA 1: COMUNICAÇÃO DA ABERTURA<br/>Prazo: 4h a 8h úteis]
+    
+    A1 --> A2{Associação registra<br/>no SGA}
+    A2 --> A3[Interface SGA → SGS<br/>Tempo: ~30 minutos]
+    A3 --> A4[Criação do evento no SGS<br/>com anexos/documentos]
+    A4 --> A5[Conclusão da INTERFACE<br/>Protocolo gerado]
+    
+    A5 --> B1[Departamento de Abertura<br/>Gestão Segura]
+    B1 --> B2{Documentos<br/>legíveis e<br/>completos?}
+    
+    B2 -->|NÃO| B3[Sinaliza inconformidade<br/>no SGS]
+    B3 --> B4[Envia pendência via<br/>WhatsApp]
+    B4 --> B5[Associação sana<br/>pendências]
+    B5 --> B6[Anexa arquivos no SGA]
+    B6 --> B7[Novo sincronismo SGS]
+    B7 --> B1
+    
+    B2 -->|SIM| C1[ETAPA 2: COTAÇÃO<br/>Estimativa de peças]
+    
+    C1 --> D1[ETAPA 3: ANÁLISE<br/>Prazo: 03 dias úteis]
+    D1 --> D2[Análise de documentos<br/>e nexo causal]
+    D2 --> D3[Consultas a órgãos<br/>competentes]
+    D3 --> D4{Necessita<br/>Sindicância/<br/>Perícia?}
+    
+    D4 -->|SIM| D5[Focal aciona prestador<br/>de perícia]
+    D5 --> D6[Relatório de<br/>Sindicância/Perícia]
+    D6 --> D7[Análise técnica<br/>do relatório]
+    D7 --> D8
+    
+    D4 -->|NÃO| D8[Emissão de formulário<br/>com análise]
+    
+    D8 --> D9{Classificação<br/>da Cobertura}
+    
+    D9 -->|DEFERIDO| E1[Focal valida sequência<br/>Responde: DE ACORDO]
+    D9 -->|INDEFERIDO| E2[Associação procede<br/>considerações]
+    D9 -->|A DEFINIR| E3[Focal + Diretoria +<br/>Jurídico definem]
+    
+    E2 --> E4{Mantém<br/>indeferimento?}
+    E4 -->|SIM| E5[Departamento Jurídico<br/>Notificação Extrajudicial]
+    E5 --> End1([Fim: Processo Indeferido])
+    
+    E4 -->|NÃO| E3
+    E3 --> E6{Deferimento?}
+    E6 -->|NÃO| E5
+    E6 -->|SIM| E1
+    
+    E1 --> F1[ETAPA 4: REGULAÇÃO<br/>Prazo: 03 dias úteis]
+    F1 --> F2[Avaliação Prévia<br/>de Danos]
+    F2 --> F3[Elaboração de<br/>orçamento]
+    F3 --> F4[Proposta de acordo<br/>FAST TRACK]
+    
+    F4 --> F5{Associado/<br/>Terceiro<br/>ANUIU?}
+    
+    F5 -->|SIM - FAST TRACK| F6[Envia dados bancários<br/>para Associação]
+    F6 --> F7[Departamento Financeiro<br/>programa pagamento]
+    F7 --> End2([Fim: Acordo FAST TRACK])
+    
+    F5 -->|NÃO| G1[ETAPA 5: DIRECIONAMENTO<br/>Recusa do FAST TRACK]
+    G1 --> G2[Focal indica oficina]
+    G2 --> G3[Gestão Segura contata<br/>Associado/Terceiro]
+    G3 --> G4[Agendamento com<br/>oficina indicada]
+    
+    G4 --> G5{Veículo pode<br/>se locomover?}
+    G5 -->|NÃO| G6[Aciona 0800<br/>assistência]
+    G6 --> G7
+    G5 -->|SIM| G7[Formalização via email<br/>orcamentos2@gestaosegura.com.br]
+    
+    G7 --> H1[ETAPA 6: FORNECIMENTO<br/>DE PEÇAS]
+    H1 --> H2[Oficina responsável<br/>por logística]
+    H2 --> H3[Oficina atualiza<br/>Gestão Segura]
+    
+    H3 --> I1[ETAPA 7: ACOMPANHAMENTO]
+    I1 --> I2[Dep. Comunicação<br/>contata oficina]
+    I2 --> I3[Atualiza histórico<br/>no SGS]
+    
+    I3 --> I4{Orçamento<br/>Complementar?}
+    I4 -->|SIM| I5[Oficina envia fotos<br/>e orçamento complementar]
+    I5 --> I6[Regulação complementar]
+    I6 --> I3
+    
+    I4 -->|NÃO| J1[ETAPA 8: ACORDO<br/>EXTRAJUDICIAIS]
+    J1 --> J2{Acordo<br/>Extrajudicial<br/>necessário?}
+    
+    J2 -->|SIM| J3[Dep. Jurídico elabora<br/>Termo de Acordo]
+    J3 --> J4[Envia aos envolvidos]
+    J4 --> J5[Associação cientifica<br/>Gestão Segura]
+    J5 --> K1
+    
+    J2 -->|NÃO| K1[ETAPA 9: CONCLUSÃO<br/>DOS REPAROS]
+    K1 --> K2[Oficina comunica<br/>conclusão]
+    K2 --> K3[Solicita Termo<br/>de Quitação]
+    K3 --> K4[Colhe assinatura<br/>do Associado/Terceiro]
+    K4 --> K5[Envia fotos + Notas<br/>Fiscais]
+    
+    K5 --> L1[ETAPA 10: PAGAMENTO]
+    L1 --> L2[Associação arca com<br/>Mão de Obra + Peças]
+    L2 --> L3[Quitação com oficina<br/>e fornecedor]
+    
+    L3 --> End3([Fim: Processo Concluído])
+    
+    style Start fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style End1 fill:#f44336,stroke:#c62828,color:#fff
+    style End2 fill:#2196F3,stroke:#1565C0,color:#fff
+    style End3 fill:#4CAF50,stroke:#2E7D32,color:#fff
+    
+    style A1 fill:#E3F2FD,stroke:#1976D2
+    style C1 fill:#FFF3E0,stroke:#F57C00
+    style D1 fill:#F3E5F5,stroke:#7B1FA2
+    style F1 fill:#E8F5E9,stroke:#388E3C
+    style G1 fill:#FFF9C4,stroke:#F9A825
+    style H1 fill:#FCE4EC,stroke:#C2185B
+    style I1 fill:#E0F2F1,stroke:#00796B
+    style J1 fill:#EFEBE9,stroke:#5D4037
+    style K1 fill:#E8EAF6,stroke:#3F51B5
+    style L1 fill:#F1F8E9,stroke:#689F38
+
