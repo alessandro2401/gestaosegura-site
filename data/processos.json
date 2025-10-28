@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2025-10-21T22:22:22.636481",
+    "ultima_atualizacao": "2025-10-28T16:46:39.246259",
     "total_processos": 91,
     "total_registros": 91,
     "fonte": "Google Sheets - Todos processos",
@@ -1105,7 +1105,7 @@
       "Vl Contraproposta": " R$  -   ",
       "Valor Final Pago": " R$  30.000,00 ",
       "Dias TT": "10",
-      "Obs sobre os processos": "Devoluçao em atraso e com pendencia.  Apresentou apenas a regulaçao, nao concluiu a negociaçao. Dia 01/09 GS enviou negociação com a ROCAR no valor de 13.600 afirmando ser contraproposta da oficina. Com este e-mail foi gerada autorização, porém, a oficina entrou em contato informando que aquele valor não foi concordado pela oficina. Foi orientado a entrar em contato com a GS, porém, preferiu acatar o erro. Solicitado complemento 10/09 retorno 19/09. Complemento em análise interna. Após tratativas e solicitação de complemento, devivo ao alto valor dos reparos e a complexidade, foi negociado um pacote fechado com a ROCAR no valor de R$ 30.000,00 sem ressalvas. "
+      "Obs sobre os processos": "Devoluçao em atraso e com pendencia.  Apresentou apenas a regulaçao, nao concluiu a negociaçao. Dia 01/09 GS enviou negociação com a ROCAR no valor de 13.600 afirmando ser contraproposta da oficina. Com este e-mail foi gerada autorização, porém, a oficina entrou em contato informando que aquele valor não foi concordado pela oficina. Foi orientado a entrar em contato com a GS, porém, preferiu acatar o erro. Solicitado complemento 10/09 retorno 19/09. Complemento em análise interna. Após tratativas e solicitação de complemento, devivo ao alto valor dos reparos e a complexidade, foi negociado um pacote fechado com a ROCAR no valor de R$ 30.000,00 sem ressalvas. Previsao de entrega para 13/11."
     },
     {
       "Data Sincronismo": "15/08/2025",
@@ -1354,7 +1354,7 @@
       "Protocolo GS": "A202508S46I 32722-0MM ",
       "Nome": "ELIANE PEREIRA NEIVAS DE LIMA",
       "Placa": "PQD3E91",
-      "Status": "Autorizado",
+      "Status": "Finalizado",
       "Data de retorno - GS": "28/08/2025",
       "Retornado": "28/08/2025",
       "Dias de retorno": "17",
@@ -1369,7 +1369,7 @@
       "Vl Contraproposta": " R$  -   ",
       "Valor Final Pago": " R$  9.354,62 ",
       "Dias TT": "20",
-      "Obs sobre os processos": "Retorno no dia 28/08 com pendencia de negociaçao. No dia 29/08 apresentou a negociaçao. Apos recusa de acordo. Processo autorizado na oficina. Oficina solicitou complemento 01 dia 09/09, porém GS e oficina nao conseguem entrar numa negociação e tratativas do complemento vem se estendendo e dia 26/09 foi enviado novo orçamento regulado para ver se oficina e GS se alinham e liberam o complemento. 02/10/2025 oficina enviou solicitação de complemento 02, onde até o momento as tratativas se estendem sem resolução (08/10/2025). Mediante a não resolução da GS com relação ao complemento final, a diretoria solicitou que negociasse diretamente com a oficina a fim de liberar o veículo. Complemento autorizado dia 16/10. Complemento ficou em tratativa com a GS por 21 dias úteis e nao foi resolvido."
+      "Obs sobre os processos": "Retorno no dia 28/08 com pendencia de negociaçao. No dia 29/08 apresentou a negociaçao. Apos recusa de acordo. Processo autorizado na oficina. Oficina solicitou complemento 01 dia 09/09, porém GS e oficina nao conseguem entrar numa negociação e tratativas do complemento vem se estendendo e dia 26/09 foi enviado novo orçamento regulado para ver se oficina e GS se alinham e liberam o complemento. 02/10/2025 oficina enviou solicitação de complemento 02, onde até o momento as tratativas se estendem sem resolução (08/10/2025). Mediante a não resolução da GS com relação ao complemento final, a diretoria solicitou que negociasse diretamente com a oficina a fim de liberar o veículo. Complemento autorizado dia 16/10. Complemento ficou em tratativa com a GS por 21 dias úteis e nao foi resolvido. Veículo entregue dia 22/10."
     },
     {
       "Data Sincronismo": "25/08/2025",
@@ -1875,7 +1875,7 @@
       "Vl Contraproposta": " R$  -   ",
       "Valor Final Pago": " R$  3.439,39 ",
       "Dias TT": "2",
-      "Obs sobre os processos": "Ofertado acordo para terceira. Aguradando retorno da negociação com oficina. Reparos autorizados dia 06/10 na oficina Solução. Veículo ainda não compareceu na oficina."
+      "Obs sobre os processos": "Ofertado acordo para terceira. Aguradando retorno da negociação com oficina. Reparos autorizados dia 06/10 na oficina Solução. Veículo ainda não compareceu na oficina. Veículo deu entrada dia 27/10."
     },
     {
       "Data Sincronismo": "15/09/2025",
@@ -2014,9 +2014,9 @@
       "Protocolo GS": "A202509S24I 30288-0MM",
       "Nome": "RAUL CARDOSO SANTOS ",
       "Placa": "PRZ2C09",
-      "Status": "Em analise",
+      "Status": "Finalizado",
       "Data de retorno - GS": "24/09/2025",
-      "Retornado": "",
+      "Retornado": "10/10/2025",
       "Dias de retorno": "",
       "Vl Orçamento Oficina": " R$  -   ",
       "Vl Regulação GS": " R$  -   ",
@@ -2028,8 +2028,8 @@
       "Vl Acordo Aceito": " R$  -   ",
       "Vl Contraproposta": " R$  -   ",
       "Valor Final Pago": " R$  -   ",
-      "Dias TT": "0",
-      "Obs sobre os processos": "Solicitado para a oficina dia 24/09 mais fotos de algumas peças listadas, porém, ate o momento sem retorno desta, ainda não recebemos a regulação."
+      "Dias TT": "21",
+      "Obs sobre os processos": "Solicitado para a oficina dia 24/09 mais fotos de algumas peças listadas, porém, ate o momento sem retorno desta, ainda não recebemos a regulação. Processo passou para análise interna pois será constatado Perca Total. "
     }
   ],
   "processos_completos": [
@@ -3157,7 +3157,7 @@
       " Vl Contraproposta ": " R$  -   ",
       " Valor Final Pago ": " R$  30.000,00 ",
       "Dias TT": "10",
-      "Obs sobre os processos": "Devoluçao em atraso e com pendencia.  Apresentou apenas a regulaçao, nao concluiu a negociaçao. Dia 01/09 GS enviou negociação com a ROCAR no valor de 13.600 afirmando ser contraproposta da oficina. Com este e-mail foi gerada autorização, porém, a oficina entrou em contato informando que aquele valor não foi concordado pela oficina. Foi orientado a entrar em contato com a GS, porém, preferiu acatar o erro. Solicitado complemento 10/09 retorno 19/09. Complemento em análise interna. Após tratativas e solicitação de complemento, devivo ao alto valor dos reparos e a complexidade, foi negociado um pacote fechado com a ROCAR no valor de R$ 30.000,00 sem ressalvas. ",
+      "Obs sobre os processos": "Devoluçao em atraso e com pendencia.  Apresentou apenas a regulaçao, nao concluiu a negociaçao. Dia 01/09 GS enviou negociação com a ROCAR no valor de 13.600 afirmando ser contraproposta da oficina. Com este e-mail foi gerada autorização, porém, a oficina entrou em contato informando que aquele valor não foi concordado pela oficina. Foi orientado a entrar em contato com a GS, porém, preferiu acatar o erro. Solicitado complemento 10/09 retorno 19/09. Complemento em análise interna. Após tratativas e solicitação de complemento, devivo ao alto valor dos reparos e a complexidade, foi negociado um pacote fechado com a ROCAR no valor de R$ 30.000,00 sem ressalvas. Previsao de entrega para 13/11.",
       "": ""
     },
     {
@@ -3418,7 +3418,7 @@
       "Protocolo GS": "A202508S46I 32722-0MM ",
       "Nome": "ELIANE PEREIRA NEIVAS DE LIMA",
       "Placa": "PQD3E91",
-      "Status": "Autorizado",
+      "Status": "Finalizado",
       "Data de retorno - GS": "28/08/2025",
       "Retornado": "28/08/2025",
       "Dias de retorno": "17",
@@ -3433,7 +3433,7 @@
       " Vl Contraproposta ": " R$  -   ",
       " Valor Final Pago ": " R$  9.354,62 ",
       "Dias TT": "20",
-      "Obs sobre os processos": "Retorno no dia 28/08 com pendencia de negociaçao. No dia 29/08 apresentou a negociaçao. Apos recusa de acordo. Processo autorizado na oficina. Oficina solicitou complemento 01 dia 09/09, porém GS e oficina nao conseguem entrar numa negociação e tratativas do complemento vem se estendendo e dia 26/09 foi enviado novo orçamento regulado para ver se oficina e GS se alinham e liberam o complemento. 02/10/2025 oficina enviou solicitação de complemento 02, onde até o momento as tratativas se estendem sem resolução (08/10/2025). Mediante a não resolução da GS com relação ao complemento final, a diretoria solicitou que negociasse diretamente com a oficina a fim de liberar o veículo. Complemento autorizado dia 16/10. Complemento ficou em tratativa com a GS por 21 dias úteis e nao foi resolvido.",
+      "Obs sobre os processos": "Retorno no dia 28/08 com pendencia de negociaçao. No dia 29/08 apresentou a negociaçao. Apos recusa de acordo. Processo autorizado na oficina. Oficina solicitou complemento 01 dia 09/09, porém GS e oficina nao conseguem entrar numa negociação e tratativas do complemento vem se estendendo e dia 26/09 foi enviado novo orçamento regulado para ver se oficina e GS se alinham e liberam o complemento. 02/10/2025 oficina enviou solicitação de complemento 02, onde até o momento as tratativas se estendem sem resolução (08/10/2025). Mediante a não resolução da GS com relação ao complemento final, a diretoria solicitou que negociasse diretamente com a oficina a fim de liberar o veículo. Complemento autorizado dia 16/10. Complemento ficou em tratativa com a GS por 21 dias úteis e nao foi resolvido. Veículo entregue dia 22/10.",
       "": ""
     },
     {
@@ -3962,7 +3962,7 @@
       " Vl Contraproposta ": " R$  -   ",
       " Valor Final Pago ": " R$  3.439,39 ",
       "Dias TT": "2",
-      "Obs sobre os processos": "Ofertado acordo para terceira. Aguradando retorno da negociação com oficina. Reparos autorizados dia 06/10 na oficina Solução. Veículo ainda não compareceu na oficina.",
+      "Obs sobre os processos": "Ofertado acordo para terceira. Aguradando retorno da negociação com oficina. Reparos autorizados dia 06/10 na oficina Solução. Veículo ainda não compareceu na oficina. Veículo deu entrada dia 27/10.",
       "": ""
     },
     {
@@ -4108,9 +4108,9 @@
       "Protocolo GS": "A202509S24I 30288-0MM",
       "Nome": "RAUL CARDOSO SANTOS ",
       "Placa": "PRZ2C09",
-      "Status": "Em analise",
+      "Status": "Finalizado",
       "Data de retorno - GS": "24/09/2025",
-      "Retornado": "",
+      "Retornado": "10/10/2025",
       "Dias de retorno": "",
       " Vl Orçamento Oficina ": " R$  -   ",
       " Vl Regulação- GS ": " R$  -   ",
@@ -4122,19 +4122,19 @@
       " Vl Acordo Aceito ": " R$  -   ",
       " Vl Contraproposta ": " R$  -   ",
       " Valor Final Pago ": " R$  -   ",
-      "Dias TT": "0",
-      "Obs sobre os processos": "Solicitado para a oficina dia 24/09 mais fotos de algumas peças listadas, porém, ate o momento sem retorno desta, ainda não recebemos a regulação.",
+      "Dias TT": "21",
+      "Obs sobre os processos": "Solicitado para a oficina dia 24/09 mais fotos de algumas peças listadas, porém, ate o momento sem retorno desta, ainda não recebemos a regulação. Processo passou para análise interna pois será constatado Perca Total. ",
       "": ""
     }
   ],
   "analysis": {
     "total_processos": 93,
-    "ultima_atualizacao": "2025-10-21T22:22:22.636099",
+    "ultima_atualizacao": "2025-10-28T16:46:39.245871",
     "status_distribution": {
       "Cancelado": 4,
-      "Finalizado": 77,
-      "Autorizado": 8,
-      "Em analise": 2,
+      "Finalizado": 79,
+      "Autorizado": 7,
+      "Em analise": 1,
       "": 2
     },
     "processos_por_mes": {
@@ -4158,14 +4158,14 @@
         "Finalizado": 19
       },
       "2025-08": {
-        "Finalizado": 42,
+        "Finalizado": 43,
         "Cancelado": 2,
-        "Autorizado": 4
+        "Autorizado": 3
       },
       "2025-09": {
-        "Finalizado": 11,
+        "Finalizado": 12,
         "Autorizado": 4,
-        "Em analise": 2
+        "Em analise": 1
       }
     },
     "valores": {
