@@ -9,6 +9,8 @@ on:
 jobs:
   sync-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout do repositório
@@ -38,7 +40,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add data/processos.json
           git commit -m "🔄 Atualização automática dos dados - $(date +'%d/%m/%Y %H:%M')"
-          git push
+          git push origin master
       
       - name: Notificar sucesso
         if: steps.verify_diff.outputs.changed == 'true'
@@ -51,3 +53,4 @@ jobs:
         run: |
           echo "ℹ️  Nenhuma alteração nos dados"
           echo "📅 Data: $(date +'%d/%m/%Y %H:%M:%S')"
+
