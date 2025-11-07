@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2025-11-06T09:39:17.533563",
+    "ultima_atualizacao": "2025-11-07T09:14:51.639952",
     "total_processos": 8,
     "total_registros": 8,
     "fonte": "Google Sheets - Todos processos",
@@ -34,7 +34,7 @@
       "Protocolo GS": "A202508S25I 25602-3MM",
       "Nome": "KLEICY GOMES DE CARVALHO",
       "Placa": "JIA5D23",
-      "Status": "Autorizado",
+      "Status": "Concluido",
       "Data de retorno - GS": "14/08/2025",
       "Retornado": "13/08/2025",
       "Dias de retorno": "",
@@ -212,7 +212,7 @@
       "Protocolo GS": "A202508S25I 25602-3MM",
       "Nome": "KLEICY GOMES DE CARVALHO",
       "Placa": "JIA5D23",
-      "Status": "Autorizado",
+      "Status": "Concluido",
       "Data de retorno - GS": "14/08/2025",
       "Retornado": "13/08/2025",
       "Dias de retorno": "",
@@ -394,9 +394,10 @@
   ],
   "analysis": {
     "total_processos": 9,
-    "ultima_atualizacao": "2025-11-06T09:39:17.533438",
+    "ultima_atualizacao": "2025-11-07T09:14:51.639850",
     "status_distribution": {
-      "Autorizado": 7,
+      "Concluido": 1,
+      "Autorizado": 6,
       "Em analise": 1,
       "": 1
     },
@@ -410,7 +411,8 @@
     },
     "status_por_mes": {
       "2025-08": {
-        "Autorizado": 3
+        "Concluido": 1,
+        "Autorizado": 2
       },
       "2025-09": {
         "Autorizado": 4,
