@@ -47,7 +47,7 @@ class DataLoader {
    * Fallback: carrega diretamente da planilha (método antigo)
    */
   async loadFromSheets() {
-    const spreadsheetId = '1X0zBNRqsqUSh1roe2svI5JrkY-AeKCM941JRDKWsizw';
+    const spreadsheetId = '1j14pUQZu_N_OjoN6Q3ZnT7gqavmvOp5IGJnWCyWyTrc';
     const sheetName = 'Todos processos';
     
     try {
