@@ -17,13 +17,21 @@ class DataLoader {
     try {
       console.log('Carregando dados sincronizados...');
       
-      const response = await fetch('data/processos.json');
+      const response = await fetch('data/processos.json', {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+      
+      console.log(`Response status: ${response.status}`);
       
       if (!response.ok) {
-        throw new Error(`Erro ao carregar dados: ${response.status}`);
+        throw new Error(`Erro HTTP ${response.status}: ${response.statusText}`);
       }
       
       const jsonData = await response.json();
+      console.log('JSON parsing bem-sucedido');
       
       this.metadata = jsonData.metadata;
       this.data = jsonData.processos;
@@ -36,6 +44,7 @@ class DataLoader {
       return this.data;
     } catch (error) {
       console.error('❌ Erro ao carregar dados:', error);
+      console.error('Stack:', error.stack);
       
       // Fallback: tentar carregar diretamente da planilha
       console.log('⚠️  Tentando carregar diretamente da planilha...');
