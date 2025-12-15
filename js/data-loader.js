@@ -48,7 +48,7 @@ class DataLoader {
    */
   async loadFromSheets() {
     const spreadsheetId = '1j14pUQZu_N_OjoN6Q3ZnT7gqavmvOp5IGJnWCyWyTrc';
-    const sheetName = 'Todos processos';
+    const sheetName = 'Controle de Prazos GS';
     
     try {
       const url = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(sheetName)}`;
