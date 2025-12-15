@@ -17,7 +17,7 @@ class DataLoader {
     try {
       console.log('Carregando dados sincronizados...');
       
-      const response = await fetch('data/processos.json', {
+      const response = await fetch('/data/processos.json', {
         method: 'GET',
         headers: {
           'Accept': 'application/json'
