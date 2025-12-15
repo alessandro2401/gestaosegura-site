@@ -198,8 +198,13 @@ class DataLoader {
       return `${nomeMes}/${ano}`;
     });
 
-    // Tempo médio por mês
-    const tempoMedio = meses.map(mes => this.analysis.tempo_medio_por_mes[mes] || 0);
+    // Tempo médio por mês (com fallback se não existir)
+    const tempoMedio = meses.map(mes => {
+      if (this.analysis.tempo_medio_por_mes && this.analysis.tempo_medio_por_mes[mes]) {
+        return this.analysis.tempo_medio_por_mes[mes];
+      }
+      return 0; // Valor padrão se não existir
+    });
 
     // Status por mês
     const statusData = {};
@@ -207,7 +212,7 @@ class DataLoader {
     
     statusTypes.forEach(status => {
       statusData[status] = meses.map(mes => {
-        const mesData = this.analysis.status_por_mes[mes] || {};
+        const mesData = (this.analysis.status_por_mes && this.analysis.status_por_mes[mes]) || {};
         const total = Object.values(mesData).reduce((sum, val) => sum + val, 0);
         const count = mesData[status] || 0;
         return total > 0 ? Math.round((count / total) * 100) : 0;
