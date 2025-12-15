@@ -1,0 +1,66 @@
+name: Sincronização Diária de Dados
+
+on:
+  schedule:
+    # Executa todos os dias às 08:00 UTC (05:00 Brasília)
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # Permite execução manual
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Sincronizar dados do Google Sheets
+        run: |
+          cd ${{ github.workspace }}
+          python3 scripts/sync_sheets_data.py
+      
+      - name: Gerar tabela HTML
+        run: |
+          cd ${{ github.workspace }}
+          python3 scripts/generate_processos_table.py
+      
+      - name: Verificar mudanças
+        id: verify
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Configurar Git
+        if: steps.verify.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+      
+      - name: Commit e Push das mudanças
+        if: steps.verify.outputs.has_changes == 'true'
+        run: |
+          git add data/processos.json processos-lista.html
+          git commit -m "chore: Sincronização automática diária de dados - $(date +'%d/%m/%Y %H:%M:%S')"
+          git push
+      
+      - name: Notificar sucesso
+        if: success()
+        run: |
+          echo "✅ Sincronização concluída com sucesso!"
+          echo "📊 Dados atualizados em: $(date +'%d/%m/%Y %H:%M:%S')"
+      
+      - name: Notificar erro
+        if: failure()
+        run: |
+          echo "❌ Erro na sincronização!"
+          exit 1
