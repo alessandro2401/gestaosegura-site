@@ -13,7 +13,7 @@ from collections import defaultdict
 
 # Configurações
 SPREADSHEET_ID = "1j14pUQZu_N_OjoN6Q3ZnT7gqavmvOp5IGJnWCyWyTrc"
-SHEET_NAME = "Todos processos"
+SHEET_NAME = "Controle de Prazos GS"
 OUTPUT_FILE = "data/processos.json"
 
 # Colunas específicas que devem ser exibidas (nome exato na planilha)
