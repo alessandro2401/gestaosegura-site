@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Carregamento de Dados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .log {
+            background: #f0f0f0;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #007bff;
+            font-family: monospace;
+            font-size: 12px;
+            overflow-x: auto;
+        }
+        .error {
+            border-left-color: #dc3545;
+            background: #ffe6e6;
+        }
+        .success {
+            border-left-color: #28a745;
+            background: #e6ffe6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Teste de Carregamento de Dados</h1>
+        <div id="logs"></div>
+    </div>
+
+    <script src="js/data-loader.js"></script>
+    <script>
+        const logsDiv = document.getElementById('logs');
+
+        function addLog(message, isError = false) {
+            const log = document.createElement('div');
+            log.className = `log ${isError ? 'error' : 'success'}`;
+            log.textContent = message;
+            logsDiv.appendChild(log);
+            console.log(message);
+        }
+
+        async function test() {
+            addLog('Iniciando teste de carregamento de dados...');
+
+            try {
+                const loader = new DataLoader();
+                addLog('DataLoader criado com sucesso');
+
+                const data = await loader.loadData();
+                addLog(`✅ Dados carregados com sucesso!`);
+                addLog(`Total de processos: ${data ? data.length : 'N/A'}`);
+
+                const metadata = loader.getMetadata();
+                addLog(`Metadata: ${JSON.stringify(metadata)}`);
+
+                const analysis = loader.getAnalysis();
+                addLog(`Analysis keys: ${analysis ? Object.keys(analysis).join(', ') : 'N/A'}`);
+
+                const statusData = loader.getStatusChartData();
+                addLog(`Status chart data: ${statusData ? 'OK' : 'FALHA'}`);
+
+                const temporalData = loader.getTemporalChartData();
+                addLog(`Temporal chart data: ${temporalData ? 'OK' : 'FALHA'}`);
+
+            } catch (error) {
+                addLog(`❌ Erro: ${error.message}`, true);
+                addLog(`Stack: ${error.stack}`, true);
+            }
+        }
+
+        // Executar teste quando a página carregar
+        window.addEventListener('load', test);
+    </script>
+</body>
+</html>
