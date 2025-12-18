@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2025-12-17T09:21:40.392604",
-    "total_processos": 51,
-    "total_registros": 51,
+    "ultima_atualizacao": "2025-12-18T08:29:13.459322",
+    "total_processos": 62,
+    "total_registros": 62,
     "fonte": "Google Sheets - Controle de Prazos GS",
     "colunas_exibidas": [
       "Protocolo GS",
@@ -592,8 +592,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "11/11/2025",
       "Data Sincronismo": "03/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "16/12/2025",
+      "Dias de Retorno": "9"
     },
     {
       "Protocolo GS": "A202512S12I 23837-MM",
@@ -616,8 +616,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "20/11/2025",
       "Data Sincronismo": "09/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "15/12/2025",
+      "Dias de Retorno": "4"
     },
     {
       "Protocolo GS": " A202512S14I 2730-0MM",
@@ -630,32 +630,164 @@
       "Data Sincronismo": "12/12/2025",
       "Data de Retorno": "",
       "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S16I 3805-MM",
+      "Vínculo": "Terceiro",
+      "Nome": "Anna Carollina Rodrigues Batista",
+      "Placa": "PRL3D14",
+      "Tipo de Evento": "Colisão",
+      "Status": "Evento Aprovado",
+      "Data Aviso": "01/12/2025",
+      "Data Sincronismo": "15/12/2025",
+      "Data de Retorno": "16/12/2025",
+      "Dias de Retorno": "0"
+    },
+    {
+      "Protocolo GS": "A202512S16I 3805-MM",
+      "Vínculo": "Associado",
+      "Nome": "Alexandre Fernandes da Silva",
+      "Placa": "PVP0J81",
+      "Tipo de Evento": "Colisão",
+      "Status": "Análise do Evento",
+      "Data Aviso": "24/11/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S18I 27109-3MM",
+      "Vínculo": "Terceiro",
+      "Nome": "Wooldsiver Cardoso Oliveira ",
+      "Placa": "NLN4217",
+      "Tipo de Evento": "Colisão",
+      "Status": "Análise do Evento",
+      "Data Aviso": "24/11/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S19I 26841-0MM",
+      "Vínculo": "Associado",
+      "Nome": "Enoque Barbosa de Carvalho",
+      "Placa": "PAQ5838",
+      "Tipo de Evento": "Colisão",
+      "Status": "Análise do Evento",
+      "Data Aviso": "03/12/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S20I 26841-3MM",
+      "Vínculo": "Terceiro",
+      "Nome": "Sofia Eliane Lapot Rossi",
+      "Placa": "PQK0C36",
+      "Tipo de Evento": "Colisão",
+      "Status": "Análise do Evento",
+      "Data Aviso": "08/12/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S21I 22815-MM",
+      "Vínculo": "Associado",
+      "Nome": "Vilma Leite da Costa ",
+      "Placa": "RFL1B07",
+      "Tipo de Evento": "Colisão",
+      "Status": "Aberto",
+      "Data Aviso": "01/12/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S23I 3815-MM",
+      "Vínculo": "Terceiro",
+      "Nome": "Just Life LTDA",
+      "Placa": "RBR5I41",
+      "Tipo de Evento": "Colisão",
+      "Status": "Aberto",
+      "Data Aviso": "05/12/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S27I 109-MM",
+      "Vínculo": "Associado",
+      "Nome": "Fabricio Heldergard Barros",
+      "Placa": "ONE4057",
+      "Tipo de Evento": "Colisão",
+      "Status": "Aberto",
+      "Data Aviso": "26/11/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S26I 3814-MM",
+      "Vínculo": "Terceiro",
+      "Nome": "Danilo Munhoz de Assis ",
+      "Placa": "RBS2B76",
+      "Tipo de Evento": "Colisão",
+      "Status": "Aberto",
+      "Data Aviso": "02/12/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S25I 3812-MM ",
+      "Vínculo": "Terceiro",
+      "Nome": "Athos Hilard Dias",
+      "Placa": "EUI5J49",
+      "Tipo de Evento": "Colisão",
+      "Status": "Aberto",
+      "Data Aviso": "02/12/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S24I 3807-MM",
+      "Vínculo": "Terceiro",
+      "Nome": "Gabriel Gomes Ribeiro",
+      "Placa": "NWG6574",
+      "Tipo de Evento": "Colisão",
+      "Status": "Aberto",
+      "Data Aviso": "03/12/2025",
+      "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
     }
   ],
   "processos_completos": [],
   "analysis": {
     "total_processos": 87,
-    "ultima_atualizacao": "2025-12-17T09:21:40.392476",
+    "ultima_atualizacao": "2025-12-18T08:29:13.459188",
     "status_distribution": {
       "Reparo Autorizado": 2,
       "Acordo Finalizado": 7,
       "Proposta de Acordo": 1,
       "Acordo Aceito": 7,
       "Acordo Recusado": 4,
-      "Evento Aprovado": 8,
+      "Evento Aprovado": 9,
       "Negociação Oficina": 3,
       "Contraproposta": 6,
       "Sindicância": 1,
-      "Análise do Evento": 8,
+      "Análise do Evento": 12,
       "Reembolso": 1,
       "Negado": 2,
-      "Aberto": 1,
-      "": 36
+      "Aberto": 7,
+      "": 25
     },
     "processos_por_mes": {
       "2025-11": 37,
       "2025-10": 2,
-      "2025-12": 12
+      "2025-12": 23
     },
     "status_por_mes": {
       "2025-11": {
@@ -678,9 +810,9 @@
       },
       "2025-12": {
         "Negado": 1,
-        "Análise do Evento": 4,
-        "Evento Aprovado": 6,
-        "Aberto": 1
+        "Análise do Evento": 8,
+        "Evento Aprovado": 7,
+        "Aberto": 7
       }
     }
   }
