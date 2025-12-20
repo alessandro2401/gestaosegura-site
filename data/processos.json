@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2025-12-19T09:18:23.697561",
-    "total_processos": 62,
-    "total_registros": 62,
+    "ultima_atualizacao": "2025-12-20T08:25:34.656525",
+    "total_processos": 63,
+    "total_registros": 63,
     "fonte": "Google Sheets - Controle de Prazos GS",
     "colunas_exibidas": [
       "Protocolo GS",
@@ -697,7 +697,7 @@
       "Nome": "Vilma Leite da Costa ",
       "Placa": "RFL1B07",
       "Tipo de Evento": "Colisão",
-      "Status": "Aberto",
+      "Status": "Análise do Evento",
       "Data Aviso": "01/12/2025",
       "Data Sincronismo": "17/12/2025",
       "Data de Retorno": "",
@@ -709,7 +709,7 @@
       "Nome": "Just Life LTDA",
       "Placa": "RBR5I41",
       "Tipo de Evento": "Colisão",
-      "Status": "Aberto",
+      "Status": "Análise do Evento",
       "Data Aviso": "05/12/2025",
       "Data Sincronismo": "17/12/2025",
       "Data de Retorno": "",
@@ -721,7 +721,7 @@
       "Nome": "Fabricio Heldergard Barros",
       "Placa": "ONE4057",
       "Tipo de Evento": "Colisão",
-      "Status": "Aberto",
+      "Status": "Análise do Evento",
       "Data Aviso": "26/11/2025",
       "Data Sincronismo": "17/12/2025",
       "Data de Retorno": "",
@@ -733,7 +733,7 @@
       "Nome": "Danilo Munhoz de Assis ",
       "Placa": "RBS2B76",
       "Tipo de Evento": "Colisão",
-      "Status": "Aberto",
+      "Status": "Análise do Evento",
       "Data Aviso": "02/12/2025",
       "Data Sincronismo": "17/12/2025",
       "Data de Retorno": "",
@@ -745,7 +745,7 @@
       "Nome": "Athos Hilard Dias",
       "Placa": "EUI5J49",
       "Tipo de Evento": "Colisão",
-      "Status": "Aberto",
+      "Status": "Análise do Evento",
       "Data Aviso": "02/12/2025",
       "Data Sincronismo": "17/12/2025",
       "Data de Retorno": "",
@@ -757,9 +757,21 @@
       "Nome": "Gabriel Gomes Ribeiro",
       "Placa": "NWG6574",
       "Tipo de Evento": "Colisão",
-      "Status": "Aberto",
+      "Status": "Análise do Evento",
       "Data Aviso": "03/12/2025",
       "Data Sincronismo": "17/12/2025",
+      "Data de Retorno": "",
+      "Dias de Retorno": ""
+    },
+    {
+      "Protocolo GS": "A202512S34I 10901-MM",
+      "Vínculo": "Associado",
+      "Nome": "Valberto de Souza Lima ",
+      "Placa": "JFQ3172",
+      "Tipo de Evento": "Colisão",
+      "Status": "Aberto",
+      "Data Aviso": "14/12/2025",
+      "Data Sincronismo": "19/12/2025",
       "Data de Retorno": "",
       "Dias de Retorno": ""
     }
@@ -767,7 +779,7 @@
   "processos_completos": [],
   "analysis": {
     "total_processos": 87,
-    "ultima_atualizacao": "2025-12-19T09:18:23.697416",
+    "ultima_atualizacao": "2025-12-20T08:25:34.656375",
     "status_distribution": {
       "Reparo Autorizado": 2,
       "Acordo Finalizado": 7,
@@ -778,16 +790,16 @@
       "Negociação Oficina": 3,
       "Contraproposta": 6,
       "Sindicância": 1,
-      "Análise do Evento": 12,
+      "Análise do Evento": 18,
       "Reembolso": 1,
       "Negado": 2,
-      "Aberto": 7,
-      "": 25
+      "Aberto": 2,
+      "": 24
     },
     "processos_por_mes": {
       "2025-11": 37,
       "2025-10": 2,
-      "2025-12": 23
+      "2025-12": 24
     },
     "status_por_mes": {
       "2025-11": {
@@ -810,9 +822,9 @@
       },
       "2025-12": {
         "Negado": 1,
-        "Análise do Evento": 8,
+        "Análise do Evento": 14,
         "Evento Aprovado": 7,
-        "Aberto": 7
+        "Aberto": 2
       }
     }
   }
