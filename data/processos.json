@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2025-12-23T09:19:37.162686",
+    "ultima_atualizacao": "2025-12-24T08:29:09.216495",
     "total_processos": 72,
     "total_registros": 72,
     "fonte": "Google Sheets - Controle de Prazos GS",
@@ -784,8 +784,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "09/12/2025",
       "Data Sincronismo": "19/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "22/12/2025",
+      "Dias de Retorno": "1"
     },
     {
       "Protocolo GS": " A202512S32I 31764-MM",
@@ -808,8 +808,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "16/12/2025",
       "Data Sincronismo": "19/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "22/12/2025",
+      "Dias de Retorno": "1"
     },
     {
       "Protocolo GS": "A202512S28I 27869-MM",
@@ -817,11 +817,11 @@
       "Nome": "Lucas Oliveira Garcia ",
       "Placa": "RBY4B50",
       "Tipo de Evento": "Colisão",
-      "Status": "Análise do Evento",
+      "Status": "Evento Aprovado",
       "Data Aviso": "24/11/2025",
       "Data Sincronismo": "19/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "22/12/2025",
+      "Dias de Retorno": "1"
     },
     {
       "Protocolo GS": "A202512S29I 3811-MM",
@@ -829,11 +829,11 @@
       "Nome": "Janio Moreira da Silva Quadros ",
       "Placa": "GNS4280",
       "Tipo de Evento": "Colisão",
-      "Status": "Análise do Evento",
+      "Status": "Evento Aprovado",
       "Data Aviso": "02/12/2025",
       "Data Sincronismo": "19/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "22/12/2025",
+      "Dias de Retorno": "1"
     },
     {
       "Protocolo GS": "A202512S37I 3820-MM",
@@ -844,8 +844,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "11/12/2025",
       "Data Sincronismo": "22/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "23/12/2025",
+      "Dias de Retorno": "1"
     },
     {
       "Protocolo GS": " A202512S36I 37860-MM",
@@ -856,8 +856,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "10/12/2025",
       "Data Sincronismo": "22/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "23/12/2025",
+      "Dias de Retorno": "1"
     },
     {
       "Protocolo GS": "A202512S40I 36394-MM",
@@ -868,8 +868,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "16/12/2025",
       "Data Sincronismo": "22/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "23/12/2025",
+      "Dias de Retorno": "1"
     },
     {
       "Protocolo GS": "A202512S39I 3816-MM",
@@ -877,31 +877,31 @@
       "Nome": "Ieda Maria de Oliveira Piretti",
       "Placa": "PQX0689",
       "Tipo de Evento": "Colisão",
-      "Status": "Aberto",
+      "Status": "Evento Aprovado",
       "Data Aviso": "",
       "Data Sincronismo": "22/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "23/12/2025",
+      "Dias de Retorno": "1"
     }
   ],
   "processos_completos": [],
   "analysis": {
     "total_processos": 85,
-    "ultima_atualizacao": "2025-12-23T09:19:37.162552",
+    "ultima_atualizacao": "2025-12-24T08:29:09.216359",
     "status_distribution": {
       "Reparo Autorizado": 3,
       "Acordo Finalizado": 8,
       "Proposta de Acordo": 1,
-      "Evento Aprovado": 9,
+      "Evento Aprovado": 12,
       "Acordo Aceito": 6,
       "Negociação Oficina": 3,
       "Acordo Recusado": 3,
       "Contraproposta": 6,
       "Sindicância": 1,
-      "Análise do Evento": 27,
+      "Análise do Evento": 25,
       "Reembolso": 1,
       "Negado": 2,
-      "Aberto": 2,
+      "Aberto": 1,
       "": 13
     },
     "processos_por_mes": {
@@ -930,9 +930,9 @@
       },
       "2025-12": {
         "Negado": 1,
-        "Análise do Evento": 23,
-        "Evento Aprovado": 7,
-        "Aberto": 2
+        "Análise do Evento": 21,
+        "Evento Aprovado": 10,
+        "Aberto": 1
       }
     }
   }
