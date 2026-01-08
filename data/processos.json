@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2026-01-07T09:22:39.673295",
+    "ultima_atualizacao": "2026-01-08T08:30:26.670209",
     "total_processos": 88,
     "total_registros": 88,
     "fonte": "Google Sheets - Controle de Prazos GS",
@@ -409,7 +409,7 @@
       "Nome": "Rogerio de Siqueira",
       "Placa": "PQG7431",
       "Tipo de Evento": "Colisão",
-      "Status": "Negociação Oficina",
+      "Status": "Reparo Autorizado",
       "Data Aviso": "05/11/2025",
       "Data Sincronismo": "24/11/2025",
       "Data de Retorno": "26/11/2025",
@@ -469,7 +469,7 @@
       "Nome": "Mundial Refrigeração LTDA",
       "Placa": "SIL7E43",
       "Tipo de Evento": "Colisão",
-      "Status": "Negociação Oficina",
+      "Status": "Reparo Autorizado",
       "Data Aviso": "10/11/2025",
       "Data Sincronismo": "26/11/2025",
       "Data de Retorno": "01/12/2025",
@@ -604,8 +604,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "01/12/2025",
       "Data Sincronismo": "09/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "06/01/2026",
+      "Dias de Retorno": "20"
     },
     {
       "Protocolo GS": "A202512S13I 34874-MM",
@@ -628,8 +628,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "01/12/2025",
       "Data Sincronismo": "12/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "06/01/2026",
+      "Dias de Retorno": "17"
     },
     {
       "Protocolo GS": "A202512S16I 3805-MM",
@@ -709,11 +709,11 @@
       "Nome": "Just Life LTDA",
       "Placa": "RBR5I41",
       "Tipo de Evento": "Colisão",
-      "Status": "Análise do Evento",
+      "Status": "Proposta de Acordo",
       "Data Aviso": "05/12/2025",
       "Data Sincronismo": "17/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "06/01/2026",
+      "Dias de Retorno": "14"
     },
     {
       "Protocolo GS": "A202512S27I 109-MM",
@@ -793,7 +793,7 @@
       "Nome": "Ana Paula Porto Sa Barreto ",
       "Placa": "AXF4B51",
       "Tipo de Evento": "Colisão",
-      "Status": "Análise do Evento",
+      "Status": "Evento Aprovado",
       "Data Aviso": "24/11/2025",
       "Data Sincronismo": "19/12/2025",
       "Data de Retorno": "05/01/2026",
@@ -817,7 +817,7 @@
       "Nome": "Lucas Oliveira Garcia ",
       "Placa": "RBY4B50",
       "Tipo de Evento": "Colisão",
-      "Status": "Evento Aprovado",
+      "Status": "Proposta de Acordo",
       "Data Aviso": "24/11/2025",
       "Data Sincronismo": "19/12/2025",
       "Data de Retorno": "22/12/2025",
@@ -877,7 +877,7 @@
       "Nome": "Ieda Maria de Oliveira Piretti",
       "Placa": "PQX0689",
       "Tipo de Evento": "Colisão",
-      "Status": "Evento Aprovado",
+      "Status": "Proposta de Acordo",
       "Data Aviso": "04/12/2025",
       "Data Sincronismo": "22/12/2025",
       "Data de Retorno": "23/12/2025",
@@ -913,7 +913,7 @@
       "Nome": "Gridd Car Locadora de Veiculos Maquinas e Implementos LTDA",
       "Placa": "RGH8H18",
       "Tipo de Evento": "Colisão",
-      "Status": "Evento Aprovado",
+      "Status": "Proposta de Acordo",
       "Data Aviso": "16/10/2025",
       "Data Sincronismo": "23/12/2025",
       "Data de Retorno": "26/12/2025",
@@ -1009,7 +1009,7 @@
       "Nome": " Flavio Arantes dos Santos ",
       "Placa": "QRG1C08",
       "Tipo de Evento": "Colisão",
-      "Status": "Evento Aprovado",
+      "Status": "Proposta de Acordo",
       "Data Aviso": "12/12/2025",
       "Data Sincronismo": "29/12/2025",
       "Data de Retorno": "30/12/2025",
@@ -1036,8 +1036,8 @@
       "Status": "Análise do Evento",
       "Data Aviso": "08/12/2025",
       "Data Sincronismo": "29/12/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data de Retorno": "05/01/2026",
+      "Dias de Retorno": "5"
     },
     {
       "Protocolo GS": "A202512S57I 32769-MM",
@@ -1069,42 +1069,42 @@
       "Nome": "Lorena Nogueira Bento",
       "Placa": "NJX9I88",
       "Tipo de Evento": "Colisão",
-      "Status": "Análise do Evento",
+      "Status": "Evento Aprovado",
       "Data Aviso": "19/12/2025",
-      "Data Sincronismo": "05/01/2025",
-      "Data de Retorno": "",
-      "Dias de Retorno": ""
+      "Data Sincronismo": "05/01/2026",
+      "Data de Retorno": "06/01/2026",
+      "Dias de Retorno": "1"
     }
   ],
   "processos_completos": [],
   "analysis": {
     "total_processos": 88,
-    "ultima_atualizacao": "2026-01-07T09:22:39.673011",
+    "ultima_atualizacao": "2026-01-08T08:30:26.669777",
     "status_distribution": {
-      "Reparo Autorizado": 8,
+      "Reparo Autorizado": 10,
       "Acordo Finalizado": 21,
-      "Proposta de Acordo": 7,
+      "Proposta de Acordo": 12,
       "Contraproposta": 2,
-      "Negociação Oficina": 7,
-      "Evento Aprovado": 16,
+      "Negociação Oficina": 5,
+      "Evento Aprovado": 14,
       "Reembolso": 1,
       "Negado": 2,
       "Sindicância": 1,
-      "Análise do Evento": 23
+      "Análise do Evento": 20
     },
     "processos_por_mes": {
       "2025-11": 37,
       "2025-10": 2,
       "2025-12": 48,
-      "2025-01": 1
+      "2026-01": 1
     },
     "status_por_mes": {
       "2025-11": {
-        "Reparo Autorizado": 6,
+        "Reparo Autorizado": 8,
         "Acordo Finalizado": 18,
         "Proposta de Acordo": 2,
         "Contraproposta": 1,
-        "Negociação Oficina": 6,
+        "Negociação Oficina": 4,
         "Evento Aprovado": 2,
         "Reembolso": 1,
         "Negado": 1
@@ -1117,15 +1117,15 @@
         "Negado": 1,
         "Sindicância": 1,
         "Negociação Oficina": 1,
-        "Evento Aprovado": 14,
+        "Evento Aprovado": 11,
         "Acordo Finalizado": 2,
         "Reparo Autorizado": 1,
         "Contraproposta": 1,
-        "Proposta de Acordo": 5,
-        "Análise do Evento": 22
+        "Proposta de Acordo": 10,
+        "Análise do Evento": 20
       },
-      "2025-01": {
-        "Análise do Evento": 1
+      "2026-01": {
+        "Evento Aprovado": 1
       }
     }
   }
