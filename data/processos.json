@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2026-02-25T09:46:02.749464",
+    "ultima_atualizacao": "2026-02-26T08:49:08.261453",
     "total_processos": 98,
     "total_registros": 98,
     "fonte": "Google Sheets - Controle de Prazos GS",
@@ -1199,7 +1199,7 @@
   "processos_completos": [],
   "analysis": {
     "total_processos": 98,
-    "ultima_atualizacao": "2026-02-25T09:46:02.749184",
+    "ultima_atualizacao": "2026-02-26T08:49:08.261169",
     "status_distribution": {
       "Reparo Autorizado": 12,
       "Acordo Finalizado": 26,
