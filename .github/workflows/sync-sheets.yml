@@ -2,8 +2,8 @@ name: Sincronizar Dados do Google Sheets
 
 on:
   schedule:
-    # Executar todos os dias às 09:00 UTC (06:00 Brasília)
-    - cron: '0 9 * * *'
+    # Executar todos os dias às 08:00 UTC (05:00 Brasília)
+    - cron: '0 8 * * *'
   workflow_dispatch: # Permitir execução manual
 
 jobs:
@@ -24,21 +24,23 @@ jobs:
           python-version: '3.11'
       
       - name: Sincronizar dados da planilha
+        env:
+          GOOGLE_ACCESS_TOKEN: ${{ secrets.GOOGLE_ACCESS_TOKEN }}
         run: |
           cd $GITHUB_WORKSPACE
-          python scripts/sync_sheets_data.py
+          python scripts/sync_processos.py
       
       - name: Verificar se houve alterações
         id: verify_diff
         run: |
-          git diff --quiet data/processos.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet public/data/processos.json || echo "changed=true" >> $GITHUB_OUTPUT
       
       - name: Commit e push das alterações
         if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/processos.json
+          git add public/data/processos.json
           git commit -m "🔄 Atualização automática dos dados - $(date +'%d/%m/%Y %H:%M')"
           git push origin master
       
