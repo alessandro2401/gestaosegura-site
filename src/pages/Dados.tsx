@@ -48,8 +48,8 @@ export default function Dados() {
     // Ordenação
     if (sortField) {
       result.sort((a, b) => {
-        const va = (a as Record<string, string>)[sortField] || '';
-        const vb = (b as Record<string, string>)[sortField] || '';
+        const va = (a as unknown as Record<string, string>)[sortField] || '';
+        const vb = (b as unknown as Record<string, string>)[sortField] || '';
 
         // Tentar ordenar como número
         const na = parseFloat(va.replace(/[^\d.-]/g, ''));

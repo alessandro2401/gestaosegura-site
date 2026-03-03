@@ -19,7 +19,6 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
   LineChart,
   Line,
 } from 'recharts';
@@ -164,7 +163,7 @@ export default function Dashboard() {
                 outerRadius={100}
                 paddingAngle={3}
                 dataKey="value"
-                label={({ name, percent }) => `${name} (${(percent * 100).toFixed(0)}%)`}
+                label={({ name, percent }: any) => `${name} (${((percent ?? 0) * 100).toFixed(0)}%)`}
                 labelLine={false}
               >
                 {critData.map((entry) => (
@@ -189,7 +188,7 @@ export default function Dashboard() {
                 outerRadius={100}
                 paddingAngle={3}
                 dataKey="value"
-                label={({ name, percent }) => `${name} (${(percent * 100).toFixed(0)}%)`}
+                label={({ name, percent }: any) => `${name} (${((percent ?? 0) * 100).toFixed(0)}%)`}
                 labelLine={false}
               >
                 {tipoData.map((_, index) => (
@@ -242,7 +241,7 @@ export default function Dashboard() {
                 tick={{ fontSize: 10 }}
               />
               <Tooltip
-                formatter={(value: number) => [value, 'Processos']}
+                formatter={(value: any) => [value, 'Processos']}
                 labelFormatter={(label) => {
                   const item = sgaData.find((d) => d.name === label);
                   return item?.fullName || label;
