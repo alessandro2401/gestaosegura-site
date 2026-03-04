@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "ultima_atualizacao": "2026-03-03T21:38:36.822907",
+    "ultima_atualizacao": "2026-03-04T08:24:36.898421",
     "total_processos": 162,
     "fonte": "Google Sheets - CSV Público",
     "planilha_id": "15AS3FlLpmRQwjRCv11dIR9pgE14c2u3XyrFPPMcaFJo"
@@ -71,61 +71,61 @@
       {
         "protocolo": "2021200000827",
         "associado": "KLEYSON JOSE RODRIGUES DA SILVA",
-        "dias_aberto": 1792,
+        "dias_aberto": 1793,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2021200000962",
         "associado": "PATRICK IJERU KARAJA",
-        "dias_aberto": 1721,
+        "dias_aberto": 1722,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2022200001893",
         "associado": "JOSE MARQUES SANTOS",
-        "dias_aberto": 1335,
+        "dias_aberto": 1336,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2023200003798",
         "associado": "AMANDA RODRIGUES DE MORAES",
-        "dias_aberto": 798,
+        "dias_aberto": 799,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2024200004175",
         "associado": "FUNDO MUNICIPAL DE SAÚDE",
-        "dias_aberto": 694,
+        "dias_aberto": 695,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2024200004985",
         "associado": "GLEIDSON DE MORAES MONTEIRO",
-        "dias_aberto": 445,
+        "dias_aberto": 446,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2025200005153",
         "associado": "OSNEI CARDOSO SANTANA",
-        "dias_aberto": 384,
+        "dias_aberto": 385,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2025200005195",
         "associado": "NILTON BARREIRA DA SILVA",
-        "dias_aberto": 368,
+        "dias_aberto": 369,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2025200005175",
         "associado": "FUNDO MUNICIPAL DE SAÚDE",
-        "dias_aberto": 355,
+        "dias_aberto": 356,
         "criticidade": "Crítico"
       },
       {
         "protocolo": "2025200005328",
         "associado": "VALDISON JUNIOR MOREIRA DA SILVA",
-        "dias_aberto": 312,
+        "dias_aberto": 313,
         "criticidade": "Crítico"
       }
     ],
@@ -179,7 +179,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "8",
+      "dias_aberto": "9",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Ja realizado a analise e sincronizado com a GS, aguardando o retorno do prazo para alteração da situação no SGA."
     },
@@ -205,7 +205,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "4",
+      "dias_aberto": "5",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Ja realizado a analise e sincronizado com a GS, aguardando o retorno do prazo para alteração da situação no SGA."
     },
@@ -231,7 +231,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "4",
+      "dias_aberto": "5",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Ja realizado a analise e sincronizado com a GS, aguardando o retorno do prazo para alteração da situação no SGA."
     },
@@ -257,7 +257,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "13",
+      "dias_aberto": "14",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -283,7 +283,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "25",
+      "dias_aberto": "26",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -309,7 +309,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "0",
+      "dias_aberto": "1",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": ""
     },
@@ -335,7 +335,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "126",
+      "dias_aberto": "127",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Somente SMA contratado, porém, não aceita o valor, realizada a tratativa presencial com a responsavel para resolução, porém, sem retorno."
     },
@@ -361,7 +361,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "92",
+      "dias_aberto": "93",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Reajustado o valor da proposta de acordo, aguardando retorno por parte da associada."
     },
@@ -387,7 +387,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "-261",
+      "dias_aberto": "-260",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Somente SMA contratado, porém, não aceita o valor, realizada a tratativa presencial com a responsavel para resolução, porém, sem retorno."
     },
@@ -413,7 +413,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "77",
+      "dias_aberto": "78",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Solicitado nova negociação com a oficina indicada, haja visto que os valores estão superior que o mercado"
     },
@@ -439,7 +439,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "57",
+      "dias_aberto": "58",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd aceite da oficina enviado dia 23/02 quanto aos valores negociado para emitir a autorização dos reparos."
     },
@@ -465,7 +465,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "75",
+      "dias_aberto": "76",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd aceite da oficina quanto aos valores negociado para emitir a autorização dos reparos."
     },
@@ -491,7 +491,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "19",
+      "dias_aberto": "20",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Aceito a indenização parcial, agd a assinatura do termo."
     },
@@ -517,7 +517,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "39",
+      "dias_aberto": "40",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Indenização parcial aceito, agd a assinatura do termo para a programação do pagamento"
     },
@@ -543,7 +543,7 @@
       "custo_evento": "R$ 7.634,56",
       "previsao_valor_reparo": "R$ 12.367,40",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "56",
+      "dias_aberto": "57",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Aceito a indenização parcial, agd a assinatura do termo."
     },
@@ -569,7 +569,7 @@
       "custo_evento": "R$ 5.819,66",
       "previsao_valor_reparo": "R$ 7.715,01",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "104",
+      "dias_aberto": "105",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Indenização parcial aceito, agd a assinatura do termo para a programação do pagamento"
     },
@@ -595,7 +595,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "19",
+      "dias_aberto": "20",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Indenização parcial aceito, agd a assinatura do termo para a programação do pagamento"
     },
@@ -621,7 +621,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "28",
+      "dias_aberto": "29",
       "criticidade": "Atenção",
       "parecer_coordenacao": "Indenização parcial aceito, agd a assinatura do termo para a programação do pagamento"
     },
@@ -647,7 +647,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "18",
+      "dias_aberto": "19",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Indenização parcial aceito, agd a assinatura do termo para a programação do pagamento"
     },
@@ -673,7 +673,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em analise com prazo ate 05/03"
     },
@@ -699,7 +699,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em analise com prazo ate 05/03"
     },
@@ -725,7 +725,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "5",
+      "dias_aberto": "6",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em analise com prazo ate 05/03"
     },
@@ -751,7 +751,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em analise com prazo ate 05/03"
     },
@@ -777,7 +777,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em analise com prazo ate 05/03"
     },
@@ -803,7 +803,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em analise com prazo ate 05/03"
     },
@@ -829,7 +829,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em analise com prazo ate 05/03"
     },
@@ -855,7 +855,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em analise documetal pela GS"
     },
@@ -881,7 +881,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "36",
+      "dias_aberto": "37",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Analise documental com a GS"
     },
@@ -907,7 +907,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "18",
+      "dias_aberto": "19",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Pendente de informações/documentos complementares solicitado pela GS"
     },
@@ -933,7 +933,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "60",
+      "dias_aberto": "61",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Solicitar o cancelamento do processo pelo fato da terceiro seguir com os reparos pela seguradora"
     },
@@ -959,7 +959,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "63",
+      "dias_aberto": "64",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Processo será arquivado por falta de retorno do associado"
     },
@@ -985,7 +985,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em analise documetal pela GS"
     },
@@ -1011,7 +1011,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em analise documetal pela GS"
     },
@@ -1037,7 +1037,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "4",
+      "dias_aberto": "5",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": ""
     },
@@ -1063,7 +1063,7 @@
       "custo_evento": "R$ 1.369,92",
       "previsao_valor_reparo": "R$ 3.647,47",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "84",
+      "dias_aberto": "85",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em regulação do pedido de complemento pela GS"
     },
@@ -1089,7 +1089,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "36",
+      "dias_aberto": "37",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em regulação do pedido de complemento pela GS"
     },
@@ -1115,7 +1115,7 @@
       "custo_evento": "R$ 6.823,99",
       "previsao_valor_reparo": "R$ 6.823,99",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "82",
+      "dias_aberto": "83",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em auditoria do orçamento do pedido de complemento pela GS"
     },
@@ -1141,7 +1141,7 @@
       "custo_evento": "R$ 7.600,80",
       "previsao_valor_reparo": "R$ 7.600,80",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "97",
+      "dias_aberto": "98",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Pedido complemento 1- Em fase de montagem, mas precisará de solicitar outro complemento."
     },
@@ -1167,7 +1167,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "85",
+      "dias_aberto": "86",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em andamento dos reparos"
     },
@@ -1193,7 +1193,7 @@
       "custo_evento": "R$ 15.171,25",
       "previsao_valor_reparo": "R$ 7.994,25",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "162",
+      "dias_aberto": "163",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Retorno de reclamação apos reparos, analise realizada e autorizada o pedido de complemento que esta em andamento"
     },
@@ -1219,7 +1219,7 @@
       "custo_evento": "R$ 9.464,99",
       "previsao_valor_reparo": "R$ 9.464,99",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "91",
+      "dias_aberto": "92",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Complemento III autorizado, em andamentos dos reparos"
     },
@@ -1245,7 +1245,7 @@
       "custo_evento": "R$ 3.056,51",
       "previsao_valor_reparo": "R$ 8.110,26",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "76",
+      "dias_aberto": "77",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em linha de montagem, permanece com a mesma data de entrega."
     },
@@ -1271,7 +1271,7 @@
       "custo_evento": "R$ 4.763,01",
       "previsao_valor_reparo": "R$ 6.098,61",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "117",
+      "dias_aberto": "118",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em analise do pedido de complemento"
     },
@@ -1297,7 +1297,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "57",
+      "dias_aberto": "58",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Solicitado negociação com a oficina apresentado orçamento e da credenciada, pra analise da contraproposta."
     },
@@ -1323,7 +1323,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "91",
+      "dias_aberto": "92",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Solicitado a analise pela coordenação do atendimento, haja visto que o processo se encontra parado desde 30/12/25"
     },
@@ -1349,7 +1349,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "35",
+      "dias_aberto": "36",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em cotação/negociação pela GS, agd retorno"
     },
@@ -1375,7 +1375,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "8",
+      "dias_aberto": "9",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em analise com prazo ate 05/03"
     },
@@ -1401,7 +1401,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em análise do evento. Prazo 05/03"
     },
@@ -1427,7 +1427,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "6",
+      "dias_aberto": "7",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em analise documental com prazo devolutiva em 05/03"
     },
@@ -1453,7 +1453,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Solicitado novas informações para finalizar a analise, agd retorno."
     },
@@ -1479,7 +1479,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "8",
+      "dias_aberto": "9",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -1505,7 +1505,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em analise do processo no nexo causal pela GS"
     },
@@ -1531,7 +1531,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em analise documetal pela GS"
     },
@@ -1557,7 +1557,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "21",
+      "dias_aberto": "22",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em analise da proxima etapa que é a regulação (20/02)"
     },
@@ -1583,7 +1583,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "21",
+      "dias_aberto": "22",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em analise da proxima etapa que é a regulação (20/02)"
     },
@@ -1609,7 +1609,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "27",
+      "dias_aberto": "28",
       "criticidade": "Atenção",
       "parecer_coordenacao": "Em analise da proxima etapa que é a regulação (20/02)"
     },
@@ -1635,7 +1635,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "49",
+      "dias_aberto": "50",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Houve um indeferimento pela GS, mas autorizado a seguir com a analise, agd retorno da aprovação"
     },
@@ -1661,7 +1661,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "40",
+      "dias_aberto": "41",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd novo orçamento para realizar a regulação, assim, foi repassado para a GS ligar na oficina"
     },
@@ -1687,7 +1687,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "48",
+      "dias_aberto": "49",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd o novo orçamento solicitado para o associado, agd retorno."
     },
@@ -1713,7 +1713,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "47",
+      "dias_aberto": "48",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd aceite da oficina quanto aos valores negociado para emitir a autorização dos reparos."
     },
@@ -1739,7 +1739,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "28",
+      "dias_aberto": "29",
       "criticidade": "Atenção",
       "parecer_coordenacao": "Agd aceite da oficina quanto aos valores negociado para emitir a autorização dos reparos."
     },
@@ -1765,7 +1765,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "49",
+      "dias_aberto": "50",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em tratativa com a GS devido a divergencia dos valores, e assim, considerando PT"
     },
@@ -1791,7 +1791,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "55",
+      "dias_aberto": "56",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em analise da proxima etapa que é a regulação (20/02)"
     },
@@ -1817,7 +1817,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "18",
+      "dias_aberto": "19",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Em negociação com a oficina"
     },
@@ -1843,7 +1843,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "27",
+      "dias_aberto": "28",
       "criticidade": "Atenção",
       "parecer_coordenacao": "Em analise da proxima etapa que é a regulação (20/02)"
     },
@@ -1869,7 +1869,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "41",
+      "dias_aberto": "42",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em negociação com as oficinas para autorizar os reparos"
     },
@@ -1895,7 +1895,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "39",
+      "dias_aberto": "40",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em negociação com as oficinas para autorizar os reparos"
     },
@@ -1921,7 +1921,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "78",
+      "dias_aberto": "79",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em negociação com as oficinas para autorizar os reparos"
     },
@@ -1947,7 +1947,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "74",
+      "dias_aberto": "75",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em negociação com as oficinas para autorizar os reparos, iremos cobrar um retorno devido ao tempo"
     },
@@ -1973,7 +1973,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "60",
+      "dias_aberto": "61",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em negociação com as oficinas para autorizar os reparos, iremos cobrar um retorno devido ao tempo"
     },
@@ -1999,7 +1999,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Pendente por falta de orçamento, de outra cidade."
     },
@@ -2025,7 +2025,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Pendente por falta de orçamento, de outra cidade."
     },
@@ -2051,7 +2051,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "5",
+      "dias_aberto": "6",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Pendente por falta de orçamento, de outra cidade."
     },
@@ -2077,7 +2077,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "5",
+      "dias_aberto": "6",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Pendente por falta de orçamento, de outra cidade."
     },
@@ -2103,7 +2103,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "140",
+      "dias_aberto": "141",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Terceiro não concorda com o valor proposto do acordo, requer um valor muito alto, em analise"
     },
@@ -2129,7 +2129,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "13",
+      "dias_aberto": "14",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Disponibilizado para analise da regulação dia 18/02."
     },
@@ -2155,7 +2155,7 @@
       "custo_evento": "R$ 6.837,10",
       "previsao_valor_reparo": "R$ 8.461,73",
       "nome_fornecedor": "VANDERLEY RODRIGUES DE CARVALHO - CLASSE A",
-      "dias_aberto": "263",
+      "dias_aberto": "264",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Pendente, pois oa ssociado se recusa a retirar o veiculo da oficina, juridico tomando as medidas cabiveis."
     },
@@ -2181,7 +2181,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "209",
+      "dias_aberto": "210",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Pendente, pois o associado não se manifesta para finalizar a sindicancia"
     },
@@ -2207,7 +2207,7 @@
       "custo_evento": "R$ 660,00",
       "previsao_valor_reparo": "R$ 660,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "133",
+      "dias_aberto": "134",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Pendente, terceiro se recusa a comparecer na oficina para iniciar os reparos."
     },
@@ -2233,7 +2233,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2259,7 +2259,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2285,7 +2285,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2311,7 +2311,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2337,7 +2337,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "25",
+      "dias_aberto": "26",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2363,7 +2363,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "21",
+      "dias_aberto": "22",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2389,7 +2389,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "21",
+      "dias_aberto": "22",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2415,7 +2415,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "20",
+      "dias_aberto": "21",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2441,7 +2441,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "20",
+      "dias_aberto": "21",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2467,7 +2467,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "20",
+      "dias_aberto": "21",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2493,7 +2493,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "22",
+      "dias_aberto": "23",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2519,7 +2519,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "17",
+      "dias_aberto": "18",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2545,7 +2545,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2571,7 +2571,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2597,7 +2597,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2623,7 +2623,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2649,7 +2649,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "8",
+      "dias_aberto": "9",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2675,7 +2675,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2701,7 +2701,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "8",
+      "dias_aberto": "9",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2727,7 +2727,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2753,7 +2753,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2779,7 +2779,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2805,7 +2805,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "7",
+      "dias_aberto": "8",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2831,7 +2831,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "8",
+      "dias_aberto": "9",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2857,7 +2857,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "11",
+      "dias_aberto": "12",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2883,7 +2883,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "20",
+      "dias_aberto": "21",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2909,7 +2909,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "5",
+      "dias_aberto": "6",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2935,7 +2935,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "5",
+      "dias_aberto": "6",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2961,7 +2961,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "5",
+      "dias_aberto": "6",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -2987,7 +2987,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "4",
+      "dias_aberto": "5",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -3013,7 +3013,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "5",
+      "dias_aberto": "6",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Agd. processo ser disponibilizado para regulação"
     },
@@ -3039,7 +3039,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "1721",
+      "dias_aberto": "1722",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd retorno por parte da advogada da esposa do associado para finalizar o SMT"
     },
@@ -3065,7 +3065,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "798",
+      "dias_aberto": "799",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd retorno por parte da associada para entregar os documentos SMT"
     },
@@ -3091,7 +3091,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "694",
+      "dias_aberto": "695",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd retorno por parte do associado para entregar os documentos SMT"
     },
@@ -3117,7 +3117,7 @@
       "custo_evento": "R$ 43.461,00",
       "previsao_valor_reparo": "R$ 43.461,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "384",
+      "dias_aberto": "385",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Não aceita os descontos e não retorno para seguir com o SMT"
     },
@@ -3143,7 +3143,7 @@
       "custo_evento": "R$ 22.767,00",
       "previsao_valor_reparo": "R$ 22.767,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "216",
+      "dias_aberto": "217",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd retorno por parte da associada para realizar o cancelamento do prcesso SMT, conforme solicitado"
     },
@@ -3169,7 +3169,7 @@
       "custo_evento": "R$ 131.112,00",
       "previsao_valor_reparo": "R$ 131.112,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "355",
+      "dias_aberto": "356",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd retorno por parte do associado para entregar os documentos SMT"
     },
@@ -3195,7 +3195,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "1792",
+      "dias_aberto": "1793",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd retorno por parte do associado para entregar os documentos SMT"
     },
@@ -3221,7 +3221,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "1335",
+      "dias_aberto": "1336",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Pendente a baixa do gravame para seguir com o processo SMT, responsabilidade do associado"
     },
@@ -3247,7 +3247,7 @@
       "custo_evento": "R$ 23.883,00",
       "previsao_valor_reparo": "R$ 23.883,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "445",
+      "dias_aberto": "446",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Pendente a assinatura do ATPV para seguir com o SMT"
     },
@@ -3273,7 +3273,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "312",
+      "dias_aberto": "313",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Pendente, pois há um processo judicial na placa, assim, agd a retirada para seguir com o SMT"
     },
@@ -3299,7 +3299,7 @@
       "custo_evento": "R$ 130.811,00",
       "previsao_valor_reparo": "R$ 130.811,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "204",
+      "dias_aberto": "205",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Pendente pq o veiculo esta com busca e apreenção, agd a regulação para seguir SMT"
     },
@@ -3325,7 +3325,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "91",
+      "dias_aberto": "92",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd a entrega dos documentos SMT"
     },
@@ -3351,7 +3351,7 @@
       "custo_evento": "R$ 33.973,36",
       "previsao_valor_reparo": "R$ 33.973,36",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "110",
+      "dias_aberto": "111",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Proposto a antecipação do pagamento, mas preferiu o pagamento no prazo regular, termo de quitação será elaborado."
     },
@@ -3377,7 +3377,7 @@
       "custo_evento": "R$ 71.867,00",
       "previsao_valor_reparo": "R$ 71.867,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "89",
+      "dias_aberto": "90",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Documentos entregues e na fase de conferencia interna"
     },
@@ -3403,7 +3403,7 @@
       "custo_evento": "R$ 103.670,38",
       "previsao_valor_reparo": "R$ 103.670,38",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "50",
+      "dias_aberto": "51",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Proposto a antecipação do pagamento, mas preferiu o pagamento no prazo regular, agd a data do pagamento do financiamento."
     },
@@ -3429,7 +3429,7 @@
       "custo_evento": "R$ 4.824,42",
       "previsao_valor_reparo": "R$ 7.309,00",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "368",
+      "dias_aberto": "369",
       "criticidade": "Crítico",
       "parecer_coordenacao": "O processo esta em andamento judicial e sem conclusão. A priori, a sentença foi improcedente ao autor (associado), assim, ele recorreu e ainda esta em analise o recurso."
     },
@@ -3455,7 +3455,7 @@
       "custo_evento": "R$ 54.757,00",
       "previsao_valor_reparo": "R$ 54.757,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "214",
+      "dias_aberto": "215",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Documentos entregues e na fase de conferencia interna"
     },
@@ -3481,7 +3481,7 @@
       "custo_evento": "R$ 40.646,00",
       "previsao_valor_reparo": "R$ 40.646,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "208",
+      "dias_aberto": "209",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd a finalização da entrega da revogação das procurações para seguir com o SMT"
     },
@@ -3507,7 +3507,7 @@
       "custo_evento": "R$ 12.405,70",
       "previsao_valor_reparo": "R$ 12.405,70",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "174",
+      "dias_aberto": "175",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Proposto a antecipação do pagamento, mas preferiu o pagamento no prazo regular, termo de quitação será elaborado."
     },
@@ -3533,7 +3533,7 @@
       "custo_evento": "R$ 48.016,00",
       "previsao_valor_reparo": "R$ 48.016,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "141",
+      "dias_aberto": "142",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Processo em analise pela Diretoria, haja visto o historico do veiculo que foi vendido e tem um financiamento em nome de outra pessoa, agd retorno de como prosseguir com o processo."
     },
@@ -3559,7 +3559,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "147",
+      "dias_aberto": "148",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Proposto a antecipação do pagamento SMT, agd retorno do associado"
     },
@@ -3585,7 +3585,7 @@
       "custo_evento": "R$ 201.502,76",
       "previsao_valor_reparo": "R$ 201.502,76",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "146",
+      "dias_aberto": "147",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Termo de quitação enviado para assinatura do associado, agd devolução."
     },
@@ -3611,7 +3611,7 @@
       "custo_evento": "R$ 76.040,24",
       "previsao_valor_reparo": "R$ 76.040,24",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "146",
+      "dias_aberto": "147",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Proposto a antecipação do pagamento, mas preferiu o pagamento no prazo regular, agd a data do pagamento do financiamento."
     },
@@ -3637,7 +3637,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "111",
+      "dias_aberto": "112",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Proposto a antecipação do pagamento, agd retorno da analise pelo associado"
     },
@@ -3663,7 +3663,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "77",
+      "dias_aberto": "78",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd retorno se houve o repasse da informação sobre a antecipação do pagamento."
     },
@@ -3689,7 +3689,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "64",
+      "dias_aberto": "65",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Documentos entregues e na fase de conferencia interna"
     },
@@ -3715,7 +3715,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "97",
+      "dias_aberto": "98",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Documentos entregues e na fase de conferencia interna"
     },
@@ -3741,7 +3741,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "95",
+      "dias_aberto": "96",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd entrega dos documentos para seguir com o SMT"
     },
@@ -3767,7 +3767,7 @@
       "custo_evento": "R$ 1.968,25",
       "previsao_valor_reparo": "R$ 3.830,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "34",
+      "dias_aberto": "35",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Agd pagamento do SMA."
     },
@@ -3793,7 +3793,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "32",
+      "dias_aberto": "33",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Orçamento em auditoria pela GS, agd retorno"
     },
@@ -3819,7 +3819,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "63",
+      "dias_aberto": "64",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Indenização parcial realizada para o terceiro, agd retorno da analise."
     },
@@ -3845,7 +3845,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "41",
+      "dias_aberto": "42",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Indenização parcial realizada para o terceiro, agd retorno da analise."
     },
@@ -3871,7 +3871,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "40",
+      "dias_aberto": "41",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Indenização parcial realizada para o terceiro, agd retorno da analise."
     },
@@ -3897,7 +3897,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "55",
+      "dias_aberto": "56",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Indenização parcial realizada para o terceiro, agd retorno da analise."
     },
@@ -3923,7 +3923,7 @@
       "custo_evento": "R$ 1.467,44",
       "previsao_valor_reparo": "R$ 5.378,20",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "63",
+      "dias_aberto": "64",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Recebido a divergencia dos valores, acompanhar a devolutiva"
     },
@@ -3949,7 +3949,7 @@
       "custo_evento": "R$ 2.995,03",
       "previsao_valor_reparo": "R$ 7.750,13",
       "nome_fornecedor": "LD REPARAÇÕES AUTOMOTIVAS LTDA",
-      "dias_aberto": "89",
+      "dias_aberto": "90",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Reparos autorizados, agd o associado levar o veiculo para oficina."
     },
@@ -3975,7 +3975,7 @@
       "custo_evento": "R$ 2.053,26",
       "previsao_valor_reparo": "R$ 4.713,21",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "85",
+      "dias_aberto": "86",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Reparos autorizados, agd a associada levar o veiculo para oficina."
     },
@@ -4001,7 +4001,7 @@
       "custo_evento": "R$ 5.942,15",
       "previsao_valor_reparo": "R$ 10.216,20",
       "nome_fornecedor": "LD REPARAÇÕES AUTOMOTIVAS LTDA",
-      "dias_aberto": "29",
+      "dias_aberto": "30",
       "criticidade": "Atenção",
       "parecer_coordenacao": "Em negociação com as oficinas para autorizar os reparos"
     },
@@ -4027,7 +4027,7 @@
       "custo_evento": "R$ 3.292,56",
       "previsao_valor_reparo": "R$ 4.427,11",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "50",
+      "dias_aberto": "51",
       "criticidade": "Crítico",
       "parecer_coordenacao": ""
     },
@@ -4053,7 +4053,7 @@
       "custo_evento": "R$ 3.914,13",
       "previsao_valor_reparo": "R$ 3.914,13",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "83",
+      "dias_aberto": "84",
       "criticidade": "Crítico",
       "parecer_coordenacao": ""
     },
@@ -4079,7 +4079,7 @@
       "custo_evento": "R$ 7.436,80",
       "previsao_valor_reparo": "R$ 9.475,00",
       "nome_fornecedor": "LD REPARAÇÕES AUTOMOTIVAS LTDA",
-      "dias_aberto": "77",
+      "dias_aberto": "78",
       "criticidade": "Crítico",
       "parecer_coordenacao": ""
     },
@@ -4105,7 +4105,7 @@
       "custo_evento": "R$ 20.779,44",
       "previsao_valor_reparo": "R$ 26.352,42",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "77",
+      "dias_aberto": "78",
       "criticidade": "Crítico",
       "parecer_coordenacao": ""
     },
@@ -4131,7 +4131,7 @@
       "custo_evento": "R$ 12.076,26",
       "previsao_valor_reparo": "R$ 15.800,19",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "104",
+      "dias_aberto": "105",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em linha de montagem, permanece a mesma data de entrega."
     },
@@ -4157,7 +4157,7 @@
       "custo_evento": "R$ 4.763,01",
       "previsao_valor_reparo": "R$ 6.098,61",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "110",
+      "dias_aberto": "111",
       "criticidade": "Crítico",
       "parecer_coordenacao": ""
     },
@@ -4183,7 +4183,7 @@
       "custo_evento": "R$ 4.318,60",
       "previsao_valor_reparo": "R$ 4.318,60",
       "nome_fornecedor": "SOLUCAO RECUPERADORA DE VEICULOS LTDA ME",
-      "dias_aberto": "116",
+      "dias_aberto": "117",
       "criticidade": "Crítico",
       "parecer_coordenacao": ""
     },
@@ -4209,7 +4209,7 @@
       "custo_evento": "R$ 2.011,20",
       "previsao_valor_reparo": "R$ 2.011,20",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "124",
+      "dias_aberto": "125",
       "criticidade": "Crítico",
       "parecer_coordenacao": ""
     },
@@ -4235,7 +4235,7 @@
       "custo_evento": "R$ 10.312,00",
       "previsao_valor_reparo": "R$ 10.312,00",
       "nome_fornecedor": "GSM PINTURA AUTOMOTIVA EIRELI",
-      "dias_aberto": "131",
+      "dias_aberto": "132",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Veiculo entregue, pós reparos realizou reclamação, agd o retorno do veiculo na oficina para realizar a analise"
     },
@@ -4261,7 +4261,7 @@
       "custo_evento": "R$ 3.914,13",
       "previsao_valor_reparo": "R$ 3.914,13",
       "nome_fornecedor": "EXCLUSIVO CENTRO AUTOMOTIVO EIRELI",
-      "dias_aberto": "83",
+      "dias_aberto": "84",
       "criticidade": "Crítico",
       "parecer_coordenacao": "Em fase de desmontagem e lanternagem, pois o veiculo deu entrada no dia 18/02."
     },
@@ -4287,7 +4287,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "22",
+      "dias_aberto": "23",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em sindicancia, agd o retorno do relatorio"
     },
@@ -4313,7 +4313,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "22",
+      "dias_aberto": "23",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": "Processo em sindicancia, agd o retorno do relatorio"
     },
@@ -4339,7 +4339,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "12",
+      "dias_aberto": "13",
       "criticidade": "Dentro do Prazo",
       "parecer_coordenacao": ""
     },
@@ -4365,7 +4365,7 @@
       "custo_evento": "R$ 0,00",
       "previsao_valor_reparo": "R$ 0,00",
       "nome_fornecedor": "MOVIMENTO MAIS BRASIL",
-      "dias_aberto": "25",
+      "dias_aberto": "26",
       "criticidade": "Atenção",
       "parecer_coordenacao": ""
     }
